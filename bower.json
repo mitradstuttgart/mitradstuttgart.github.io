@@ -1,0 +1,45 @@
+{
+  "name": "mitradstuttgart.de",
+  "version": "0.0.0",
+  "authors": [
+    "MitRadStuttgart"
+  ],
+  "description": "MitRadGelegenheiten in der (Metropol-)Region Stuttgart",
+  "license": "MIT",
+  "homepage": "mitradgelegenheit.de",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.2",
+    "shariff": "~1.7.3",
+    "font-awesome": "~4.3.0",
+    "mapbox.js": "~2.1.5"
+  },
+  "exportsOverride": {
+    "bootstrap": {
+      "css": "dist/css/bootstrap.min.css",
+      "js": "dist/js/bootstrap.min.js"
+    },
+    "jquery": {
+      "js": "dist/jquery.min.js"
+    },
+    "shariff": {
+      "css": "build/shariff.min.css",
+      "js": "build/shariff.min.js"
+    },
+    "font-awesome": {
+      "css": "css/font-awesome.min.css",
+      "fonts": "fonts/*"
+    },
+    "mapbox.js": {
+      "css": "mapbox.css",
+      "js": "mapbox.js",
+      "css/images": [ "images/*.png", "images/*.svg" ]
+    }
+  }
+}

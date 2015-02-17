@@ -1,0 +1,26 @@
+# Site settings
+title: MitRadStuttgart
+description: > # this means to ignore newlines until "baseurl:"
+  MitRadGelegenheiten in der (Metropol-)Region Stuttgart.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://mitradgelegenheit" # the base hostname & protocol for your site
+twitter_username: MitRadStuttgart
+github_username:  mitradstuttgart
+facebook_username: mitradstuttgart
+
+# Build settings
+markdown: kramdown
+kramdown:
+  input: GFM
+  html_to_native: true
+exclude:
+  - "node_modules"
+  - "package.json"
+  - "bower_components"
+  - "bower.json"
+  - "src"
+  - "README.md"
+  - "LICENSE"
+  - "Gemfile*"
+  - "Gruntfile*"
+  - "CNAME"

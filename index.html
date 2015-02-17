@@ -1,0 +1,98 @@
+---
+layout: default
+---
+
+<div class="jumbotron">
+  <h1>
+    <span class="fa fa-bicycle"></span> MitRadStuttgart
+  </h1>
+  <p>Diese Seite sammelt Informationen zu MitRadGelegenheiten in der
+  (Metropol-)Region Stuttgart.</p>
+</div>
+
+<div class="row">
+  <div class="col-xs-12 col-md-7">
+    <h3>
+      <span class="fa fa-newspaper-o"></span>
+      Neuigkeiten
+    </h3>
+    <ul>
+      {% for post in site.posts %}
+        <li>
+          <h4>
+            <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+            <small>{{ post.date | date: "%-d. %b %Y" }}</small>
+          </h4>
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+  <div class="col-xs-12 col-md-5">
+    <h4>Fahrrad in der Region</h4>
+    <p><strong>Blogs</strong></p>
+    <ul>
+      <li>
+        <a href="http://dasfahrradblog.blogspot.de/" target="_blank">Radfahren in Stuttgart</a>
+      </li>
+      <li>
+        <a href="http://carl-vs-karl.de/" target="_blank">Carl vs Karl</a>,
+        <small>Fakten zu Fahrrad- und urbaner Mobilität</small>
+      </li>
+    </ul>
+    <p><strong>Vereine</strong></p>
+    <ul>
+      <li>
+        <a href="http://www.adfc-bw.de/adfc-vor-ort/" target="_blank">Allgemeiner Deutscher Fahrrad-Club (ADFC)</a>
+      </li>
+      <li>
+        <a href="http://www.vcd-bw.de/vcd/kv/index.html" target="_blank">Vekehrsclub Deutschland (VCD)</a>
+      </li>
+    </ul>
+    <p><strong>Projekte</strong></p>
+    <ul>
+      <li>
+        <a href="http://fahrradbus.com/" target="_blank">Fahrradbus</a>
+        <small>ein modular aufgebautes Muskelkraftfahrzeug</small>
+      </li>
+      <li>
+        <a href="http://overpass-turbo.eu/s/7I2" target="_blank">Übersicht der Fahrradläden</a>
+      </li>
+    </ul>
+    <p><strong>Critical Mass</strong></p>
+    <ul>
+      <li>
+        <a href="https://criticalmassstuttgart.wordpress.com/" target="_blank">Stuttgart</a>,
+        <small>jeden 1. Freitag im Monat</small>
+      </li>
+      <li>
+        <a href="https://criticalmassheilbronn.wordpress.com/" target="_blank">Heilbronn</a>,
+        <small>jeden 1. Freitag im Monat</small>
+      </li>
+      <li>
+        <a href="https://criticalmassherrenberg.wordpress.com/" target="_blank">Herrenberg</a>,
+        <small>jeden 2. Freitag im Monat</small>
+      </li>
+      <li>
+        <a href="https://criticalmassreutlingen.wordpress.com/" target="_blank">Reutlingen</a>,
+        <small>jeden letzten Freitag im Monat</small>
+      </li>
+      <li>
+        <a href="http://www.radeln-in-bb.de/criticalmass/" target="_blank">Böblingen</a>,
+        <small>jeden letzten Freitag im Monat</small>
+      </li>
+      <li>
+        <a href="https://www.facebook.com/pages/Critical-Mass-Heidenheim/460201734115062" target="_blank">Heidenheim</a>,
+        <small>jeden letzten Freitag im Monat</small>
+      </li>
+      <li>
+        <a href="https://www.facebook.com/pages/Critical-Mass-Freudenstadt/251366075070168" target="_blank">Freudenstadt</a>,
+        <small>derzeit nicht aktiv</small>
+      </li>
+      <li>
+        <a href="https://criticalmasspf.wordpress.com/" target="_blank">Pforzheim</a>,
+        <small>derzeit nicht aktiv</small>
+      </li>
+    </ul>
+  </div>
+
+</div>

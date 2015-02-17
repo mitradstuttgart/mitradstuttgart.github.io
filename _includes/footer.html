@@ -1,0 +1,50 @@
+<footer class="footer">
+  <div class="container">
+    <div class="row">
+
+      <div class="col-sm-4 text-muted">
+        <span class="fa fa-bicycle"></span>
+        {{ site.title }}<br>{{ site.description }}
+      </div>
+
+      <div class="col-sm-2 text-muted" style="text-align:center;">
+        subscribe to<br>our
+        <a href="{{ "/feed.xml" | prepend: site.baseurl }}">
+          <span class="fa fa-rss-square"></span> RSS feed
+        </a>
+      </div>
+
+      <div class="col-sm-2 text-muted" style="text-align:center;">
+        find us on<br>
+        <a href="https://github.com/{{ site.github_username }}" target="_blank">
+          <span class="fa fa-github"></span>
+          Github
+        </a>
+        <a href="https://twitter.com/{{ site.twitter_username }}" target="_blank">
+          <span class="fa fa-twitter"></span>
+          Twitter
+        </a>
+        <br>
+        <a href="https://www.facebook.com/{{ site.facebook_username }}" target="_blank">
+          <span class="fa fa-facebook-square"></span>
+          Facebook
+        </a>
+      </div>
+
+      <div class="col-sm-4 text-muted">
+        <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">
+          <img alt="Creative Commons License"
+               style="border-width:0;float:right;"
+               src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" />
+        </a>
+        <small>This work is licensed under a
+          <a rel="license"
+             href="http://creativecommons.org/licenses/by-sa/4.0/">
+            Creative Commons Attribution-ShareAlike 4.0 International
+            License</a>.
+        </small>
+      </div>
+
+    </div>
+  </div>
+</footer>

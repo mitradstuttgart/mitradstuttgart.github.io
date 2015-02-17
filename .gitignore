@@ -3,3 +3,9 @@
 \#*\#
 .*
 !.gitignore
+_site
+.sass-cache
+/node_modules/
+/bower_components/
+*.nef
+*.xcf.gz
