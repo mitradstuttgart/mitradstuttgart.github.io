@@ -13,6 +13,8 @@ markdown: kramdown
 kramdown:
   input: GFM
   html_to_native: true
+gems:
+  - jekyll-redirect-from
 exclude:
   - "node_modules"
   - "package.json"
