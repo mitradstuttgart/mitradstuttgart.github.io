@@ -20,7 +20,7 @@ layout: default
         <li>
           <h4>
             <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-            <small>{{ post.date | date: "%-d. %b %Y" }}</small>
+            <small>{{ post.date | date: "%d.%m.%Y" }}</small>
           </h4>
         </li>
       {% endfor %}
