@@ -74,7 +74,9 @@
       "properties": {
         "Strecke": "Herrenberg → Böblingen",
         "Distanz": "15,6 km",
-        "color": "#0099ff"
+        "stroke": "#0099ff",
+        "stroke-width": 5,
+        "stroke-opacity": 0.5
       },
       "geometry": {
         "type": "LineString",
@@ -1392,7 +1394,9 @@
       "properties": {
         "Strecke": "Böblingen → S-Vaihingen",
         "Distanz": "10,8 km",
-        "color": "#0000ff"
+        "stroke": "#0000ff",
+        "stroke-width": 5,
+        "stroke-opacity": 0.5
       },
       "geometry": {
         "type": "LineString",
@@ -2167,7 +2171,9 @@
       "properties": {
         "Strecke": "Vaihingen → Möhringen",
         "Distanz": "2,9 km",
-        "color": "#0099ff"
+        "stroke": "#0099ff",
+        "stroke-width": 5,
+        "stroke-opacity": 0.5
       },
       "geometry": {
         "type": "LineString",
@@ -2425,7 +2431,9 @@
       "properties": {
         "Strecke": "Möhringen → Degerloch",
         "Distanz": "3,1 km",
-        "color": "#0000ff"
+        "stroke": "#0000ff",
+        "stroke-width": 5,
+        "stroke-opacity": 0.5
       },
       "geometry": {
         "type": "LineString",
@@ -2732,7 +2740,9 @@
       "properties": {
         "Strecke": "Degerloch → Marienplatz",
         "Distanz": "3,9 km",
-        "color": "#0099ff"
+        "stroke": "#0099ff",
+        "stroke-width": 5,
+        "stroke-opacity": 0.5
       },
       "geometry": {
         "type": "LineString",
@@ -3326,7 +3336,9 @@
       "properties": {
         "Strecke": "Marienplatz → Feuersee",
         "Distanz": "1,6 km",
-        "color": "#0000ff"
+        "stroke": "#0000ff",
+        "stroke-width": 5,
+        "stroke-opacity": 0.5
       },
       "geometry": {
         "type": "LineString",

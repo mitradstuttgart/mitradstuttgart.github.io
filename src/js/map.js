@@ -20,12 +20,7 @@ function makeMap(element, mapsource, route) {
     }
 
     var geojson = L.geoJson(data, {
-      style: function(feature) {
-        if (feature.properties.color) {
-          return { color: feature.properties.color };
-        }
-        return { color: "#0000ff" };
-      },
+      style: L.mapbox.simplestyle.style,
 
       pointToLayer: function(feature, latlng) {
         return new L.marker(latlng, {
