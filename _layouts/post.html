@@ -2,21 +2,22 @@
 layout: default
 ---
 <header class="page-header">
-  <div class="row" style="position: relative;">
-    <div class="col-md-6">
+  <div class="row">
+
+    <div class="col-xs-12 col-md-10">
       <h1>{{ page.title }}</h1>
-      <p>{{ page.date | date: "%d.%m.%Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
+      <p>{{ page.date | date: "%d.%m.%Y" }}</p>
     </div>
 
-    <div class="hidden-xs hidden-sm col-md-6" style="height:1.7em;"></div>
-
-    <div class="shariff col-md-6" data-lang="en"  data-twitter-via="MitRadStuttgart"
-         data-services="[&quot;twitter&quot;,&quot;facebook&quot;,&quot;googleplus&quot;,&quot;info&quot;]">
+    <div class="shariff col-xs-12 col-md-2" data-lang="en"
+         data-twitter-via="MitRadStuttgart"
+         data-services="[&quot;twitter&quot;,&quot;facebook&quot;,&quot;googleplus&quot;]">
     </div>
+
   </div>
 </header>
 
-<article class="post-content">
+<article>
   {{ content }}
 </article>
 
@@ -33,7 +34,7 @@ layout: default
       {{ page.title }}
     </span>
     <script type='text/javascript'
-        src='http://www.intensedebate.com/js/genericCommentWrapperV2.js'>
+            src='http://www.intensedebate.com/js/genericCommentWrapperV2.js'>
     </script>
   </div>
   <div class="hidden-xs hidden-sm col-md-1 col-lg-2">&nbsp;</div>
