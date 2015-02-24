@@ -1,0 +1,59 @@
+---
+layout: default
+---
+<header class="page-header">
+  <div class="row">
+
+    <div class="col-xs-12 col-md-10">
+      <h1>
+        {{ page.title }}
+        <br>
+        <ul class="list-inline">
+          <li>
+            <small>{{ page.date | date: "%d.%m.%Y" }}</small>
+          </li>
+          {% if page.facebook-event %}
+            <li><small>·</small></li>
+            <li>
+              <small>
+                <a href="{{ page.facebook-event }}" target="_blank"
+                   style="white-space: nowrap;">
+                  <span class="fa fa-facebook-square"></span>-Veranstaltung
+                </a>
+              </small>
+            </li>
+          {% endif %}
+        </ul>
+      </h1>
+    </div>
+
+    <div class="shariff col-xs-12 col-md-2" data-lang="en"
+         data-twitter-via="MitRadStuttgart"
+         data-services="[&quot;twitter&quot;,&quot;facebook&quot;,&quot;googleplus&quot;]">
+    </div>
+
+  </div>
+</header>
+
+<article>
+  {{ content }}
+</article>
+
+<div class="row">
+  <div class="hidden-xs hidden-sm col-md-1 col-lg-2">&nbsp;</div>
+  <div class="col-xs-12 col-md-10 col-lg-8">
+
+    <script>
+      var idcomments_acct = '5a030a45cae91d02887055eb9c4d7f39';
+      var idcomments_post_id;
+      var idcomments_post_url;
+    </script>
+    <span id="IDCommentsPostTitle" style="display:none">
+      {{ page.title }}
+    </span>
+    <script type='text/javascript'
+            src='http://www.intensedebate.com/js/genericCommentWrapperV2.js'>
+    </script>
+  </div>
+  <div class="hidden-xs hidden-sm col-md-1 col-lg-2">&nbsp;</div>
+</div>
