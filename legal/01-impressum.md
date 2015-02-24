@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Impressum
+legal-info: true
 permalink: /impressum/
 ---
 

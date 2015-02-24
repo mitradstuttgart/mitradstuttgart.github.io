@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Datenschutzerklärung
+legal-info: true
 permalink: /datenschutz/
 ---
 

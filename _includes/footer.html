@@ -1,52 +1,70 @@
 <footer class="footer">
   <div class="container">
     <div class="row">
+      <div class="col-xs-12 text-muted text-center">
 
-      <div class="col-sm-4 text-muted">
-        <span class="fa fa-bicycle"></span>
-        {{ site.title }}<br>{{ site.description }}
+        <ul class="list-inline">
+          <li>
+            <a href="{{ "/feed.xml" | prepend: site.baseurl }}"
+               style="white-space: nowrap;">
+              <span class="fa fa-rss-square"></span> RSS feed
+            </a>
+          </li>
+          <li>·</li>
+          <li>
+            <a href="https://github.com/{{ site.github_username }}"
+               target="_blank" style="white-space: nowrap;">
+              <span class="fa fa-github"></span>
+              Github
+            </a>
+          </li>
+          <li>·</li>
+          <li>
+            <a href="https://twitter.com/{{ site.twitter_username }}"
+               target="_blank" style="white-space: nowrap;">
+              <span class="fa fa-twitter"></span>
+              Twitter
+            </a>
+          </li>
+          <li>·</li>
+          <li>
+            <a href="https://www.facebook.com/{{ site.facebook_username }}"
+               target="_blank" style="white-space: nowrap;">
+              <span class="fa fa-facebook-square"></span>
+              Facebook
+            </a>
+          </li>
+        </ul>
+
+        <ul class="list-inline">
+          {% for page in site.pages %}
+            {% if page.title and page.legal-info == true %}
+              <li>
+                <a href="{{ page.url | prepend: site.baseurl }}">
+                  {{ page.title }}
+                </a>
+              </li>
+              <li>·</li>
+            {% endif %}
+          {% endfor %}
+          <li style="white-space: nowrap;">
+            Code:
+            <a href="https://github.com/mitradstuttgart/mitradstuttgart.github.io/blob/master/LICENSE"
+               rel="license" target="_blank">
+              MIT License
+            </a>
+          </li>
+          <li>·</li>
+          <li style="white-space: nowrap;">
+            Content:
+            <a href="http://creativecommons.org/licenses/by-sa/4.0/"
+               rel="license" target="_blank">
+              CC BY-SA 4.0
+            </a>
+          </li>
+        </ul>
+
       </div>
-
-      <div class="col-sm-2 text-muted" style="text-align:center;">
-        subscribe to<br>our
-        <a href="{{ "/feed.xml" | prepend: site.baseurl }}">
-          <span class="fa fa-rss-square"></span> RSS feed
-        </a>
-      </div>
-
-      <div class="col-sm-2 text-muted" style="text-align:center;">
-        find us on<br>
-        <a href="https://github.com/{{ site.github_username }}"
-           target="_blank" style="white-space: nowrap;">
-          <span class="fa fa-github"></span>
-          Github
-        </a>
-        <a href="https://twitter.com/{{ site.twitter_username }}"
-           target="_blank" style="white-space: nowrap;">
-          <span class="fa fa-twitter"></span>
-          Twitter
-        </a>
-        <a href="https://www.facebook.com/{{ site.facebook_username }}"
-           target="_blank" style="white-space: nowrap;">
-          <span class="fa fa-facebook-square"></span>
-          Facebook
-        </a>
-      </div>
-
-      <div class="col-sm-4 text-muted">
-        <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">
-          <img alt="Creative Commons License"
-               style="border-width:0;float:right;"
-               src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" />
-        </a>
-        <small>This work is licensed under a
-          <a rel="license"
-             href="http://creativecommons.org/licenses/by-sa/4.0/">
-            Creative Commons Attribution-ShareAlike 4.0 International
-            License</a>.
-        </small>
-      </div>
-
     </div>
   </div>
 </footer>
