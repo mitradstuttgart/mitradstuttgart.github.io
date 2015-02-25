@@ -8,9 +8,9 @@ facebook-event: https://www.facebook.com/events/1402271866750032
 
 Wer die MitRadGelegenheit zur [Critical Mass Stuttgart][CM-Stuttgart]{:target="_blank"} am 06.&nbsp;März 2015 nicht mehr erwarten kann, für den gibt es schon eine Woche zuvor, am 27.&nbsp;Februar, eine kleine Kostprobe.
 
-Es zur [Critical Mass Reutlingen][CM-Reutlingen]{:target="_blank"}.  Start wird um 15:30 Uhr in Stuttgart-Vaihingen sein.
+Es geht zur [Critical Mass Reutlingen][CM-Reutlingen]{:target="_blank"}.  Start der MitRadGelegnheit wird um 15:30&nbsp;Uhr in Stuttgart-Vaihingen sein.  Die Critical Mass beginnt um 18:00&nbsp;Uhr.
 
-**Bitte kurz Bescheid geben, falls ihr mitfahren wollt, damit die Treffpunkte (inkt. S-Vaihingen) auch sicher angefahren werden!</strong>
+**Bitte kurz Bescheid geben, falls ihr mitfahren wollt, damit die Treffpunkte (inkl. S-Vaihingen) auch sicher angefahren werden!**
 
 
 ### Zustiegsmöglichkeiten
