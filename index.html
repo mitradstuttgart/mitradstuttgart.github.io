@@ -17,14 +17,24 @@ layout: default
     </h3>
     <ul>
       {% for post in site.categories.mitradgelegenheit %}
-        <li>
-          <h4>
-            <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-            <small>{{ post.date | date: "%d.%m.%Y" }}</small>
-          </h4>
-        </li>
+        {% if post.date >= site.time %}
+          <li>
+            <h4>
+              <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+              <small>{{ post.date | date: "%d.%m.%Y" }}</small>
+            </h4>
+          </li>
+        {% endif %}
       {% endfor %}
     </ul>
+    <p>
+      <strong>
+        <a href="{{ "/mitradgelegenheit/archive/" | prepend: site.baseurl }}">
+          <span class="fa fa-archive"></span>
+          Archiv
+        </a>
+      </strong>
+    </p>
   </div>
   <div class="col-xs-12 col-md-6">
     <h3>
