@@ -16,8 +16,9 @@
 
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav navbar-right">
+        {% assign header-pages = "/about/|/faq/" | split: "|" %}
         {% for page in site.pages %}
-          {% if page.title and page.legal-info != true and page.permalink != "/404.html" %}
+          {% if page.title and header-pages contains page.permalink %}
             <li><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
           {% endif %}
         {% endfor %}
