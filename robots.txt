@@ -1,0 +1,5 @@
+# mitradstuttgart.de/
+
+# Allow crawling of all content
+User-agent: *
+Disallow: /legal/
