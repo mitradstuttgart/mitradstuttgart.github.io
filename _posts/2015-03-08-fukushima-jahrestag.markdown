@@ -82,8 +82,11 @@ Laut Plan werden wir pünktlich zum Beginn um 12:30&nbsp;Uhr eintreffen.  Der Ze
         <div id="collapseMarienplatz" class="panel-collapse collapse" role="tabpanel"
              aria-labelledby="headingMarienplatz">
           <div class="panel-body">
-            <p>Der Treffpunkt liegt im Bereich des Beginns der
+            <p>Der Treffpunkt liegt im Bereich des Begins der
             Tübinger Straße.</p>
+            <img src="{{ "/images/marienplatz-small.jpg" | prepend: site.baseurl }}"
+                 alt="Treffpunkt Marienplatz"
+                 class="img-rounded" style="width:100%;">
           </div>
         </div>
       </div>

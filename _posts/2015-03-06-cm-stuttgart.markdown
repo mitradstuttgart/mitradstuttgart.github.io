@@ -240,7 +240,7 @@ Die MitRadGelegenheit zur [Critical Mass Stuttgart][CM-Stuttgart]{:target="_blan
             MitRadGelegenheit einzusteigen.  Nach Degerloch führt uns
             schließlich der Höhenrandweg (HRR&nbsp;10).</p>
             <img src="{{ "/images/moehringen-bahnhof-small.jpg" | prepend: site.baseurl }}"
-                 alt="Treffpunkt Reisezentrum Bahnhof in Stuttgart-Vaihingen"
+                 alt="Treffpunkt Möhringen Bahnhof"
                  class="img-rounded" style="width:100%;">
           </div>
         </div>
@@ -273,7 +273,7 @@ Die MitRadGelegenheit zur [Critical Mass Stuttgart][CM-Stuttgart]{:target="_blan
             scheint die gewählte Route am geeignetsten was Befahrbarkeit
             (Kinder, Anhänger, …) und Distanz betrifft.</p>
             <img src="{{ "/images/degerloch-bahnhof-small.jpg" | prepend: site.baseurl }}"
-                 alt="Treffpunkt Reisezentrum Bahnhof in Stuttgart-Vaihingen"
+                 alt="Treffpunkt Bahnhof der Zacke in Degerloch"
                  class="img-rounded" style="width:100%;">
           </div>
         </div>
@@ -334,7 +334,7 @@ Die MitRadGelegenheit zur [Critical Mass Stuttgart][CM-Stuttgart]{:target="_blan
             vorbei.  Dabei hoffen wir auf entsprechende Begrüßung durch
             die wartende Masse.</p>
             <img src="{{ "/images/marienplatz-small.jpg" | prepend: site.baseurl }}"
-                 alt="Treffpunkt Reisezentrum Bahnhof in Stuttgart-Vaihingen"
+                 alt="Treffpunkt Marienplatz"
                  class="img-rounded" style="width:100%;">
           </div>
         </div>
