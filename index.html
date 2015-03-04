@@ -16,7 +16,8 @@ layout: default
       MitRadGelegenheiten
     </h3>
     <ul>
-      {% for post in site.categories.mitradgelegenheit %}
+      {% assign posts = site.categories.mitradgelegenheit | sort: 'date'  %}
+      {% for post in posts %}
         {% if post.date >= site.time %}
           <li>
             <h4>
@@ -42,7 +43,7 @@ layout: default
       Blog
     </h3>
     <ul>
-      {% for post in site.categories.blog %}
+      {% for post in site.categories.blog | sort: 'date' | reverse %}
         <li>
           <h4>
             <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>

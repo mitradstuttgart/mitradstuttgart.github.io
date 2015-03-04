@@ -5,7 +5,7 @@ permalink: /mitradgelegenheit/archive/
 ---
 
 
-{% assign posts = site.categories.mitradgelegenheit | sort:"title"  %}
+{% assign posts = site.categories.mitradgelegenheit | sort: 'date' | reverse  %}
 <ul>
   {% for post in posts %}
       <li>
