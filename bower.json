@@ -18,7 +18,8 @@
     "bootstrap": "~3.3.2",
     "shariff": "~1.7.3",
     "font-awesome": "~4.3.0",
-    "mapbox.js": "~2.1.5"
+    "mapbox.js": "~2.1.5",
+    "d3": "~3.5.5"
   },
   "exportsOverride": {
     "bootstrap": {
@@ -39,7 +40,13 @@
     "mapbox.js": {
       "css": "mapbox.css",
       "js": "mapbox.js",
-      "css/images": [ "images/*.png", "images/*.svg" ]
+      "css/images": [
+        "images/*.png",
+        "images/*.svg"
+      ]
+    },
+    "d3": {
+      "js": "d3.min.js"
     }
   }
 }
