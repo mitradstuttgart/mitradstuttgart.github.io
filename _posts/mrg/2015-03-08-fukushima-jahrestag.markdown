@@ -6,6 +6,7 @@ categories: mitradgelegenheit
 facebook-event: https://www.facebook.com/events/912770682101139/
 ---
 
+<div class="text-columns" markdown='1'>
 Anlässlich des 4.&nbsp;Fukushima-Jahrestags findet am 08.&nbsp;März 2015 eine [Demostration in Neckarwestheim][Demo-Neckarwestheim]{:target="_blank"} ([Programm][Demo-Neckarwestheim-Programm]{:target="_blank"}) statt.
 
 MitRadStuttgart unterstützt diese Demonstration durch eine MitRadGelegenheit von Stuttgart über Ludwigsburg und Bietigheim-Bissingen nach Kirchheim am Neckar.  Am dortigen Bahnhof findet die Auftaktveranstaltung statt.
@@ -13,6 +14,7 @@ MitRadStuttgart unterstützt diese Demonstration durch eine MitRadGelegenheit vo
 Entlang der MitRadGelegenheit gibt es zahlreiche Möglichkeiten per S-Bahn oder Regionalbahn/-express dazuzustoßen.  Die Angaben zu den Zugankunftszeiten sind ohne Gewähr.  Für weitere Verbindungen kann die [Website des Verkehrs- und Tarifverbunds Stuttgart (VVS)][VVS]{:target="_blank"} oder die [Reiseauskunft der Deutschen Bahn][Bahn-Reiseauskunft]{:target="_blank"} genutzt werden.
 
 Laut Plan werden wir pünktlich zum Beginn um 12:30&nbsp;Uhr eintreffen.  Der Zeitbedarf der Streckenabschnitte ist für eine Durchschnittsgeschwindigkeit von 13&nbsp;km/h (bei Steigungen 10&nbsp;km/h) gerechnet.  Es sollte also allen Alters- und Fitnessgruppen möglich sein, an der MitRadGelegenheit teilzunehmen.  Die Begrüßung findet um 13:00&nbsp;Uhr statt, wir haben also einen entsprechenden Puffer, falls es unterwegs zu Verzögerungen kommt.
+</div>
 
 
 ### Zustiegsmöglichkeiten

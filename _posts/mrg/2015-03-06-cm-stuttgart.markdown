@@ -9,11 +9,19 @@ redirect_from: "/critical-mass/2015/02/17/erste-mitradgelegenheit.html"
 
 Die MitRadGelegenheit zur [Critical Mass Stuttgart][CM-Stuttgart]{:target="_blank"} am 06.&nbsp;März 2015 wird die Erste in der Geschichte von MitRadStuttgart sein.  Bei der Auswahl der Strecke haben wir auf folgende Punkte geachtet:
 
-* Wir sind die Strecke bei einer Testfahrt Mitte Februar abgefahren.  Dabei wurde darauf geachtet, dass sowohl die Beschaffenheit der Wege als auch die notwendige Geschwindigkeit (< 15 km/h) es allen Altersgruppen ermöglicht teilzunehmen.
+<div class="row">
+<div class="col-xs-12 col-md-4" markdown='1'>
+* Wir sind die Strecke bei einer Testfahrt Mitte Februar abgefahren.  Dabei wurde darauf geachtet, dass sowohl die Beschaffenheit der Wege als auch die notwendige Geschwindigkeit (<&nbsp;15&nbsp;km/h) es allen Altersgruppen ermöglicht teilzunehmen.
+</div>
 
+<div class="col-xs-12 col-md-4" markdown='1'>
 * Entlang des Wegs gibt es einige Zustiegsmöglichkeiten.  Diese sind aufeinander abgestimmt und erlauben es die Wege dazwischen in angemessener Geschwindigkeit zu absolvieren.
+</div>
 
+<div class="col-xs-12 col-md-4" markdown='1'>
 * An den Zustiegspunkten Böblingen und Vaihingen gibt es die Möglichkeit per S-Bahn dazuzustoßen.  Das eignet sich beispielsweise, wenn man aus Renningen kommt oder in Herrenberg noch nicht um 15:30 Uhr losradeln kann.  Angegeben sind jeweils die S-Bahn-Anschlüsse mit Fahrtrichtung Hauptbahnhof.
+</div>
+</div>
 
 
 ### Zustiegsmöglichkeiten
