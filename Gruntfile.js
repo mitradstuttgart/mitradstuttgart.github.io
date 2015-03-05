@@ -24,7 +24,8 @@ module.exports = function(grunt) {
       },
       my_target: {
         files: {
-          'js/map.min.js': ['src/js/map.js']
+          'js/map.min.js': ['src/js/map.js'],
+          'js/attendance.min.js': ['src/js/attendance.js']
         }
       }
     }
