@@ -4,7 +4,10 @@ layout: default
 
 <div class="jumbotron">
   <h1>
-    <span class="fa fa-bicycle"></span> {{ site.title }}
+    <span class="fa fa-bicycle"></span>
+    <img src="{{ "/images/logo.svg" | prepend: site.baseurl }}"
+         alt="{{ site.title }}"
+         width="500px" style="max-width:80%;"></img>
   </h1>
   <p>{{ site.description }}</p>
 </div>
