@@ -397,8 +397,8 @@ Per Klick auf die Treffpunkte und Wegstrecken lassen sich Details dazu aufrufen.
 <script>
   $(document).ready(function(){
     makeMap(
-      "mitradmap",
       "/maps/critical-mass/stuttgart-2015-03-06.geojson",
+      "mitradmap",
       ["Herrenberg", "Böblingen", "S-Vaihingen", "Critical Mass Stuttgart"]
     );
   });

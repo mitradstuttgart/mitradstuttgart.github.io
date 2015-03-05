@@ -1,4 +1,4 @@
-function makeMap(element, mapsource, route) {
+function makeMap(mapsource, element, route) {
   L.mapbox.accessToken = 'pk.eyJ1IjoibWl0cmFkc3R1dHRnYXJ0IiwiYSI6ImNaSko4cHcifQ.46Jz7d_F7BoNcrIiBLYUaQ';
 
   $.getJSON(mapsource, function(data) {

@@ -542,8 +542,8 @@ Per Klick auf die Treffpunkte und Wegstrecken lassen sich Details dazu aufrufen.
 <script>
   $(document).ready(function(){
     makeMap(
-      "mitradmap",
       "/maps/umwelt/fukushima-jahrestag-2015.geojson",
+      "mitradmap",
       ["Stuttgart", "Ludwigsburg", "Bietigheim-Bissingen", "Kirchheim am Neckar"]
     );
   });

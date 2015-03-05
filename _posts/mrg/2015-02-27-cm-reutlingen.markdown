@@ -184,8 +184,8 @@ Informationen zur Strecke aus Herrenberg liegen derzeit leider nicht vor.
 <script>
   $(document).ready(function(){
     makeMap(
-      "mitradmap",
       "/maps/critical-mass/reutlingen-2015-02-27.geojson",
+      "mitradmap",
       ["S-Vaihingen", "Burkhardtsmühle", "Neckartailfingen", "Pliezhausen", "Critical Mass Reutlingen"]
     );
   });
