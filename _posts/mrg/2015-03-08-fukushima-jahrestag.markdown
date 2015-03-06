@@ -1,7 +1,7 @@
 ---
 layout: mitradgelegenheit
 title:  "4. Fukushima Jahrestag"
-date:   2015-03-09 08:00:00
+date:   2015-03-08 08:00:00
 categories: mitradgelegenheit
 facebook-event: https://www.facebook.com/events/912770682101139/
 ---
