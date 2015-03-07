@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Bericht von der Critical Mass Stuttgart"
+title:  "Bericht über die Critical Mass Stuttgart"
 date:   2015-03-07 23:51:00
 categories: blog
 ---
