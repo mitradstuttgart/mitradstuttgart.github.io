@@ -16,6 +16,17 @@ Entlang der MitRadGelegenheit gibt es zahlreiche Möglichkeiten per S-Bahn oder 
 Laut Plan werden wir pünktlich zum Beginn um 12:30&nbsp;Uhr eintreffen.  Der Zeitbedarf der Streckenabschnitte ist für eine Durchschnittsgeschwindigkeit von 13&nbsp;km/h (bei Steigungen 10&nbsp;km/h) gerechnet.  Es sollte also allen Alters- und Fitnessgruppen möglich sein, an der MitRadGelegenheit teilzunehmen.  Die Begrüßung findet um 13:00&nbsp;Uhr statt, wir haben also einen entsprechenden Puffer, falls es unterwegs zu Verzögerungen kommt.
 </div>
 
+<div class="panel panel-info">
+  <div class="panel-heading">
+    <h3 class="panel-title">
+      MitRadGelelegenheit ist unterwegs
+    </h3>
+  </div>
+  <div class="panel-body">
+    Updates gibt es wie immer bei <a href="https://twitter.com/MitRadStuttgart" target="_blank">Twitter</a>.
+  </div>
+</div>
+
 
 ### Zustiegsmöglichkeiten
 
