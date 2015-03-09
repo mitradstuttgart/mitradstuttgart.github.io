@@ -1,6 +1,7 @@
 ---
 layout: blog
 title:  "Bericht über die Critical Mass Reutlingen"
+author: "Michael"
 date:   2015-03-05 02:30:00
 categories: blog
 ---

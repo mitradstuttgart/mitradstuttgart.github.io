@@ -1,6 +1,7 @@
 ---
 layout: blog
 title:  "Bericht über die Critical Mass Stuttgart"
+author: "Michael"
 date:   2015-03-07 23:51:00
 categories: blog
 ---

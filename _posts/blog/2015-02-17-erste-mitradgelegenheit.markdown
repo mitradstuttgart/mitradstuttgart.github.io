@@ -1,6 +1,7 @@
 ---
 layout: blog
 title:  "Erste MitRadGelegenheit"
+author: "Michael"
 date:   2015-02-17 01:00:00
 categories: blog
 redirect_from: "/critical-mass/2015/02/17/erste-mitradgelegenheit.html"
