@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: blog
 title:  "Erste MitRadGelegenheit"
 date:   2015-02-17 01:00:00
 categories: blog

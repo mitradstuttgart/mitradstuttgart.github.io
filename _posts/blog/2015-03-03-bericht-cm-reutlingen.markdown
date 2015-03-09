@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: blog
 title:  "Bericht über die Critical Mass Reutlingen"
 date:   2015-03-05 02:30:00
 categories: blog
