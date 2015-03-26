@@ -3,7 +3,7 @@ layout: mitradgelegenheit
 title:  "Critical Mass Böblingen"
 date:   2015-03-27 16:00:00
 categories: mitradgelegenheit
-facebook-event: 
+facebook-event: https://www.facebook.com/events/1559077084357836/
 ---
 
 Am 27.&nbsp;März geht es aus Stuttgart-Vaihingen und Herrenberg zur [Critical Mass Böblingen][CM-Boeblingen]{:target="_blank"}.
