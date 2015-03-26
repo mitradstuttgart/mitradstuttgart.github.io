@@ -1,9 +1,10 @@
 ---
 layout: mitradgelegenheit
 title:  "Critical Mass Stuttgart"
-date:   2015-04-04 17:30:00
+date:   2015-04-03 15:30:00
 categories: mitradgelegenheit
 facebook-event: https://www.facebook.com/events/322876434578022/
+redirect_from: "/mitradgelegenheit/2015/04/04/cm-stuttgart.html"
 ---
 
 Am 03.&nbsp;April wird es wieder eine MitRadGelegenheit zur [Critical Mass Stuttgart][CM-Stuttgart]{:target="_blank"} geben.
