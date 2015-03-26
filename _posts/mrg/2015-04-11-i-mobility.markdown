@@ -1,12 +1,14 @@
 ---
 layout: mitradgelegenheit
 title:  "i-Mobility"
-date:   2015-04-10 08:00:00
+date:   2015-04-11 10:00:00
 categories: mitradgelegenheit
 facebook-event: 
 ---
 
-Am 10.&nbsp;April wird es eine MitRadGelegenheiten von verschiedenen Startpunkten zur [Messe i-Mobility][I-Mobility]{:target="_blank"} geben.  Details folgen in Kürze.
+Am 11.&nbsp;April wird es eine MitRadGelegenheiten vom Stuttgarter Marienplatz zur [Messe i-Mobility][I-Mobility]{:target="_blank"} geben.
+
+Details folgen in Kürze.
 
 
 
