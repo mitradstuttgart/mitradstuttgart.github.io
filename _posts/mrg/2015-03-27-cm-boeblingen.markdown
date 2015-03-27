@@ -21,7 +21,7 @@ Am 27.&nbsp;März geht es aus Stuttgart-Vaihingen und Herrenberg zur [Critical M
             <a data-toggle="collapse" data-parent="#accordionOne" href="#collapseUni"
                aria-expanded="false" aria-controls="collapseUni">
               <strong>Universität S-Vaihingen</strong>, S-Bahnhof <small>(Südausgang)</small>
-              <span class="label label-primary" style="float:right;"><span class="fa fa-clock-o"></span> 15:25 Uhr</span>
+              <span class="label label-primary" style="float:right;"><span class="fa fa-clock-o"></span> 15:45 Uhr</span>
             </a>
           </h4>
         </div>
@@ -102,7 +102,7 @@ wir dort eintreffen hängt von unseren Kräften ab.
         <div id="collapseHerrenberg" class="panel-collapse collapse in" role="tabpanel"
              aria-labelledby="headingHerrenberg">
           <div class="panel-body" markdown="block">
-Achtung: Anders als gewohnt, startet die MitRadGelegenheit am Marktplatz in Herrenberg.
+**Achtung:** Anders als gewohnt, startet die MitRadGelegenheit am Marktplatz in Herrenberg.
 </div>
         </div>
       </div>
