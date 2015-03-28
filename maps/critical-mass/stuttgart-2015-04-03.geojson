@@ -432,7 +432,6 @@
         "Ort": "Böblingen",
         "Treffpunkt": "Elbenplatz",
         "Zeit": "16:45 Uhr",
-        "Zug": "[object Object]",
         "marker-symbol": "land-use",
         "marker-color": "#009900"
       },
@@ -647,10 +646,12 @@
         "Ort": "Stuttgart-Vaihingen",
         "Treffpunkt": "Reisezentrum Bahnhof",
         "Zeit": "17:30 Uhr",
-        "Zug": "[object Object]",
         "marker-symbol": "rail",
         "marker-color": "#009900",
-        "image": "[object Object]"
+        "image": {
+          "src": "/images/vaihingen-bahnhof-small.jpg",
+          "alt": "Treffpunkt Reisezentrum Bahnhof in Stuttgart-Vaihingen"
+        }
       },
       "geometry": {
         "type": "Point",
@@ -737,7 +738,10 @@
         "Zeit": "17:45 Uhr",
         "marker-symbol": "rail",
         "marker-color": "#009900",
-        "image": "[object Object]"
+        "image": {
+          "src": "/images/moehringen-bahnhof-small.jpg",
+          "alt": "Treffpunkt Nordseite Bahnhof in Stuttgart-Möhringen"
+        }
       },
       "geometry": {
         "type": "Point",
@@ -832,7 +836,10 @@
         "Zeit": "18:00 Uhr",
         "marker-symbol": "rail",
         "marker-color": "#009900",
-        "image": "[object Object]"
+        "image": {
+          "src": "/images/degerloch-bahnhof-small.jpg",
+          "alt": "Bahnhof Zacke in Stuttgart-Degerloch"
+        }
       },
       "geometry": {
         "type": "Point",
@@ -1017,7 +1024,10 @@
         "Zeit": "18:15 Uhr",
         "marker-symbol": "land-use",
         "marker-color": "#009900",
-        "image": "[object Object]"
+        "image": {
+          "src": "/images/marienplatz-small.jpg",
+          "alt": "Treffpunkt Marienplatz in Stuttgart-Süd"
+        }
       },
       "geometry": {
         "type": "Point",

@@ -663,7 +663,10 @@
         "Zeit": "8:30 Uhr",
         "marker-symbol": "land-use",
         "marker-color": "#009900",
-        "image": "[object Object]"
+        "image": {
+          "src": "/images/marienplatz-small.jpg",
+          "alt": "Treffpunkt Marienplatz in Stuttgart-Süd"
+        }
       },
       "geometry": {
         "type": "Point",
