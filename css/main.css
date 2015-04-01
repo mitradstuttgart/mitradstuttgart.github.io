@@ -68,14 +68,3 @@ svg {
     stroke: #000;
     shape-rendering: crispEdges;
 }
-
-/*
- * Link list on index page
- */
-.links-frontpage {
-    margin-top: 5em;
-}
-.links-frontpage dd {
-    padding-left: 1em;
-    text-indent: -1em;
-}
