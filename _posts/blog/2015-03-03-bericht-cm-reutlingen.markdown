@@ -28,6 +28,28 @@ Für die Reutlinger war es somit ein voller Erfolg.  Schließlich haben sie es a
 Nach gut einer Stunde Stadtrundfahrt ging es, wie üblich, ins [Cafe Nepomuk][Cafe-Nepomuk]{:target="_blank"}, wo wir uns wieder aufwärmten.  Für den Rückweg griffen wir aufgrund des Wetters auf den Zug zurück.
 </div>
 
+&nbsp;
+
+<div class="row">
+  <div class="col-xs-12 col-md-6">
+    <div class="thumbnail">
+      <img src="{{ "/images/blog/2015-02-27/MRG_Pliezhausen-750.jpg" | prepend: site.baseurl }}" alt="Am Treffpunkt in Pliezhausen, rund 40 Minuten vor der Ankunft in Reutlingen.">
+      <div class="caption">
+        <p>Am Treffpunkt in Pliezhausen, rund 40 Minuten vor der Ankunft in Reutlingen.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col-xs-12 col-md-6">
+    <div class="thumbnail">
+      <img src="{{ "/images/blog/2015-02-27/Afterparty-750.jpg" | prepend: site.baseurl }}" alt="In gemütlicher Runde nach der Critical Mass.">
+      <div class="caption">
+        <p>In gemütlicher Runde nach der Critical Mass.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
 ### Wie geht es weiter?
 
 <div class="text-columns" markdown='1'>
