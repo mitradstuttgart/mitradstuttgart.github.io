@@ -31,18 +31,18 @@ In Degerloch gab es dann schließlich den ersten Treffpunkt ganz ohne Mitradler.
 <div class="row">
   <div class="col-xs-12 col-md-6">
     <div class="thumbnail">
-      <img src="{{ "/images/blog/2015-03-06/Vaihingen-750.jpg" | prepend: site.baseurl }}" alt="Die größten CMs 2014 in Deutschland">
+      <img src="{{ "/images/blog/2015-03-06/Vaihingen-750.jpg" | prepend: site.baseurl }}" alt="Am Treffpunkt in S-Vaihingen.">
       <div class="caption">
-        <p>Am Treffpunkt in S-Vaihingen</p>
+        <p>Am Treffpunkt in S-Vaihingen.</p>
       </div>
     </div>
   </div>
   <div class="col-xs-12 col-md-6">
     <div class="thumbnail">
-      <img src="{{ "/images/blog/2015-03-06/Silberburgstrasse-750.jpg" | prepend: site.baseurl }}" alt="Die MitRadGelegenheit kurz vorm Feuersee">
+      <img src="{{ "/images/blog/2015-03-06/Silberburgstrasse-750.jpg" | prepend: site.baseurl }}" alt="Die MitRadGelegenheit kurz vorm Feuersee.">
       <div class="caption">
         <p>
-          Die MitRadGelegenheit kurz vorm Feuersee<br>
+          Die MitRadGelegenheit kurz vorm Feuersee.<br>
           <small>
             <span class="fa fa-copyright"></span> Alban Manz,
             lizensiert unter <a href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">CC BY-SA 4.0</a>.
