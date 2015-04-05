@@ -90,7 +90,8 @@ permalink: /links/
 </div>
 </div>
 
-
+<div class="row">
+<div class="col-xs-12" markdown="block">
 ## In Deutschland, Europa und der Welt
 
 - [Initiative Clevere Städte][ClevereStadte]{:target="_blank"}, für mehr, freie Rad- und Gehwege, für lebenswertere, klimafreundlichere Städte
@@ -99,6 +100,9 @@ permalink: /links/
 - [It started with a fight …][StartedWithFight]{:target="_blank"}
 - [We Are Traffic][WeAreTraffic]{:target="_blank"}, eine fortlaufende Fotoserie, welche die Radfahrer Hamburgs porträtiert
 - [Wegeheld][Wegeheld]{:target="_blank"}, Plattform um Weg-Blockaden zu melden
+</div>
+</div>
+
 
 
 
