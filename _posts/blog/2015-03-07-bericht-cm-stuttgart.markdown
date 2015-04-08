@@ -4,6 +4,7 @@ title:  "Bericht über die Critical Mass Stuttgart"
 author: "Michael"
 date:   2015-03-07 23:51:00
 categories: blog
+teaser-image: /images/blog/2015-03-06/Silberburgstrasse-750.jpg
 ---
 
 <div class="text-columns" markdown="1">

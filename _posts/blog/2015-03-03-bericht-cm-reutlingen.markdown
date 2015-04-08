@@ -4,6 +4,7 @@ title:  "Bericht über die Critical Mass Reutlingen"
 author: "Michael"
 date:   2015-03-05 02:30:00
 categories: blog
+teaser-image: /images/blog/2015-02-27/Afterparty-750.jpg
 ---
 
 <div class="text-columns" markdown='1'>

@@ -26,6 +26,7 @@ layout: default
     Gemeinsam fährt es sich sicherer und je mehr Menschen radfahren,
     desto sicherer wird es (Safety in Numbers).</p>
   </div>
+
   <div class="col-xs-12 col-md-6">
     <h3>
       <span class="fa fa-calendar"></span>
@@ -53,20 +54,19 @@ layout: default
       nachlesen.
     </p>
   </div>
+
   <div class="col-xs-12 col-md-6">
     <h3>
       <span class="fa fa-newspaper-o"></span>
-      Blog
+      Neuigkeiten
     </h3>
-    <ul>
-      {% for post in site.categories.blog | sort: 'date' | reverse %}
-        <li>
-          <h4>
-            <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-            <small>{{ post.date | date: "%d.%m.%Y" }}</small>
-          </h4>
-        </li>
-      {% endfor %}
-    </ul>
-  </div>
+
+    <p>… rund um die Entwicklung von MitRadGelegenheitem im Raum
+    Stuttgart und von MitRadStuttgart veröffentlichen wir in unserem
+    <strong><a href="{{ "/blog/" | prepend: site.baseurl }}">Blog</a></strong>.
+    Während den MitRadGelegenheiten teilen wir oft bei
+    <a href="https://twitter.com/{{ site.twitter_username }}" target="_blank">Twitter</a>
+    aktuelle Informationen zum Ablauf mit,
+    beispielsweise ob es Verspätungen gibt.</p>
+    </div>
 </div>

@@ -4,6 +4,7 @@ title:  "März-Rückblick"
 author: "Michael"
 date:   2015-04-01 17:30:00
 categories: blog
+teaser-image: /images/blog/2015-04-01/Boeblingen-Elbenplatz-750.jpg
 ---
 
 Gegründet im Februar 2015 stellte der März den ersten richtig aktiven Monat für MitRadStuttgart dar.  Ging es im Februar noch um Absprachen mit anderen Initiativen und Streckenplanungen, standen im März die ersten MitRadGelegenheiten an.  Genau genommen ging es allerding schon Ende Februar mit der Fahrt zur Critical Mass Reutlingen los.
@@ -72,6 +73,7 @@ Für den Rückweg wählten die meisten den Zug, auch wenn dies etwas Wartezeit a
     </div>
   </div>
 </div>
+
 
 ### Critical Mass Herrenberg
 
