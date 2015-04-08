@@ -25,44 +25,14 @@ Parallel finden [weitere Messen][Weitere-Messen]{:target="_blank"} statt:
   <div class="col-xs-12">
     <div class="panel-group" id="accordionOne" role="tablist" aria-multiselectable="true">
 
-      <!-- Marienplatz -->
-      <div class="panel panel-default">
-        <div class="panel-heading" role="tab" id="headingMarienplatz">
-          <h4 class="panel-title">
-            <a class="collapsed" data-toggle="collapse" data-parent="#accordionOne" href="#collapseMarienplatz"
-               aria-expanded="false" aria-controls="collapseMarienplatz">
-              <strong>Stuttgart-Süd</strong>, Marienplatz
-              <span class="label label-primary" style="float:right;"><span class="fa fa-clock-o"></span> 10:00 Uhr</span>
-            </a>
-          </h4>
-        </div>
-        <div id="collapseMarienplatz" class="panel-collapse collapse" role="tabpanel"
-             aria-labelledby="headingMarienplatz">
-          <div class="panel-body" markdown="block">
+{% include meeting-point-open.html group="One" id="Marienplatz" place="Stuttgart-Süd" point="Marienplatz" time="10:00 Uhr" expanded="true" %}
 Der Treffpunkt liegt auf dem Marienplatz zwischen Tübinger und
 Böblinger Straße.
 
-<img src="{{ "/images/marienplatz-small.jpg" | prepend: site.baseurl }}"
-     alt="Treffpunkt Marienplatz"
-     class="img-rounded" style="width:100%;">
-</div>
-        </div>
-      </div>
+{% include meeting-point-image.html url="/images/marienplatz-small.jpg" alt="Treffpunkt Marienplatz" %}
+{% include meeting-point-close.html %}
 
-      <!-- S-Vaihingen -->
-      <div class="panel panel-default">
-        <div class="panel-heading" role="tab" id="headingVaihingen">
-          <h4 class="panel-title">
-            <a class="collapsed" data-toggle="collapse" data-parent="#accordionOne" href="#collapseVaihingen"
-               aria-expanded="false" aria-controls="collapseVaihingen">
-              <strong>S-Vaihingen</strong>, Reisezentrum Bahnhof
-              <span class="label label-primary" style="float:right;"><span class="fa fa-clock-o"></span> 11:00 Uhr</span>
-            </a>
-          </h4>
-        </div>
-        <div id="collapseVaihingen" class="panel-collapse collapse" role="tabpanel"
-             aria-labelledby="headingVaihingen">
-          <div class="panel-body" markdown="block">
+{% include meeting-point-open.html group="One" id="Vaihingen" place="S-Vaihingen" point="Reisezentrum Bahnhof" time="11:00 Uhr" %}
 Der Treffpunkt liegt auf der dem Busbahnhof zugewandten Seite des
 Reisezentrums.
 
@@ -84,27 +54,10 @@ Reisezentrums.
     </tr>
   </tbody>
 </table>
-<img src="{{ "/images/vaihingen-bahnhof.jpg" | prepend: site.baseurl }}"
-     alt="Treffpunkt Reisezentrum Bahnhof in Stuttgart-Vaihingen"
-     class="img-rounded" style="width:100%;">
-</div>
-        </div>
-      </div>
+{% include meeting-point-image.html url="/images/vaihingen-bahnhof-small.jpg" alt="Treffpunkt Reisezentrum Bahnhof in Stuttgart-Vaihingen" %}
+{% include meeting-point-close.html %}
 
-      <!-- Möhringen -->
-      <div class="panel panel-default">
-        <div class="panel-heading" role="tab" id="headingMoehringen">
-          <h4 class="panel-title">
-            <a class="collapsed" data-toggle="collapse" data-parent="#accordionOne" href="#collapseMoehringen"
-               aria-expanded="false" aria-controls="collapseMoehringen">
-              <strong>S-Möhringen</strong>, Lidl bei U-Vaihinger-Straße
-              <span class="label label-primary" style="float:right;"><span class="fa fa-clock-o"></span> 11:10 Uhr</span>
-            </a>
-          </h4>
-        </div>
-        <div id="collapseMoehringen" class="panel-collapse collapse" role="tabpanel"
-             aria-labelledby="headingMoehringen">
-          <div class="panel-body" markdown="block">
+{% include meeting-point-open.html group="One" id="Moehringen" place="S-Möhringen" point="Lidl bei U-Vaihinger-Straße" time="11:10 Uhr" %}
 Der Treffpunkt liegt in der Vaihinger Straße auf Höhe des Lidls bei
 der U-Bahnhaltestelle Vaihinger Straße.  Nach Möglichkeit fahren wir
 direkt weiter.
@@ -127,49 +80,18 @@ direkt weiter.
     </tr>
   </tbody>
 </table>
-</div>
-        </div>
-      </div>
+{% include meeting-point-close.html %}
 
-      <!-- Böblingen -->
-      <div class="panel panel-default">
-        <div class="panel-heading" role="tab" id="headingBoeblingen">
-          <h4 class="panel-title">
-            <a class="collapsed" data-toggle="collapse" data-parent="#accordionOne" href="#collapseBoeblingen"
-               aria-expanded="false" aria-controls="collapseBoeblingen">
-              <strong>Leinfelden-Echterdingen</strong>, U-Unteraichen
-              <span class="label label-primary" style="float:right;"><span class="fa fa-clock-o"></span> 11:25 Uhr</span>
-            </a>
-          </h4>
-        </div>
-        <div id="collapseBoeblingen" class="panel-collapse collapse" role="tabpanel"
-             aria-labelledby="headingBoeblingen">
-          <div class="panel-body" markdown="block">
+{% include meeting-point-open.html group="One" id="Leinfelden" place="Leinfelden-Echterdingen" point="U-Unteraichen" time="11:25 Uhr" %}
 Der Treffpunkt liegt auf der Ostseite der U-Bahnhaltestelle, in der
 Max-Lang-Straße.
-</div>
-        </div>
-      </div>
+{% include meeting-point-close.html %}
 
-      <!-- Feuersee -->
-      <div class="panel panel-default">
-        <div class="panel-heading" role="tab" id="headingFeuersee">
-          <h4 class="panel-title">
-            <a class="collapsed" data-toggle="collapse" data-parent="#accordionOne" href="#collapseFeuersee"
-               aria-expanded="false" aria-controls="collapseFeuersee">
-              <strong>Stuttgart/Leinfelden-Echterdingen</strong>, Messe
-              <span class="label label-primary" style="float:right;"><span class="fa fa-clock-o"></span> 11:50 Uhr</span>
-            </a>
-          </h4>
-        </div>
-        <div id="collapseFeuersee" class="panel-collapse collapse" role="tabpanel"
-             aria-labelledby="headingFeuersee">
-          <div class="panel-body" markdown="block">
+{% include meeting-point-open.html group="One" id="Messe" place="Stuttgart/Leinfelden-Echterdingen" point="Messe" time="11:50 Uhr" %}
 Hier liegt das Ziel der MitRadGelegenheiten.  Wir planen um kurz vor
 zwölf hier einzutreffen.
-</div>
-        </div>
-      </div>
+{% include meeting-point-close.html %}
+
     </div>
   </div>
 </div>

@@ -23,104 +23,31 @@ Wer weitere Strecken der Sternfahrt zum CM-Treffpunkt am Feuersee betreuen möch
     <h4>Aus Herrenberg/S-Vaihingen</h4>
     <div class="panel-group" id="accordionOne" role="tablist" aria-multiselectable="true">
 
-      <!-- Herrenberg -->
-      <div class="panel panel-default">
-        <div class="panel-heading" role="tab" id="headingHerrenberg">
-          <h4 class="panel-title">
-            <a data-toggle="collapse" data-parent="#accordionOne" href="#collapseHerrenberg"
-               aria-expanded="true" aria-controls="collapseHerrenberg">
-              <strong>Herrenberg</strong>, Marktplatz
-              <span class="label label-primary" style="float:right;"><span class="fa fa-clock-o"></span> 15:30 Uhr</span>
-            </a>
-          </h4>
-        </div>
-        <div id="collapseHerrenberg" class="panel-collapse collapse in" role="tabpanel"
-             aria-labelledby="headingHerrenberg">
-          <div class="panel-body" markdown="block">
+{% include meeting-point-open.html group="One" id="Herrenberg" place="Herrenberg" point="Marktplatz" time="15:30 Uhr" expanded="true" %}
 Die Kollegen der [Critical Mass Herrenberg][CM-Herrenberg]{:target="_blank"} treffen sich um halb vier am Herrenberger Marktplatz und starten
 gemeinsam Richtung Stuttgart.  Alle sind herzlich eingeladen, sich der
 kleinen Gruppe anzuschließen.
 
 Wem der Weg zu weit ist, kann einen Teil per S-Bahn zurücklegen und
 später dazustoßen.
-</div>
-        </div>
-      </div>
+{% include meeting-point-close.html %}
 
-      <!-- Nufringen -->
-      <div class="panel panel-default">
-        <div class="panel-heading" role="tab" id="headingNufringen">
-          <h4 class="panel-title">
-            <a class="collapsed" data-toggle="collapse" data-parent="#accordionOne" href="#collapseNufringen"
-               aria-expanded="false" aria-controls="collapseNufringen">
-              <strong>Nufringen</strong>, Rathaus
-              <span class="label label-primary" style="float:right;"><span class="fa fa-clock-o"></span> 15:50 Uhr</span>
-            </a>
-          </h4>
-        </div>
-        <div id="collapseNufringen" class="panel-collapse collapse" role="tabpanel"
-             aria-labelledby="headingNufringen">
-          <div class="panel-body" markdown="block">
+{% include meeting-point-open.html group="One" id="Nufringen" place="Nufringen" point="Rathaus" time="15:50 Uhr" %}
 Wer möchte, ist herzlich dazu eingeladen, sich der MitRadGelegenheit
 hier anzuschließen.
-</div>
-        </div>
-      </div>
+{% include meeting-point-close.html %}
 
-      <!-- Gärtringen -->
-      <div class="panel panel-default">
-        <div class="panel-heading" role="tab" id="headingGaertringen">
-          <h4 class="panel-title">
-            <a class="collapsed" data-toggle="collapse" data-parent="#accordionOne" href="#collapseGaertringen"
-               aria-expanded="false" aria-controls="collapseGaertringen">
-              <strong>Gärtringen</strong>, Bahnhof
-              <span class="label label-primary" style="float:right;"><span class="fa fa-clock-o"></span> 16:05 Uhr</span>
-            </a>
-          </h4>
-        </div>
-        <div id="collapseGaertringen" class="panel-collapse collapse" role="tabpanel"
-             aria-labelledby="headingGaertringen">
-          <div class="panel-body" markdown="block">
+{% include meeting-point-open.html group="One" id="Gaertringen" place="Gärtringen" point="Bahnhof" time="16:05 Uhr" %}
 Wer möchte, ist herzlich dazu eingeladen, sich der MitRadGelegenheit
 hier anzuschließen.
-</div>
-        </div>
-      </div>
+{% include meeting-point-close.html %}
 
-      <!-- Ehningen -->
-      <div class="panel panel-default">
-        <div class="panel-heading" role="tab" id="headingEhningen">
-          <h4 class="panel-title">
-            <a class="collapsed" data-toggle="collapse" data-parent="#accordionOne" href="#collapseEhningen"
-               aria-expanded="false" aria-controls="collapseEhningen">
-              <strong>Ehningen</strong>, Königstraße
-              <span class="label label-primary" style="float:right;"><span class="fa fa-clock-o"></span> 16:20 Uhr</span>
-            </a>
-          </h4>
-        </div>
-        <div id="collapseEhningen" class="panel-collapse collapse" role="tabpanel"
-             aria-labelledby="headingEhningen">
-          <div class="panel-body" markdown="block">
+{% include meeting-point-open.html group="One" id="Ehningen" place="Ehningen" point="Königstraße" time="16:20 Uhr" %}
 Wer möchte, ist herzlich dazu eingeladen, sich der MitRadGelegenheit
 hier anzuschließen.
-</div>
-        </div>
-      </div>
+{% include meeting-point-close.html %}
 
-      <!-- Böblingen -->
-      <div class="panel panel-default">
-        <div class="panel-heading" role="tab" id="headingBoeblingen">
-          <h4 class="panel-title">
-            <a class="collapsed" data-toggle="collapse" data-parent="#accordionOne" href="#collapseBoeblingen"
-               aria-expanded="false" aria-controls="collapseBoeblingen">
-              <strong>Böblingen</strong>, Elbenplatz
-              <span class="label label-primary" style="float:right;"><span class="fa fa-clock-o"></span> 16:45 Uhr</span>
-            </a>
-          </h4>
-        </div>
-        <div id="collapseBoeblingen" class="panel-collapse collapse" role="tabpanel"
-             aria-labelledby="headingBoeblingen">
-          <div class="panel-body" markdown="block">
+{% include meeting-point-open.html group="One" id="Boeblingen" place="Böblingen" point="Elbenplatz" time="16:45 Uhr" %}
 Wer möchte, ist herzlich dazu eingeladen, sich der MitRadGelegenheit
 hier anzuschließen.
 
@@ -151,24 +78,9 @@ gilt sie als sicher und wird von mehreren Radfahrenden befahren.
     </tr>
   </tbody>
 </table>
-</div>
-        </div>
-      </div>
+{% include meeting-point-close.html %}
 
-      <!-- S-Vaihingen -->
-      <div class="panel panel-default">
-        <div class="panel-heading" role="tab" id="headingVaihingen">
-          <h4 class="panel-title">
-            <a class="collapsed" data-toggle="collapse" data-parent="#accordionOne" href="#collapseVaihingen"
-               aria-expanded="false" aria-controls="collapseVaihingen">
-              <strong>S-Vaihingen</strong>, Reisezentrum Bahnhof
-              <span class="label label-primary" style="float:right;"><span class="fa fa-clock-o"></span> 17:30 Uhr</span>
-            </a>
-          </h4>
-        </div>
-        <div id="collapseVaihingen" class="panel-collapse collapse" role="tabpanel"
-             aria-labelledby="headingVaihingen">
-          <div class="panel-body" markdown="block">
+{% include meeting-point-open.html group="One" id="Vaihingen" place="S-Vaihingen" point="Reisezentrum Bahnhof" time="17:30 Uhr" %}
 Erfahrungsgemäß wächst hier die Gruppe auf 10 oder mehr
 TeilnehmerInnen an.  Sofern der Zubringer aus Herrenberg/Böblingen
 rechtzeitig eintrifft wird pünktlich losgefahren.
@@ -201,27 +113,10 @@ gelangen.
     </tr>
   </tbody>
 </table>
-<img src="{{ "/images/vaihingen-bahnhof.jpg" | prepend: site.baseurl }}"
-     alt="Treffpunkt Reisezentrum Bahnhof in Stuttgart-Vaihingen"
-     class="img-rounded" style="width:100%;">
-</div>
-        </div>
-      </div>
+{% include meeting-point-image.html url="/images/vaihingen-bahnhof-small.jpg" alt="Treffpunkt Reisezentrum Bahnhof in Stuttgart-Vaihingen" %}
+{% include meeting-point-close.html %}
 
-      <!-- Möhringen -->
-      <div class="panel panel-default">
-        <div class="panel-heading" role="tab" id="headingMoehringen">
-          <h4 class="panel-title">
-            <a class="collapsed" data-toggle="collapse" data-parent="#accordionOne" href="#collapseMoehringen"
-               aria-expanded="false" aria-controls="collapseMoehringen">
-              <strong>S-Möhringen</strong>, Nordseite Bahnhof
-              <span class="label label-primary" style="float:right;"><span class="fa fa-clock-o"></span> 17:45 Uhr</span>
-            </a>
-          </h4>
-        </div>
-        <div id="collapseMoehringen" class="panel-collapse collapse" role="tabpanel"
-             aria-labelledby="headingMoehringen">
-          <div class="panel-body" markdown="block">
+{% include meeting-point-open.html group="One" id="Moehringen" place="S-Möhringen" point="Nordseite Bahnhof" time="17:45 Uhr" %}
 Im März ist hier ein Radler zugestiegen.  Da geht auf jeden Fall noch
 mehr!
 
@@ -230,27 +125,10 @@ Richtung Sonnenberg.  Dort wäre auch eine gute Möglichkeit in die
 MitRadGelegenheit einzusteigen.  Über den Höhenrandweg (HRR&nbsp;10)
 geht es schließlich nach Degerloch.
 
-<img src="{{ "/images/moehringen-bahnhof-small.jpg" | prepend: site.baseurl }}"
-     alt="Treffpunkt Möhringen Bahnhof"
-     class="img-rounded" style="width:100%;">
-</div>
-        </div>
-      </div>
+{% include meeting-point-image.html url="/images/moehringen-bahnhof-small.jpg" alt="Treffpunkt Möhringen Bahnhof" %}
+{% include meeting-point-close.html %}
 
-      <!-- Degerloch -->
-      <div class="panel panel-default">
-        <div class="panel-heading" role="tab" id="headingDegerloch">
-          <h4 class="panel-title">
-            <a class="collapsed" data-toggle="collapse" data-parent="#accordionOne" href="#collapseDegerloch"
-               aria-expanded="false" aria-controls="collapseDegerloch">
-              <strong>S-Degerloch</strong>, Bahnhof Zacke
-              <span class="label label-primary" style="float:right;"><span class="fa fa-clock-o"></span> 18:00 Uhr</span>
-            </a>
-          </h4>
-        </div>
-        <div id="collapseDegerloch" class="panel-collapse collapse" role="tabpanel"
-             aria-labelledby="headingDegerloch">
-          <div class="panel-body" markdown="block">
+{% include meeting-point-open.html group="One" id="Degerloch" place="S-Degerloch" point="Bahnhof Zacke" time="18:00 Uhr" %}
 Der Bahnhof der Zacke liegt leider nicht ganz optimal an der Strecke,
 daher wäre es gut, wenn sich Wartende etwas Richtung Epplestraße
 orientieren.  Es wird aber auf jeden Fall darauf geachtet niemanden zu
@@ -266,27 +144,10 @@ Alternativ geht es über die Heine- und die Karl-Kloß-Straße zum
 Erwin-Schoettle-Platz.  Welcher Weg gewählt wird, entscheidet die
 Gruppe vor Ort.
 
-<img src="{{ "/images/degerloch-bahnhof-small.jpg" | prepend: site.baseurl }}"
-     alt="Treffpunkt Bahnhof der Zacke in Degerloch"
-     class="img-rounded" style="width:100%;">
-</div>
-        </div>
-      </div>
+{% include meeting-point-image.html url="/images/degerloch-bahnhof-small.jpg" alt="Treffpunkt Bahnhof der Zacke in Degerloch" %}
+{% include meeting-point-close.html %}
 
-      <!-- Erwin-Schoettle-Platz -->
-      <div class="panel panel-default">
-        <div class="panel-heading" role="tab" id="headingSchoettle">
-          <h4 class="panel-title">
-            <a class="collapsed" data-toggle="collapse" data-parent="#accordionOne" href="#collapseSchoettle"
-               aria-expanded="false" aria-controls="collapseSchoettle">
-              <strong>Stuttgart-Süd</strong>, Erwin-Schoettle-Platz
-              <span class="label label-default" style="float:right;"><span class="fa fa-clock-o"></span> bei Bedarf</span>
-            </a>
-          </h4>
-        </div>
-        <div id="collapseSchoettle" class="panel-collapse collapse" role="tabpanel"
-             aria-labelledby="headingSchoettle">
-          <div class="panel-body" markdown="block">
+{% include meeting-point-open.html group="One" id="Schoettle" place="Stuttgart-Süd" point="Erwin-Schoettle-Platz" time="bei Bedarf" %}
 Der Erwin-Schoettle-Platz wird nur gestreift.  Wer hier zusteigen
 möchte wartet am besten an der Ostseite der Matthäuskirche (Kreuzung
 Eierstraße/Möhringer Straße) am Tallängsweg (HRR&nbsp;1).  Es ist
@@ -301,24 +162,9 @@ einzelne Radfahrende zu eng.
 <div style="width:100%; text-align:center;">
   <em>Photo folgt</em>
 </div>
-</div>
-        </div>
-      </div>
+{% include meeting-point-close.html %}
 
-      <!-- Marienplatz -->
-      <div class="panel panel-default">
-        <div class="panel-heading" role="tab" id="headingMarienplatz">
-          <h4 class="panel-title">
-            <a class="collapsed" data-toggle="collapse" data-parent="#accordionOne" href="#collapseMarienplatz"
-               aria-expanded="false" aria-controls="collapseMarienplatz">
-              <strong>Stuttgart-Süd</strong>, Marienplatz
-              <span class="label label-primary" style="float:right;"><span class="fa fa-clock-o"></span> 18:15 Uhr</span>
-            </a>
-          </h4>
-        </div>
-        <div id="collapseMarienplatz" class="panel-collapse collapse" role="tabpanel"
-             aria-labelledby="headingMarienplatz">
-          <div class="panel-body" markdown="block">
+{% include meeting-point-open.html group="One" id="Marienplatz" place="Stuttgart-Süd" point="Marienplatz" time="18:15 Uhr" %}
 Am Marienplatz, im Bereich des Beginns der Tübinger Straße, befindet
 sich der letzte Halt der MitRadGelegenheit vor der Critical Mass.
 
@@ -338,27 +184,10 @@ Anstatt den Treffpunkt der Critical Mass Stuttgart auf direktem Weg
 anzufahren, geht es auf der Rotebühlstraße erst daran vorbei um von
 der wartenden Masse entsprechend begrüßt zu werden.
 
-<img src="{{ "/images/marienplatz-small.jpg" | prepend: site.baseurl }}"
-     alt="Treffpunkt Marienplatz"
-     class="img-rounded" style="width:100%;">
-</div>
-        </div>
-      </div>
+{% include meeting-point-image.html url="/images/marienplatz-small.jpg" alt="Treffpunkt Marienplatz" %}
+{% include meeting-point-close.html %}
 
-      <!-- Feuersee -->
-      <div class="panel panel-default">
-        <div class="panel-heading" role="tab" id="headingFeuersee">
-          <h4 class="panel-title">
-            <a class="collapsed" data-toggle="collapse" data-parent="#accordionOne" href="#collapseFeuersee"
-               aria-expanded="false" aria-controls="collapseFeuersee">
-              <strong>Stuttgart</strong>, Feuersee
-              <span class="label label-primary" style="float:right;"><span class="fa fa-clock-o"></span> 18:30 Uhr</span>
-            </a>
-          </h4>
-        </div>
-        <div id="collapseFeuersee" class="panel-collapse collapse" role="tabpanel"
-             aria-labelledby="headingFeuersee">
-          <div class="panel-body" markdown="block">
+{% include meeting-point-open.html group="One" id="Feuersee" place="Stuttgart" point="Feuersee" time="18:30 Uhr" %}
 Hier liegt das Ziel der MitRadGelegenheiten.  Gegen halb sieben, und
 somit rechtzeitig zum Start, werden sie eintreffen.  Da es in der
 Regel erst ein paar Minuten später losgeht, bleibt auch noch die
@@ -367,9 +196,8 @@ Gelegenheit sich zu unterhalten.
 Wer hier wartet fühle sich hiermit dazu aufgefordert die
 MitRadGelegenheiten bei ihrer Vorbeifahrt entlang der Rotebühlstraße
 entsprechend zu begrüßen.
-</div>
-        </div>
-      </div>
+{% include meeting-point-close.html %}
+
     </div>
   </div>
 
@@ -377,20 +205,7 @@ entsprechend zu begrüßen.
   <h4>Aus Fellbach/Bad Cannstatt</h4>
     <div class="panel-group" id="accordionTwo" role="tablist" aria-multiselectable="true">
 
-      <!-- Fellbach -->
-      <div class="panel panel-default">
-        <div class="panel-heading" role="tab" id="headingFellbach">
-          <h4 class="panel-title">
-            <a data-toggle="collapse" data-parent="#accordionTwo" href="#collapseFellbach"
-               aria-expanded="true" aria-controls="collapseFellbach">
-              <strong>Fellbach</strong>, Bahnhof
-              <span class="label label-primary" style="float:right;"><span class="fa fa-clock-o"></span> 17:00 Uhr</span>
-            </a>
-          </h4>
-        </div>
-        <div id="collapseFellbach" class="panel-collapse collapse in" role="tabpanel"
-             aria-labelledby="headingFellbach">
-          <div class="panel-body" markdown="block">
+{% include meeting-point-open.html group="Two" id="Fellbach" place="Fellbach" point="Bahnhof" time="17:00 Uhr" expanded="true" %}
 Hier startet die zweite offizielle MitRadGelegenheit der Critical Mass
 Stuttgart.  Der Treffpunkt liegt am Bahnhof im Bereich der Taxistände.
 
@@ -420,24 +235,9 @@ Straße, um dem Stau in der Daimlerstraße auszuweichen.
     </tr>
   </tbody>
 </table>
-</div>
-        </div>
-      </div>
+{% include meeting-point-close.html %}
 
-      <!-- Cannstatt -->
-      <div class="panel panel-default">
-        <div class="panel-heading" role="tab" id="headingCannstatt">
-          <h4 class="panel-title">
-            <a class="collapsed" data-toggle="collapse" data-parent="#accordionTwo" href="#collapseCannstatt"
-               aria-expanded="false" aria-controls="collapseCannstatt">
-              <strong>Bad Cannstatt</strong>, Bahnhof <small>(Vorplatz Nordseite)</small>
-              <span class="label label-primary" style="float:right;"><span class="fa fa-clock-o"></span> 17:35 Uhr</span>
-            </a>
-          </h4>
-        </div>
-        <div id="collapseCannstatt" class="panel-collapse collapse" role="tabpanel"
-             aria-labelledby="headingCannstatt">
-          <div class="panel-body" markdown="block">
+{% include meeting-point-open.html group="Two" id="Cannstatt" place="Bad Cannstatt" point="Bahnhof <small>(Vorplatz Nordseite)</small>" time="17:35 Uhr" %}
 Der Treffpunkt liegt auf dem Vorplatz auf der Nordseite des Bahnhofs.
 Ungefähr gegenüber der Frösnerstraße.
 
@@ -486,24 +286,9 @@ Mai gegebenenfalls angepasst.
     </tr>
   </tbody>
 </table>
-</div>
-        </div>
-      </div>
+{% include meeting-point-close.html %}
 
-      <!-- Mineralbäder -->
-      <div class="panel panel-default">
-        <div class="panel-heading" role="tab" id="headingMineralbaeder">
-          <h4 class="panel-title">
-            <a class="collapsed" data-toggle="collapse" data-parent="#accordionTwo" href="#collapseMineralbaeder"
-               aria-expanded="false" aria-controls="collapseMineralbaeder">
-              <strong>Stuttgart-Ost</strong>, U-Mineralbäder
-              <span class="label label-primary" style="float:right;"><span class="fa fa-clock-o"></span> 17:55 Uhr</span>
-            </a>
-          </h4>
-        </div>
-        <div id="collapseMineralbaeder" class="panel-collapse collapse" role="tabpanel"
-             aria-labelledby="headingMineralbaeder">
-          <div class="panel-body" markdown="block">
+{% include meeting-point-open.html group="Two" id="Mineralbaeder" place="Stuttgart-Ost" point="U-Mineralbäder" time="17:55 Uhr" %}
 Der Treffpunkt liegt auf der Nordseite der U-Bahnhaltestelle.
 
 Aufgrund der zahlreichen Puffer auf den Strecken davor, geht es
@@ -518,24 +303,9 @@ Mass zu werben.
 Voraussichtlich ab der Grünen Brücke (Übergang in den Mittleren
 Schlossgarten) wird die MitRadGelegenheit mit musikalischer Begleitung
 unterwegs sein.
-</div>
-        </div>
-      </div>
+{% include meeting-point-close.html %}
 
-      <!-- Rathaus -->
-      <div class="panel panel-default">
-        <div class="panel-heading" role="tab" id="headingRathaus">
-          <h4 class="panel-title">
-            <a class="collapsed" data-toggle="collapse" data-parent="#accordionTwo" href="#collapseRathaus"
-               aria-expanded="false" aria-controls="collapseRathaus">
-              <strong>Stuttgart-Mitte</strong>, Rathaus/Marktplatz
-              <span class="label label-primary" style="float:right;"><span class="fa fa-clock-o"></span> 18:15 Uhr</span>
-            </a>
-          </h4>
-        </div>
-        <div id="collapseRathaus" class="panel-collapse collapse" role="tabpanel"
-             aria-labelledby="headingRathaus">
-          <div class="panel-body" markdown="block">
+{% include meeting-point-open.html group="Two" id="Rathaus" place="Stuttgart-Mitte" point="Rathaus/Marktplatz" time="18:15 Uhr" %}
 Der letzte Zustiegspunkt liegt beim Rathaus, genauer auf dem
 Marktplatz an der Münzstraße.
 
@@ -545,24 +315,9 @@ werden.  Aufgrund des Verbots für Radfahrende vom Rotebühlplatz direkt
 nach links in die Rotebühlstraße einzubiegen, gibt es keinen besseren
 Weg für Gruppen.  Freigegebene Fußgängerzonen bedeuten
 Schrittgeschwindigkeit und bergen ein zu großes Konfliktpotential.
-</div>
-        </div>
-      </div>
+{% include meeting-point-close.html %}
 
-      <!-- Feuersee -->
-      <div class="panel panel-default">
-        <div class="panel-heading" role="tab" id="headingFeuerseeTwo">
-          <h4 class="panel-title">
-            <a class="collapsed" data-toggle="collapse" data-parent="#accordionTwo" href="#collapseFeuerseeTwo"
-               aria-expanded="false" aria-controls="collapseFeuerseeTwo">
-              <strong>Stuttgart</strong>, Feuersee
-              <span class="label label-primary" style="float:right;"><span class="fa fa-clock-o"></span> 18:30 Uhr</span>
-            </a>
-          </h4>
-        </div>
-        <div id="collapseFeuerseeTwo" class="panel-collapse collapse" role="tabpanel"
-             aria-labelledby="headingFeuerseeTwo">
-          <div class="panel-body" markdown="block">
+{% include meeting-point-open.html group="Two" id="FeuerseeTwo" place="Stuttgart" point="Feuersee" time="18:30 Uhr" %}
 Hier liegt das Ziel der MitRadGelegenheiten.  Gegen halb sieben, und
 somit rechtzeitig zum Start, werden sie eintreffen.  Da es in der
 Regel erst ein paar Minuten später losgeht, bleibt auch noch die
@@ -571,9 +326,8 @@ Gelegenheit sich zu unterhalten.
 Wer hier wartet fühle sich hiermit dazu aufgefordert die
 MitRadGelegenheiten bei ihrer Vorbeifahrt entlang der Rotebühlstraße
 entsprechend zu begrüßen.
-</div>
-        </div>
-      </div>
+{% include meeting-point-close.html %}
+
     </div>
   </div>
 </div>

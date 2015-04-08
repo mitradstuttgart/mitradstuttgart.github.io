@@ -1,0 +1,19 @@
+<!-- {{ include.place }} – {{ include.point }} -->
+<div class="panel panel-default">
+  <div class="panel-heading" role="tab" id="heading{{ include.id }}">
+    <h4 class="panel-title">
+      <a data-toggle="collapse" data-parent="#accordion{{ include.group }}" href="#collapse{{ include.id }}"
+	 {% if include.expanded %}
+	 aria-expanded="true"
+	 {% else %}
+	 class="collapsed" aria-expanded="false"
+	 {% endif %}
+         aria-controls="collapse{{ include.id }}">
+        <strong>{{ include.place }}</strong>, {{ include.point }}
+        <span class="label label-{% if include.time == "bei Bedarf" %}default{% else %}primary{% endif %}" style="float:right;"><span class="fa fa-clock-o"></span> {{ include.time }}</span>
+      </a>
+    </h4>
+  </div>
+  <div id="collapse{{ include.id }}" class="panel-collapse collapse {% if include.expanded %}in{% endif %}" role="tabpanel"
+       aria-labelledby="heading{{ include.id }}">
+    <div class="panel-body" markdown="block">

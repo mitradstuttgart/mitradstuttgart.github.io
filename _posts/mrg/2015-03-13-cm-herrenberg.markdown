@@ -14,20 +14,8 @@ Am 13.&nbsp;März geht es per MitRadGelegenheit von Stuttgart-Vaihingen zur [Cri
   <div class="col-md-6">
     <h4>In Stuttgart</h4>
     <div class="panel-group" id="accordionOne" role="tablist" aria-multiselectable="true">
-      <!-- Uni S-Vaihingen -->
-      <div class="panel panel-default">
-        <div class="panel-heading" role="tab" id="headingUni">
-          <h4 class="panel-title">
-            <a data-toggle="collapse" data-parent="#accordionOne" href="#collapseUni"
-               aria-expanded="false" aria-controls="collapseUni">
-              <strong>Universität S-Vaihingen</strong>, S-Bahnhof <small>(Südausgang)</small>
-              <span class="label label-primary" style="float:right;"><span class="fa fa-clock-o"></span> 15:25 Uhr</span>
-            </a>
-          </h4>
-        </div>
-        <div id="collapseUni" class="panel-collapse collapse in" role="tabpanel"
-             aria-labelledby="headingUni">
-          <div class="panel-body" markdown="block">
+
+{% include meeting-point-open.html group="One" id="Uni" place="Universität S-Vaihingen" point="S-Bahnhof <small>(Südausgang)</small>" time="15:25 Uhr" expanded="true" %}
 Der Treffpunkt liegt auf der Südseite der Universitätsstraße, bei der
 Fahrradabstellanlage.  Es wird pünktlich losgefahren.
 
@@ -50,24 +38,9 @@ Schwabstraße zur Universität zu fahren.
     </tr>
   </tbody>
 </table>
-</div>
-        </div>
-      </div>
+{% include meeting-point-close.html %}
 
-      <!-- S-Vaihingen -->
-      <div class="panel panel-default">
-        <div class="panel-heading" role="tab" id="headingVaihingen">
-          <h4 class="panel-title">
-            <a class="collapsed" data-toggle="collapse" data-parent="#accordionOne" href="#collapseVaihingen"
-               aria-expanded="false" aria-controls="collapseVaihingen">
-              <strong>S-Vaihingen</strong>, Reisezentrum Bahnhof
-              <span class="label label-primary" style="float:right;"><span class="fa fa-clock-o"></span> 15:40 Uhr</span>
-            </a>
-          </h4>
-        </div>
-        <div id="collapseVaihingen" class="panel-collapse collapse" role="tabpanel"
-             aria-labelledby="headingVaihingen">
-          <div class="panel-body" markdown="block">
+{% include meeting-point-open.html group="One" id="Vaihingen" place="S-Vaihingen" point="Reisezentrum Bahnhof" time="15:40 Uhr" %}
 Der Treffpunkt liegt auf der Seite des Busbahnhofs.  Die Ankunft der
 S&nbsp;2 um 15:39&nbsp;Uhr wird abgewartet.
 
@@ -107,34 +80,15 @@ S&nbsp;2 um 15:39&nbsp;Uhr wird abgewartet.
     </tr>
   </tbody>
 </table>
+{% include meeting-point-image.html url="/images/vaihingen-bahnhof-small.jpg" alt="Treffpunkt Reisezentrum Bahnhof in Stuttgart-Vaihingen" %}
+{% include meeting-point-close.html %}
 
-<img src="{{ "/images/vaihingen-bahnhof.jpg" | prepend: site.baseurl }}"
-     alt="Treffpunkt Reisezentrum Bahnhof in Stuttgart-Vaihingen"
-     class="img-rounded" style="width:100%;">
-</div>
-        </div>
-      </div>
-
-      <!-- Rohrer Hoehe -->
-      <div class="panel panel-default">
-        <div class="panel-heading" role="tab" id="headingRHoehe">
-          <h4 class="panel-title">
-            <a class="collapsed" data-toggle="collapse" data-parent="#accordionOne" href="#collapseRHoehe"
-               aria-expanded="false" aria-controls="collapseRHoehe">
-              <strong>S-Vaihingen</strong>, Rohrer Höhe
-              <span class="label label-default" style="float:right;"><span class="fa fa-clock-o"></span> bei Bedarf</span>
-            </a>
-          </h4>
-        </div>
-        <div id="collapseRHoehe" class="panel-collapse collapse" role="tabpanel"
-             aria-labelledby="headingRHoehe">
-          <div class="panel-body" markdown="span">
+{% include meeting-point-open.html group="One" id="RHoehe" place="S-Vaihingen" point="Rohrer Höhe" time="bei Bedarf" %}
 Wer möchte, kann sich hier der MitRadGelegenheit anschließen.  Damit
 nicht ewig gewartet werden muss, empfiehlt es sich, vorher Kontakt
 aufzunehmen.
-          </div>
-        </div>
-      </div>
+{% include meeting-point-close.html %}
+
     </div>
   </div>
 
@@ -142,20 +96,7 @@ aufzunehmen.
     <h4>Südlich von Stuttgart</h4>
     <div class="panel-group" id="accordionTwo" role="tablist" aria-multiselectable="true">
 
-      <!-- Böblingen -->
-      <div class="panel panel-default">
-        <div class="panel-heading" role="tab" id="headingBoeblingen">
-          <h4 class="panel-title">
-            <a data-toggle="collapse" data-parent="#accordionTwo" href="#collapseBoeblingen"
-               aria-expanded="false" aria-controls="collapseBoeblingen">
-              <strong>Böblingen</strong>, Elbenplatz
-              <span class="label label-primary" style="float:right;"><span class="fa fa-clock-o"></span> 16:40 Uhr</span>
-            </a>
-          </h4>
-        </div>
-        <div id="collapseBoeblingen" class="panel-collapse collapse in" role="tabpanel"
-             aria-labelledby="headingBoeblingen">
-          <div class="panel-body" markdown="block">
+{% include meeting-point-open.html group="Two" id="Boeblingen" place="Böblingen" point="Elbenplatz" time="16:40 Uhr" expanded="true" %}
 Der Treffpunkt liegt auf der nord-westlichen Seite des Elbenplatzes.
 Sofern die Gruppe aus Stuttgart rechtzeitig eintrifft, wird pünktlich
 weitergefahren.
@@ -181,86 +122,26 @@ weitergefahren.
     </tr>
   </tbody>
 </table>
-</div>
-        </div>
-      </div>
+{% include meeting-point-close.html %}
 
-      <!-- Ehningen -->
-      <div class="panel panel-default">
-        <div class="panel-heading" role="tab" id="headingEhningen">
-          <h4 class="panel-title">
-            <a class="collapsed" data-toggle="collapse" data-parent="#accordionTwo" href="#collapseEhningen"
-               aria-expanded="false" aria-controls="collapseEhningen">
-              <strong>Ehningen</strong>, Alter Friedhof
-              <span class="label label-default" style="float:right;"><span class="fa fa-clock-o"></span> bei Bedarf</span>
-            </a>
-          </h4>
-        </div>
-        <div id="collapseEhningen" class="panel-collapse collapse" role="tabpanel"
-             aria-labelledby="headingEhningen">
-          <div class="panel-body" markdown="span">
+{% include meeting-point-open.html group="Two" id="Ehningen" place="Ehningen" point="Alter Friedhof" time="bei Bedarf" %}
 Wer möchte, kann sich hier der MitRadGelegenheit anschließen.  Damit nicht ewig gewartet werden muss, empfiehlt es sich, vorher Kontakt aufzunehmen.
-          </div>
-        </div>
-      </div>
+{% include meeting-point-close.html %}
 
-      <!-- Gärtringen -->
-      <div class="panel panel-default">
-        <div class="panel-heading" role="tab" id="headingGaertringen">
-          <h4 class="panel-title">
-            <a class="collapsed" data-toggle="collapse" data-parent="#accordionTwo" href="#collapseGaertringen"
-               aria-expanded="false" aria-controls="collapseGaertringen">
-              <strong>Gärtringen</strong>, Bahnhof
-              <span class="label label-default" style="float:right;"><span class="fa fa-clock-o"></span> bei Bedarf</span>
-            </a>
-          </h4>
-        </div>
-        <div id="collapseGaertringen" class="panel-collapse collapse" role="tabpanel"
-             aria-labelledby="headingGaertringen">
-          <div class="panel-body" markdown="span">
+{% include meeting-point-open.html group="Two" id="Gaertringen" place="Gärtringen" point="Bahnhof" time="bei Bedarf" %}
 Wer möchte, kann sich hier der MitRadGelegenheit anschließen.  Damit nicht ewig gewartet werden muss, empfiehlt es sich, vorher Kontakt aufzunehmen.
-          </div>
-        </div>
-      </div>
+{% include meeting-point-close.html %}
 
-      <!-- Nufringen -->
-      <div class="panel panel-default">
-        <div class="panel-heading" role="tab" id="headingNufringen">
-          <h4 class="panel-title">
-            <a class="collapsed" data-toggle="collapse" data-parent="#accordionTwo" href="#collapseNufringen"
-               aria-expanded="false" aria-controls="collapseNufringen">
-              <strong>Nufringen</strong>, Bahnhof
-              <span class="label label-default" style="float:right;"><span class="fa fa-clock-o"></span> bei Bedarf</span>
-            </a>
-          </h4>
-        </div>
-        <div id="collapseNufringen" class="panel-collapse collapse" role="tabpanel"
-             aria-labelledby="headingNufringen">
-          <div class="panel-body" markdown="span">
+{% include meeting-point-open.html group="Two" id="Nufringen" place="Nufringen" point="Bahnhof" time="bei Bedarf" %}
 Wer möchte, kann sich hier der MitRadGelegenheit anschließen.  Damit nicht ewig gewartet werden muss, empfiehlt es sich, vorher Kontakt aufzunehmen.
-          </div>
-        </div>
-      </div>
+{% include meeting-point-close.html %}
 
-      <!-- Herrenberg -->
-      <div class="panel panel-default">
-        <div class="panel-heading" role="tab" id="headingHerrenberg">
-          <h4 class="panel-title">
-            <a class="collapsed" data-toggle="collapse" data-parent="#accordionTwo" href="#collapseHerrenberg"
-               aria-expanded="false" aria-controls="collapseHerrenberg">
-              <strong>Herrenberg</strong>, Auf dem Graben
-              <span class="label label-primary" style="float:right;"><span class="fa fa-clock-o"></span> 18:00 Uhr</span>
-            </a>
-          </h4>
-        </div>
-        <div id="collapseHerrenberg" class="panel-collapse collapse" role="tabpanel"
-             aria-labelledby="headingHerrenberg">
-          <div class="panel-body" markdown="span">
+{% include meeting-point-open.html group="Two" id="Herrenberg" place="Herrenberg" point="Auf dem Graben" time="18:00 Uhr" %}
 Um 18:00&nbsp;Uhr startet hier die Critical Mass.
+
 Weitere Informationen gibt es auf der Seite der [CM Herrenberg][CM-Herrenberg]{:target="_blank"}.
-          </div>
-        </div>
-      </div>
+{% include meeting-point-close.html %}
+
     </div>
   </div>
 </div>

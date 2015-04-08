@@ -16,142 +16,50 @@ Es geht zur [Critical Mass Reutlingen][CM-Reutlingen]{:target="_blank"}.  Start 
 ### Zustiegsmöglichkeiten
 
 <div class="row">
-  <div class="col-md-6">
+  <div class="col-xs-12 col-md-6">
     <h4>Aus Stuttgart</h4>
     <div class="panel-group" id="accordionLeft" role="tablist" aria-multiselectable="true">
-      <div class="panel panel-default">
-        <div class="panel-heading" role="tab" id="headingVaihingen">
-          <h4 class="panel-title">
-            <a data-toggle="collapse" data-parent="#accordionLeft" href="#collapseVaihingen"
-               aria-expanded="true" aria-controls="collapseVaihingen">
-              <strong>Stuttgart-Vaihingen</strong>, Reisezentrum Bahnhof
-              <span class="label label-primary" style="float:right;"><span class="fa fa-clock-o"></span> 15:30 Uhr</span>
-            </a>
-          </h4>
-        </div>
-        <div id="collapseVaihingen" class="panel-collapse collapse in" role="tabpanel"
-             aria-labelledby="headingVaihingen">
-          <div class="panel-body">
-            <p>Bitte kurz Bescheid geben, falls Du ab hier mitfahren möchtest.</p>
-            <img src="{{ "/images/vaihingen-bahnhof.jpg" | prepend: site.baseurl }}"
-                 alt="Treffpunkt Reisezentrum Bahnhof in Stuttgart-Vaihingen"
-                 class="img-rounded" style="width:100%;">
-          </div>
-        </div>
-      </div>
-      <div class="panel panel-default">
-        <div class="panel-heading" role="tab" id="headingBurkhardtsmuehle">
-          <h4 class="panel-title">
-            <a class="collapsed" data-toggle="collapse" data-parent="#accordionLeft" href="#collapseBurkhardtsmuehle"
-               aria-expanded="false" aria-controls="collapseBurkhardtsmuehle">
-              <strong>Burkhardtsmühle</strong>, Parkplatz
-              <span class="label label-primary" style="float:right;"><span class="fa fa-clock-o"></span> 16:10 Uhr</span>
-            </a>
-          </h4>
-        </div>
-        <div id="collapseBurkhardtsmuehle" class="panel-collapse collapse" role="tabpanel"
-             aria-labelledby="headingBurkhardtsmuehle">
-          <div class="panel-body">
-            <p>Bitte kurz Bescheid geben, falls Du ab hier mitfahren möchtest.</p>
-          </div>
-        </div>
-      </div>
-      <div class="panel panel-default">
-        <div class="panel-heading" role="tab" id="headingNeckartailfingen">
-          <h4 class="panel-title">
-            <a class="collapsed" data-toggle="collapse" data-parent="#accordionLeft" href="#collapseNeckartailfingen"
-               aria-expanded="false" aria-controls="collapseNeckartailfingen">
-              <strong>Neckartailfingen</strong>, Tübinger Straße
-              <span class="label label-primary" style="float:right;"><span class="fa fa-clock-o"></span> 16:40 Uhr</span>
-            </a>
-          </h4>
-        </div>
-        <div id="collapseNeckartailfingen" class="panel-collapse collapse" role="tabpanel"
-             aria-labelledby="headingNeckartailfingen">
-          <div class="panel-body">
-            <p>Bitte kurz Bescheid geben, falls Du ab hier mitfahren möchtest.</p>
-          </div>
-        </div>
-      </div>
-      <div class="panel panel-default">
-        <div class="panel-heading" role="tab" id="headingPliezhausen">
-          <h4 class="panel-title">
-            <a class="collapsed" data-toggle="collapse" data-parent="#accordionLeft" href="#collapsePliezhausen"
-               aria-expanded="false" aria-controls="collapsePliezhausen">
-              <strong>Pliezhausen</strong>, Neckartal, L 378
-              <span class="label label-primary" style="float:right;"><span class="fa fa-clock-o"></span> 17:20 Uhr</span>
-            </a>
-          </h4>
-        </div>
-        <div id="collapsePliezhausen" class="panel-collapse collapse" role="tabpanel"
-             aria-labelledby="headingPliezhausen">
-          <div class="panel-body">
-            <p>Bitte kurz Bescheid geben, falls Du ab hier mitfahren möchtest.</p>
-          </div>
-        </div>
-      </div>
-      <div class="panel panel-default">
-        <div class="panel-heading" role="tab" id="headingReutlingen">
-          <h4 class="panel-title">
-            <a class="collapsed" data-toggle="collapse" data-parent="#accordionLeft" href="#collapseReutlingen"
-               aria-expanded="false" aria-controls="collapseReutlingen">
-              <strong>Reutlingen</strong>, Stadthalle
-              <span class="label label-primary" style="float:right;"><span class="fa fa-clock-o"></span> 18:00 Uhr</span>
-            </a>
-          </h4>
-        </div>
-        <div id="collapseReutlingen" class="panel-collapse collapse" role="tabpanel"
-             aria-labelledby="headingReutlingen">
-          <div class="panel-body">
-            <p>Viel Spaß bei der CM Reutlingen!</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
 
-  <div class="col-md-6">
+{% include meeting-point-open.html group="Left" id="Vaihingen" place="Stuttgart-Vaihingen" point="Reisezentrum Bahnhof" time="15:30 Uhr" expanded="true" %}
+Bitte kurz Bescheid geben, falls Du ab hier mitfahren möchtest.
+{% include meeting-point-image.html url="/images/vaihingen-bahnhof-small.jpg" alt="Treffpunkt Reisezentrum Bahnhof in Stuttgart-Vaihingen" %}
+{% include meeting-point-close.html %}
+
+{% include meeting-point-open.html group="Left" id="Burkhardtsmuehle" place="Burkhardtsmühle" point="Parkplatz" time="16:10 Uhr" %}
+Bitte kurz Bescheid geben, falls Du ab hier mitfahren möchtest.
+{% include meeting-point-close.html %}
+
+{% include meeting-point-open.html group="Left" id="Neckartailfingen" place="Neckartailfingen" point="Tübinger Straße" time="16:40 Uhr" %}
+Bitte kurz Bescheid geben, falls Du ab hier mitfahren möchtest.
+{% include meeting-point-close.html %}
+
+{% include meeting-point-open.html group="Left" id="Pliezhausen" place="Pliezhausen" point="Neckartal, L 378" time="17:20 Uhr" %}
+Bitte kurz Bescheid geben, falls Du ab hier mitfahren möchtest.
+{% include meeting-point-close.html %}
+
+{% include meeting-point-open.html group="Left" id="Reutlingen" place="Reutlingen" point="Stadthalle" time="18:00 Uhr" %}
+Viel Spaß bei der CM Reutlingen!
+{% include meeting-point-close.html %}
+
+    </div>
+  </div><!-- /Aus Stuttgart -->
+
+  <div class="col-xs-12 col-md-6">
     <h4>Aus Herrenberg</h4>
     <div class="panel-group" id="accordionRight" role="tablist" aria-multiselectable="true">
-      <div class="panel panel-default">
-        <div class="panel-heading" role="tab" id="headingHerrenberg">
-          <h4 class="panel-title">
-            <a data-toggle="collapse" data-parent="#accordionRight" href="#collapseHerrenberg"
-               aria-expanded="true" aria-controls="collapseHerrenberg">
-              <strong>Herrenberg</strong>, Auf dem Graben
-              <span class="label label-primary" style="float:right;"><span class="fa fa-clock-o"></span> 15:00 Uhr</span>
-            </a>
-          </h4>
-        </div>
-        <div id="collapseHerrenberg" class="panel-collapse collapse in" role="tabpanel"
-             aria-labelledby="headingHerrenberg">
-          <div class="panel-body">
-            <p>Bitte kurz Bescheid geben, falls Du ab hier mitfahren möchtest.</p>
-            <p>Mehr dazu leider nur bei
-            <a href="https://www.facebook.com/events/380528542119050/"
-            target="_blank">Facebook</a>.</p>
-          </div>
-        </div>
-      </div>
-      <div class="panel panel-default">
-        <div class="panel-heading" role="tab" id="headingReutlingen2">
-          <h4 class="panel-title">
-            <a class="collapsed" data-toggle="collapse" data-parent="#accordionRight" href="#collapseReutlingen2"
-               aria-expanded="false" aria-controls="collapseReutlingen2">
-              <strong>Reutlingen</strong>, Stadthalle
-              <span class="label label-primary" style="float:right;"><span class="fa fa-clock-o"></span> 18:00 Uhr</span>
-            </a>
-          </h4>
-        </div>
-        <div id="collapseReutlingen2" class="panel-collapse collapse" role="tabpanel"
-             aria-labelledby="headingReutlingen2">
-          <div class="panel-body">
-            <p>Viel Spaß bei der CM Reutlingen!</p>
-          </div>
-        </div>
-      </div>
+
+{% include meeting-point-open.html group="Right" id="Herrenberg" place="Herrenberg" point="Auf dem Graben" time="15:00 Uhr" expanded="true" %}
+Bitte kurz Bescheid geben, falls Du ab hier mitfahren möchtest.
+
+Mehr dazu leider nur bei <a href="https://www.facebook.com/events/380528542119050/" target="_blank">Facebook</a>.
+{% include meeting-point-close.html %}
+
+{% include meeting-point-open.html group="Right" id="Reutlingen2" place="Reutlingen" point="Stadthalle" time="18:00 Uhr" %}
+Viel Spaß bei der CM Reutlingen!
+{% include meeting-point-close.html %}
+
     </div>
-  </div>
+  </div><!-- /Aus Herrenberg -->
 </div>
 
 

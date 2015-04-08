@@ -18,67 +18,21 @@ Mehr Informationen dazu findet man unter anderem beim [Friedensnetz Baden-Württ
     <h4>Zu den Patch Barracks</h4>
     <div class="panel-group" id="accordionOne" role="tablist" aria-multiselectable="true">
 
-      <!-- Marienplatz -->
-      <div class="panel panel-default">
-        <div class="panel-heading" role="tab" id="headingMarienplatzOne">
-          <h4 class="panel-title">
-            <a data-toggle="collapse" data-parent="#accordionOne" href="#collapseMarienplatzOne"
-               aria-expanded="true" aria-controls="collapseMarienplatzOne">
-              <strong>Stuttgart-Süd</strong>, Marienplatz
-              <span class="label label-primary" style="float:right;"><span class="fa fa-clock-o"></span> 10:30 Uhr</span>
-            </a>
-          </h4>
-        </div>
-        <div id="collapseMarienplatzOne" class="panel-collapse collapse in" role="tabpanel"
-             aria-labelledby="headingMarienplatzOne">
-          <div class="panel-body" markdown="block">
+{% include meeting-point-open.html group="One" id="MarienplatzOne" place="Stuttgart-Süd" point="Marienplatz" time="10:30 Uhr" expanded="true" %}
 Der Treffpunkt liegt an der Ecke Tübinger Straße.
 
-<img src="{{ "/images/marienplatz-small.jpg" | prepend: site.baseurl }}"
-     alt="Treffpunkt Marienplatz"
-     class="img-rounded" style="width:100%;">
-</div>
-        </div>
-      </div>
+{% include meeting-point-image.html url="/images/marienplatz-small.jpg" alt="Treffpunkt Marienplatz" %}
+{% include meeting-point-close.html %}
 
-      <!-- S-Vaihingen -->
-      <div class="panel panel-default">
-        <div class="panel-heading" role="tab" id="headingVaihingen">
-          <h4 class="panel-title">
-            <a class="collapsed" data-toggle="collapse" data-parent="#accordionOne" href="#collapseVaihingen"
-               aria-expanded="false" aria-controls="collapseVaihingen">
-              <strong>S-Vaihingen</strong>, Vaihinger Markt
-              <span class="label label-primary" style="float:right;"><span class="fa fa-clock-o"></span> 11:20 Uhr</span>
-            </a>
-          </h4>
-        </div>
-        <div id="collapseVaihingen" class="panel-collapse collapse" role="tabpanel"
-             aria-labelledby="headingVaihingen">
-          <div class="panel-body" markdown="block">
+{% include meeting-point-open.html group="One" id="Vaihingen" place="S-Vaihingen" point="Vaihinger Markt" time="11:20 Uhr" %}
 Der Treffpunkt liegt bei der Fußgängerampel vor der Schwabengalerie.
-</div>
-        </div>
-      </div>
+{% include meeting-point-close.html %}
 
-      <!-- Patch-Barracks -->
-      <div class="panel panel-default">
-        <div class="panel-heading" role="tab" id="headingPatchBarracks">
-          <h4 class="panel-title">
-            <a class="collapsed" data-toggle="collapse" data-parent="#accordionOne" href="#collapsePatchBarracks"
-               aria-expanded="false" aria-controls="collapsePatchBarracks">
-              <strong>S-Vaihingen</strong>, Patch Barracks
-              <span class="label label-primary" style="float:right;"><span class="fa fa-clock-o"></span> 11:30 Uhr</span>
-            </a>
-          </h4>
-        </div>
-        <div id="collapsePatchBarracks" class="panel-collapse collapse" role="tabpanel"
-             aria-labelledby="headingPatchBarracks">
-          <div class="panel-body" markdown="block">
+{% include meeting-point-open.html group="One" id="PatchBarracks" place="S-Vaihingen" point="Patch Barracks" time="11:30 Uhr" %}
 Wir werden gegen 11:30&nbsp;Uhr hier eintreffen.  Um 12:00&nbsp;Uhr
 findet die Auftaktkundgebung statt.
-</div>
-        </div>
-      </div>
+{% include meeting-point-close.html %}
+
     </div>
   </div>
 
@@ -86,73 +40,25 @@ findet die Auftaktkundgebung statt.
   <h4>Zu den Innenstadt-Kundgebungen</h4>
     <div class="panel-group" id="accordionTwo" role="tablist" aria-multiselectable="true">
 
-      <!-- S-Vaihingen-Bhf -->
-      <div class="panel panel-default">
-        <div class="panel-heading" role="tab" id="headingVaihingenBhf">
-          <h4 class="panel-title">
-            <a data-toggle="collapse" data-parent="#accordionTwo" href="#collapseVaihingenBhf"
-               aria-expanded="true" aria-controls="collapseVaihingenBhf">
-              <strong>S-Vaihingen</strong>, Reisezentrum Bahnhof
-              <span class="label label-primary" style="float:right;"><span class="fa fa-clock-o"></span> ca. 13:00 Uhr</span>
-            </a>
-          </h4>
-        </div>
-        <div id="collapseVaihingenBhf" class="panel-collapse collapse in" role="tabpanel"
-             aria-labelledby="headingVaihingenBhf">
-          <div class="panel-body" markdown="block">
+{% include meeting-point-open.html group="Two" id="VaihingenBhf" place="S-Vaihingen" point="Reisezentrum Bahnhof" time="ca. 13:00 Uhr" expanded="true" %}
 Nachdem der Demozug am Bahnhof S-Vaihingen eingetroffen ist, treffen
 wir uns an der Litfaßsäule am Reisezentrum und radeln anschließend
 gemeinsam zur Kundgebung in der Innenstadt.
 
-<img src="{{ "/images/vaihingen-bahnhof.jpg" | prepend: site.baseurl }}"
-     alt="Treffpunkt Reisezentrum Bahnhof in Stuttgart-Vaihingen"
-     class="img-rounded" style="width:100%;">
-</div>
-        </div>
-      </div>
+{% include meeting-point-image.html url="/images/vaihingen-bahnhof-small.jpg" alt="Treffpunkt Reisezentrum Bahnhof in Stuttgart-Vaihingen" %}
+{% include meeting-point-close.html %}
 
-      <!-- Marienplatz -->
-      <div class="panel panel-default">
-        <div class="panel-heading" role="tab" id="headingMarienplatzTwo">
-          <h4 class="panel-title">
-            <a class="collapsed" data-toggle="collapse" data-parent="#accordionTwo" href="#collapseMarienplatzTwo"
-               aria-expanded="false" aria-controls="collapseMarienplatzTwo">
-              <strong>Stuttgart-Süd</strong>, Marienplatz
-              <span class="label label-primary" style="float:right;"><span class="fa fa-clock-o"></span> 13:30 Uhr</span>
-            </a>
-          </h4>
-        </div>
-        <div id="collapseMarienplatzTwo" class="panel-collapse collapse" role="tabpanel"
-             aria-labelledby="headingMarienplatzTwo">
-          <div class="panel-body" markdown="block">
+{% include meeting-point-open.html group="Two" id="MarienplatzTwo" place="Stuttgart-Süd" point="Marienplatz" time="13:30 Uhr" %}
 Der Treffpunkt liegt an der Ecke Tübinger Straße.
 
-<img src="{{ "/images/marienplatz-small.jpg" | prepend: site.baseurl }}"
-     alt="Treffpunkt Marienplatz"
-     class="img-rounded" style="width:100%;">
-</div>
-        </div>
-      </div>
+{% include meeting-point-image.html url="/images/marienplatz-small.jpg" alt="Treffpunkt Marienplatz" %}
+{% include meeting-point-close.html %}
 
-      <!-- Lautenschlagerstraße -->
-      <div class="panel panel-default">
-        <div class="panel-heading" role="tab" id="headingMineralbaeder">
-          <h4 class="panel-title">
-            <a class="collapsed" data-toggle="collapse" data-parent="#accordionTwo" href="#collapseMineralbaeder"
-               aria-expanded="false" aria-controls="collapseMineralbaeder">
-              <strong>Stuttgart-Mitte</strong>, Lautenschlagerstraße
-              <span class="label label-primary" style="float:right;"><span class="fa fa-clock-o"></span> 13:45 Uhr</span>
-            </a>
-          </h4>
-        </div>
-        <div id="collapseMineralbaeder" class="panel-collapse collapse" role="tabpanel"
-             aria-labelledby="headingMineralbaeder">
-          <div class="panel-body" markdown="block">
+{% include meeting-point-open.html group="Two" id="Lautenschlagerstrasse" place="Stuttgart-Mitte" point="Lautenschlagerstraße" time="13:45 Uhr" %}
 Wir werden gegen 13:45&nbsp;Uhr hier eintreffen.  Die Kundgebung
 beginnt um 14:00&nbsp;Uhr.
-</div>
-        </div>
-      </div>
+{% include meeting-point-close.html %}
+
     </div>
   </div>
 </div>
