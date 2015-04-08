@@ -4,7 +4,7 @@ title: Links
 permalink: /links/
 ---
 
-## In der Region
+## In und um Stuttgart
 
 <div class="row">
 <div class="col-xs-12 col-md-4" markdown="block">
@@ -32,44 +32,25 @@ permalink: /links/
 - [Carla Cargo][CarlaCargo]{:target="_blank"}, ein Fahrradanhängerkonzept
 - [Lastenrad Stuttgart][LastenradStuttgart]{:target="_blank"}
 - [Stuttgart Fixed Gear][StuttgartFixedGear]{:target="_blank"}
-
-
-### Sport
-
-- [Cobble Hoppel][CobbleHoppel]{:target="_blank"}, Bergsprint-Einzelzeitfahren in Marbach am Neckar
-- [Bikepolo Stuttgart][BikepoloStuttgart]{:target="_blank"}
 </div>
 
 
 <div class="col-xs-12 col-md-4" markdown="block">
-### Critical Mass
+### Sport
 
-**1. Freitag im Monat**
+- [Cobble Hoppel][CobbleHoppel]{:target="_blank"}, Bergsprint-Einzelzeitfahren in Marbach am Neckar
+- [Bikepolo Stuttgart][BikepoloStuttgart]{:target="_blank"}
 
-- [Stuttgart][CM-Stuttgart]{:target="_blank"}
-- [Heilbronn][CM-Heilbronn]{:target="_blank"}
+### Radsportvereine
 
-**2. Freitag im Monat**
-
-- [Herrenberg][CM-Herrenberg]{:target="_blank"}
-- [Ludwigsburg][CM-Ludwigsburg]{:target="_blank"}
-
-**3. Freitag im Monat**
-
-- [Esslingen][CM-Esslingen]{:target="_blank"} (in Entstehung)
-
-**Letzter Freitag im Monat**
-
-- [Reutlingen][CM-Reutlingen]{:target="_blank"}
-- [Böblingen][CM-Boeblingen]{:target="_blank"}
-- [Heidenheim][CM-Heidenheim]{:target="_blank"}
-
-**Derzeit nicht aktiv**
-
-- [Freudenstadt][CM-Freudenstadt]{:target="_blank"}
-- [Pforzheim][CM-Pforzheim]{:target="_blank"}
+- [RTC Stuttgart][RTC-Stuttgart]{:target="_blank"} <small>(Rad-Touristik-Club Stuttgart 1980 e.&nbsp;V.)</small>
+- [1.&nbsp;RV Stuttgardia Stuttgart][RV Stuttgardia]{:target="_blank"} <small>(Erster Radfahrer Verein Stuttgardia Stuttgart 1886 e.&nbsp;V.)</small>
+- [RSV Stuttgart-Vaihingen][RSV-Vaihingen]{:target="_blank"} <small>(Radsportverein Stuttgart-Vaihingen e.&nbsp;V.)</small>
+- [RSC Komet Ludwigsburg][Komet-Ludwigsburg]{:target="_blank"}
+- [RKV Neuhausen][RKV-Neuhausen]{:target="_blank"} <small>(Rad- und Kraftfahrerverein Neuhausen auf den Fildern e.&nbsp;V.)</small>
+- [RV Pfeil Tübingen][RV-Pfeil-Tuebingen]{:target="_blank"}
+- [Radsportbezirk Schönbuch-Würmtal e.&nbsp;V.][Radsportbezirk-BB]{:target="_blank"} <small>(Mit 24 Mitgliedsvereinen in den Radsportkreisen Böblingen und Calw)</small>
 </div>
-
 
 <div class="col-xs-12 col-md-4" markdown="block">
 ### Karten
@@ -87,6 +68,42 @@ permalink: /links/
 - [Rad Kultur BW][Radkultur-BW]{:target="_blank"}
 - [Radroutenplaner BW][Radroutenplaner-BW]{:target="_blank"}
 - [Nationaler Radverkehrsplan][NatRadverkehrsplan]{:target="_blank"}
+</div>
+</div>
+
+
+
+<div class="row">
+<div class="col-xs-12" markdown="block">
+### Critical Mass
+</div>
+<div class="col-xs-12 col-md-4" markdown="block">
+#### 1. Freitag im Monat
+
+- [Stuttgart][CM-Stuttgart]{:target="_blank"}
+- [Heilbronn][CM-Heilbronn]{:target="_blank"}
+
+#### 2. Freitag im Monat
+
+- [Herrenberg][CM-Herrenberg]{:target="_blank"}
+- [Ludwigsburg][CM-Ludwigsburg]{:target="_blank"}
+</div>
+<div class="col-xs-12 col-md-4" markdown="block">
+#### 3. Freitag im Monat
+
+- [Esslingen][CM-Esslingen]{:target="_blank"} (in Entstehung)
+
+#### Letzter Freitag im Monat
+
+- [Reutlingen][CM-Reutlingen]{:target="_blank"}
+- [Böblingen][CM-Boeblingen]{:target="_blank"}
+- [Heidenheim][CM-Heidenheim]{:target="_blank"}
+</div>
+<div class="col-xs-12 col-md-4" markdown="block">
+#### Derzeit nicht aktiv
+
+- [Freudenstadt][CM-Freudenstadt]{:target="_blank"}
+- [Pforzheim][CM-Pforzheim]{:target="_blank"}
 </div>
 </div>
 
@@ -126,17 +143,13 @@ permalink: /links/
 [CobbleHoppel]:       http://www.3komma8.de/content/events/cobbleHoppel.html
 [BikepoloStuttgart]:  http://www.bikepolo-stuttgart.de/
 
-
-[CM-Stuttgart]:       https://criticalmassstuttgart.wordpress.com/
-[CM-Heilbronn]:       https://criticalmassheilbronn.wordpress.com/
-[CM-Herrenberg]:      https://criticalmassherrenberg.wordpress.com/
-[CM-Ludwigsburg]:     http://www.ludwigsburg-besser-unterwegs.de/
-[CM-Esslingen]:       https://criticalmassesslingen.wordpress.com/
-[CM-Reutlingen]:      https://criticalmassreutlingen.wordpress.com/
-[CM-Boeblingen]:      http://www.radeln-in-bb.de/criticalmass/
-[CM-Heidenheim]:      https://www.facebook.com/pages/Critical-Mass-Heidenheim/460201734115062
-[CM-Freudenstadt]:    https://www.facebook.com/pages/Critical-Mass-Freudenstadt/251366075070168
-[CM-Pforzheim]:       https://criticalmasspf.wordpress.com/
+[RTC-Stuttgart]:      http://www.rtc-stuttgart.de/
+[RV Stuttgardia]:     http://www.1rv-stuttgardia.de/
+[RSV-Vaihingen]:      http://www.rsv-vaihingen.de/
+[Komet-Ludwigsburg]:  http://www.rsc-komet.de/
+[RKV-Neuhausen]:      http://www.rkv-neuhausen.de/
+[RV-Pfeil-Tuebingen]: http://www.rvpfeil-tuebingen.de/
+[Radsportbezirk-BB]:  http://www.radsportbezirk.de/
 
 [Fahrradlaeden]:      http://overpass-turbo.eu/s/7I2
 [Radfahrendenkarte]:  http://www.openstreetmap.org/#map=10/48.7766/9.1832&layers=C
@@ -148,6 +161,17 @@ permalink: /links/
 [Radkultur-BW]:       http://radkultur-bw.de/
 [Radroutenplaner-BW]: http://www.radroutenplaner-bw.de/
 [NatRadverkehrsplan]: http://www.nationaler-radverkehrsplan.de/
+
+[CM-Stuttgart]:       https://criticalmassstuttgart.wordpress.com/
+[CM-Heilbronn]:       https://criticalmassheilbronn.wordpress.com/
+[CM-Herrenberg]:      https://criticalmassherrenberg.wordpress.com/
+[CM-Ludwigsburg]:     http://www.ludwigsburg-besser-unterwegs.de/
+[CM-Esslingen]:       https://criticalmassesslingen.wordpress.com/
+[CM-Reutlingen]:      https://criticalmassreutlingen.wordpress.com/
+[CM-Boeblingen]:      http://www.radeln-in-bb.de/criticalmass/
+[CM-Heidenheim]:      https://www.facebook.com/pages/Critical-Mass-Heidenheim/460201734115062
+[CM-Freudenstadt]:    https://www.facebook.com/pages/Critical-Mass-Freudenstadt/251366075070168
+[CM-Pforzheim]:       https://criticalmasspf.wordpress.com/
 
 [ClevereStadte]:      http://www.clevere-staedte.de/
 [UrbanistMagazin]:    http://www.urbanist-magazin.de/
