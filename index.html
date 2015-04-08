@@ -13,6 +13,7 @@ layout: default
 </div>
 
 <div class="row">
+  <!-- Description -->
   <div class="col-xs-12">
     <h3>
       <span class="fa fa-question-circle"></span>
@@ -27,10 +28,12 @@ layout: default
     desto sicherer wird es (Safety in Numbers).</p>
   </div>
 
+  <!-- MitRadGelegenheiten -->
   <div class="col-xs-12 col-md-6">
     <h3>
       <span class="fa fa-calendar"></span>
-      MitRadGelegenheiten
+      MitRadGelegenheiten<br>
+      <small>Einmalige, jährliche und monatliche Fahrten.</small>
     </h3>
     <ul>
       {% assign posts = site.categories.mitradgelegenheit | sort: 'date'  %}
@@ -55,7 +58,31 @@ layout: default
     </p>
   </div>
 
+  <!-- MitRadPendeln -->
   <div class="col-xs-12 col-md-6">
+    <h3>
+      <span class="fa fa-exchange"></span>
+      MitRadPendeln<br>
+      <small>Tägliche und wöchentliche Fahrten.</small>
+    </h3>
+    <ul>
+      {% for post in site.categories.mitradpendeln | sort: 'date' | reverse %}
+        <li>
+          <h4>
+            <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+	    {% if post.date >= site.time %}
+              <small>ab {{ post.date | date: "%d.%m.%Y" }}</small>
+            {% else %}
+              <small>seit {{ post.date | date: "%d.%m.%Y" }}</small>
+            {% endif %}
+          </h4>
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+
+  <!-- Blog -->
+  <div class="col-xs-12">
     <h3>
       <span class="fa fa-newspaper-o"></span>
       Neuigkeiten

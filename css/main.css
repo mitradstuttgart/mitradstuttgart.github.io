@@ -68,3 +68,9 @@ svg {
     stroke: #000;
     shape-rendering: crispEdges;
 }
+
+dd {
+    display: block;
+    margin-left: 20px;
+    margin-bottom: 15px;
+}
