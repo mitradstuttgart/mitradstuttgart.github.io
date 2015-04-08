@@ -6,7 +6,7 @@ date:   2015-04-01 17:30:00
 categories: blog
 ---
 
-Gegründet im Februar 2015 stellte der März den ersten richtig aktiven Monat für MitRadStuttgart gar.  Ging es im Februar noch um Absprachen mit anderen Initiativen und Streckenplanungen, standen im März die ersten MitRadGelegenheiten an.  Genau genommen ging es allerding schon Ende Februar mit der Fahrt zur Critical Mass Reutlingen los.
+Gegründet im Februar 2015 stellte der März den ersten richtig aktiven Monat für MitRadStuttgart dar.  Ging es im Februar noch um Absprachen mit anderen Initiativen und Streckenplanungen, standen im März die ersten MitRadGelegenheiten an.  Genau genommen ging es allerding schon Ende Februar mit der Fahrt zur Critical Mass Reutlingen los.
 
 
 ## Die MitRadGelegenheiten im März
