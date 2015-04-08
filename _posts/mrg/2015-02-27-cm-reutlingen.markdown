@@ -157,29 +157,9 @@ Es geht zur [Critical Mass Reutlingen][CM-Reutlingen]{:target="_blank"}.  Start 
 
 ### Karte
 
-Per Klick auf die Treffpunkte und Wegstrecken lassen sich Details dazu aufrufen.  Die Angaben stellen nur Vorhaben dar und sind ohne Gewähr.
-
-Informationen zur Strecke aus Herrenberg liegen derzeit leider nicht vor.
+{% include map.html %}
 
 <div id="mitradmap" style="width:100%; height: 100px;"></div>
-<!--
-<div style="width:100%">
-  <div style="width:50%; float: left;">
-    <a type="button" class="btn btn-primary" target="_blank"
-       style="width:100%; border-top-left-radius:0px; border-top-right-radius:0px;"
-       href="http://geojson.io/#data=data:text/x-url,http%3A%2F%2Fgithub-raw-cors-proxy.herokuapp.com%2Fmitradstuttgart%2Fmitradstuttgart.github.io%2Fmaster%2Fmaps%2Fcritical-mass%2Fstuttgart.geojson">
-      Edit on geojson.io
-    </a>
-  </div>
-  <div style="width:50%; float: right;">
-    <a type="button" class="btn btn-primary" target="_blank"
-       style="width:100%; border-top-left-radius:0px; border-top-right-radius:0px;"
-       href="https://github.com/mitradstuttgart/mitradstuttgart.github.io/blob/master/maps/critical-mass/stuttgart.geojson">
-      View on Github
-    </a>
-  </div>
-</div>
--->
 
 <script>
   $(document).ready(function(){

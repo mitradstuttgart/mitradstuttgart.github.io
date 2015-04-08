@@ -177,9 +177,7 @@ zwölf hier einzutreffen.
 
 ### Karte
 
-Den Weg und die Zustiegsmöglichkeiten gibt es auch auf einer Karte.  Zu beachten ist dabei jedoch, dass der Weg nur ein Vorhaben darstellt und unterwegs davon abgewichen werden kann.  Wer sicher auf die Gruppe treffen möchte begibt sich entweder zu einem der Treffpunkte oder äußert den Wunsch nach weiteren Zustiegsmöglichkeiten.  Das kann man beispielsweise auf dieser Seite durch einen Kommentar erledigen.
-
-Per Klick auf die Treffpunkte und Wegstrecken lassen sich Details dazu aufrufen.
+{% include map.html %}
 
 <div id="mitradmap" style="width:100%; height: 100px;"></div>
 
