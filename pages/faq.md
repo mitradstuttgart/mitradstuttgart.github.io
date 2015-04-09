@@ -5,13 +5,23 @@ permalink: /faq/
 ---
 
 
+Was sind MitRadGelegenheiten?
+
+: Viele Menschen fahren mit dem Fahrrad zur Arbeit, Universität, Schule, Ausbildungsstätte, zum Einkaufen, zu Veranstaltungen, Konzerten, Vorträgen, Konferenzen, …. Bei MitRadGelegenheiten geht es darum, sich bei solchen Fahrten zusammenzuschließen und sie gemeinsam und sicher zu bewältigen. Gemeinsam fährt es sich sicherer und je mehr Menschen radfahren, desto sicherer wird es (Safety in Numbers).
+
+: Das Konzept der MitRadGelegenheiten stammt von der [BUNDjugend Berlin][MRG-Org]{:target="_blank"}.
+
+
+
+
 Wie kann ich beitragen?
 
 : Diese Seite wird bei [Github][Github]{:target="_blank"} gehostet.  Dort kann sie ähnlich einem Wiki bearbeitet werden.  Die Änderungen fließen dabei allerdings nicht direkt ein, sondern müssen erst gesichtet werden.  Alles was dafür notwendig ist, ist ein kostenloser [Account][JoinGithub]{:target="_blank"} bei Github.
 
-: Anregungen zum Erstellen eines Beitrags findet man beispielsweise im [Quelltext unseres ersten Artikels][Quelltextbeispiel]{:target="_blank"}.
+: Anregungen zum Erstellen eines Beitrags findet man beispielsweise im [Quelltext bei Github][Quelltextbeispiel]{:target="_blank"}.
 
 : Wer sich das nicht zutraut oder Hilfe benötigt, kann natürlich auch gerne per E-Mail, Twitter oder Facebook Kontakt mit uns aufnehmen.
+
 
 
 
@@ -25,9 +35,11 @@ Fahren im Verband
 
 
 
+
+[MRG-Org]:           http://mitradgelegenheit.org/
 [Github]:            https://github.com/
 [JoinGithub]:        https://github.com/join
-[Quelltextbeispiel]: https://github.com/mitradstuttgart/mitradstuttgart.github.io/edit/master/_posts/2015-02-17-erste-mitradgelegenheit.markdown
+[Quelltextbeispiel]: https://raw.githubusercontent.com/mitradstuttgart/mitradstuttgart.github.io/master/_posts/mrg/2015-03-27-cm-boeblingen.markdown
 [WP:Verband]:        https://de.wikipedia.org/wiki/Verband_%28Stra%C3%9Fenverkehr%29
 [27StVO]:            http://www.gesetze-im-internet.de/stvo_2013/__27.html
 [29StVO]:            http://www.gesetze-im-internet.de/stvo_2013/__29.html
