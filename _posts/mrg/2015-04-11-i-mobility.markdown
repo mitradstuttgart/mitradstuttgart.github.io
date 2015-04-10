@@ -19,6 +19,17 @@ Parallel finden [weitere Messen][Weitere-Messen]{:target="_blank"} statt:
 - [Mineralien, Fossilien, Schmuck][Mineralien]{:target="_blank"}
 
 
+<div class="panel panel-info">
+  <div class="panel-heading">
+    <h3 class="panel-title">Hinweis</h3>
+  </div>
+  <div class="panel-body">
+    <p>Wir haben ca. 30 Freikarten zur Verteilung an die
+    MitradlerInnen bekommen.</p>
+  </div>
+</div>
+
+
 ### Zustiegsmöglichkeiten
 
 <div class="row">
