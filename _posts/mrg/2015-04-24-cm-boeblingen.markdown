@@ -6,12 +6,12 @@ categories: mitradgelegenheit
 facebook-event: https://www.facebook.com/events/973501756016576/
 ---
 
-Am 24.&nbsp;April gibt es wieder eine MitRadGelegenheit aus Stuttgart-Vaihingen und möglicherweise auch aus Herrenberg zur [Critical Mass Böblingen][CM-Boeblingen]{:target="_blank"}.  Nachdem im März die erste Critical Mass in diesem Jahr auf 22&nbsp;Teilnehmende kam, gilt es jetzt sich weiter in Richtung des bisherigen Rekords von 57&nbsp;Radfahrenden zu vergrößern.  Der Radaktionstag des Landkreises Böblingen am 19.&nbsp;April und das sonnige Wetter bieten die optimalen Voraussetzungen dafür.
+Am 24.&nbsp;April gibt es wieder MitRadGelegenheiten aus Stuttgart-Vaihingen und Herrenberg zur [Critical Mass Böblingen][CM-Boeblingen]{:target="_blank"}.  Nachdem im März die erste Critical Mass in diesem Jahr auf 22&nbsp;Teilnehmende kam, gilt es jetzt sich weiter in Richtung des bisherigen Rekords von 57&nbsp;Radfahrenden zu vergrößern.  Der Radaktionstag des Landkreises Böblingen am 19.&nbsp;April und das sonnige Wetter bieten die optimalen Voraussetzungen dafür.
 
 ### Zustiegsmöglichkeiten
 
 <div class="row">
-  <div class="col-xs-12">
+  <div class="col-md-6">
   <h4>Aus Stuttgart</h4>
     <div class="panel-group" id="accordionOne" role="tablist" aria-multiselectable="true">
 
@@ -41,6 +41,34 @@ wir dort eintreffen hängt von unseren Kräften ab.
 {% include meeting-point-open.html group="One" id="Boeblingen" place="Böblingen" point="Elbenplatz" time="17:00 Uhr" %}
 Hier startet die CM Böblingen.
 {% include meeting-point-close.html %}
+
+    </div>
+  </div>
+
+  <div class="col-md-6">
+  <h4>Aus Herrenberg</h4>
+    <div class="panel-group" id="accordionTwo" role="tablist" aria-multiselectable="true">
+
+{% include meeting-point-open.html group="Two" id="Herrenberg" place="Herrenberg" point="Marktplatz" time="15:30 Uhr" expanded="true" %}
+**Achtung:** Anders als die Critical Mass, startet die
+MitRadGelegenheit am Marktplatz in Herrenberg.
+{% include meeting-point-close.html %}
+
+{% include meeting-point-open.html group="Two" id="Nufringen" place="Nufringen" point="Rathaus" time="15:50 Uhr" %}
+Wer möchte, kann sich hier der MitRadGelegenheit anschließen.
+{% include meeting-point-close.html %}
+
+{% include meeting-point-open.html group="Two" id="Gaertringen" place="Gärtringen" point="Bahnhof" time="16:05 Uhr" %}
+Wer möchte, kann sich hier der MitRadGelegenheit anschließen.
+{% include meeting-point-close.html %}
+
+{% include meeting-point-open.html group="Two" id="Ehningen" place="Ehningen" point="Königstraße" time="16:20 Uhr" %}
+Wer möchte, kann sich hier der MitRadGelegenheit anschließen.
+{% include meeting-point-close.html %}
+
+{% include meeting-point-open.html group="Two" id="Boeblingen" place="Böblingen" point="Elbenplatz" time="17:00 Uhr" %}
+Hier startet die CM Böblingen.
+{% include meeting-point-close.html %}
     </div>
   </div>
 </div>
@@ -57,7 +85,7 @@ Hier startet die CM Böblingen.
     makeMap(
       "/maps/critical-mass/boeblingen-2015-04-24.geojson",
       "mitradmap",
-      ["S-Vaihingen", "Critical Mass Böblingen"]
+      ["S-Vaihingen/Herrenberg", "Critical Mass Böblingen"]
     );
   });
 </script>
