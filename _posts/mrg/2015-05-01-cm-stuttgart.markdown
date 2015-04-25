@@ -259,6 +259,9 @@ Ungefähr gegenüber der Frösnerstraße.
 
 {% include meeting-point-open.html group="Two" id="Mineralbaeder" place="Stuttgart-Ost" point="U-Mineralbäder" time="18:00 Uhr" %}
 Der Treffpunkt liegt auf der Nordseite der U-Bahnhaltestelle.
+
+Hier erfolgt der Zusammenschluss mit der Gruppe aus Richtung
+Esslingen.
 {% include meeting-point-close.html %}
 
 {% include meeting-point-open.html group="Two" id="Rathaus" place="Stuttgart-Mitte" point="Rathaus <small>(Ecke Münzstraße)</small>" time="18:20 Uhr" %}
@@ -266,7 +269,7 @@ Der letzte Zustiegspunkt liegt beim Rathaus, genauer auf dem
 Marktplatz an der Münzstraße.
 
 Hier erfolgt der Zusammenschluss mit der Gruppe aus Richtung
-Esslingen.
+Wangen.
 {% include meeting-point-close.html %}
 
 {% include meeting-point-open.html group="Two" id="FeuerseeTwo" place="Stuttgart" point="Feuersee" time="18:30 Uhr" %}
@@ -279,50 +282,37 @@ bleibt auch noch die Gelegenheit sich zu unterhalten.
     </div>
   </div>
 
-  <div class="clearfix"></div>
-
   <div class="col-md-6">
-  <h3>Aus Esslingen/Wangen/Stuttgart-Ost</h3>
+  <h3>Aus Esslingen</h3>
     <div class="panel-group" id="accordionThree" role="tablist" aria-multiselectable="true">
 
-{% include meeting-point-open.html group="Three" id="Esslingen" place="Esslingen am Neckar" point="Bahnhofsvorplatz" time="17:00 Uhr" expanded="true" %}
+{% include meeting-point-open.html group="Three" id="Esslingen" place="Esslingen am Neckar" point="Bahnhofsvorplatz" time="17:05 Uhr" expanded="true" %}
 Der Treffpunkt liegt auf dem Bahnhofsvorplatz bei dem
 [Sammelplatz für Evakuierungen][Sammelplatz]{:target="_blank"}
 (siehe Photo).
 {% include meeting-point-close.html %}
 
-{% include meeting-point-open.html group="Three" id="Mettingen" place="Esslingen-Mettingen" point="Liebfrauenkirche" time="17:15 Uhr" %}
+{% include meeting-point-open.html group="Three" id="Mettingen" place="Esslingen-Mettingen" point="Liebfrauenkirche" time="17:20 Uhr" %}
 Der Treffpunkt liegt in der Schenkenbergstraße auf Höhe der
 Liebfrauenkirche.
 {% include meeting-point-close.html %}
 
-{% include meeting-point-open.html group="Three" id="Obertuerkheim" place="Obertürkheim" point="Bezirksrathaus" time="17:25 Uhr" %}
+{% include meeting-point-open.html group="Three" id="Obertuerkheim" place="Obertürkheim" point="Bezirksrathaus" time="17:30 Uhr" %}
 Der Treffpunkt liegt in der Augsburger Straße auf Höhe des
 Bezirksrathauses.
 {% include meeting-point-close.html %}
 
-{% include meeting-point-open.html group="Three" id="Untertuerkheim" place="Untertürkheim" point="Bahnhof <small>(Skateanlage)</small>" time="17:35 Uhr" %}
+{% include meeting-point-open.html group="Three" id="Untertuerkheim" place="Untertürkheim" point="Bahnhof <small>(Skateanlage)</small>" time="17:40 Uhr" %}
 Der Treffpunkt liegt bei der Skateanlage auf dem Platz vor dem
 Bahnhof.
 {% include meeting-point-close.html %}
 
-{% include meeting-point-open.html group="Three" id="Wangen" place="Wangen" point="Bezirksrathaus <small>(Wasserspender)</small>" time="17:35 Uhr" %}
-Der Treffpunkt liegt beim Wasserspender vor dem Bezirksrathaus.
 
-Hier startet ein extra Zubringer und vereint sich beim Shackspace mit
-dem aus Esslingen.
-{% include meeting-point-close.html %}
+{% include meeting-point-open.html group="Three" id="MineralbaederThree" place="Stuttgart-Ost" point="U-Mineralbäder" time="18:00 Uhr" %}
+Der Treffpunkt liegt auf der Nordseite der U-Bahnhaltestelle.
 
-{% include meeting-point-open.html group="Three" id="Wangen2" place="Wangen" point="Shackspace" time="17:40 Uhr" %}
-Der Treffpunkt liegt vor dem Shackspace (Ulmer Straße Ecke Viehwasen).
-
-Hier vereint sich der Zubringer vom Bezirksrathaus mit dem aus
-Esslingen.
-{% include meeting-point-close.html %}
-
-{% include meeting-point-open.html group="Three" id="Urbansplatz" place="Stuttgart-Mitte" point="Urbansplatz <small>(Lüftungsanlage)</small>" time="18:10 Uhr" %}
-Der Treffpunkt liegt am Urbansplatz, bei der Lüftungsanlage (oder was
-immer das ist) der Staatsgalerie.
+Hier erfolgt der Zusammenschluss mit der Gruppe aus Richtung
+Waiblingen.
 {% include meeting-point-close.html %}
 
 {% include meeting-point-open.html group="Three" id="RathausThree" place="Stuttgart-Mitte" point="Rathaus <small>(Ecke Münzstraße)</small>" time="18:20 Uhr" %}
@@ -330,7 +320,7 @@ Der letzte Zustiegspunkt liegt beim Rathaus, genauer auf dem
 Marktplatz an der Münzstraße.
 
 Hier erfolgt der Zusammenschluss mit der Gruppe aus Richtung
-Waiblingen.
+Wangen.
 {% include meeting-point-close.html %}
 
 {% include meeting-point-open.html group="Three" id="FeuerseeThree" place="Stuttgart" point="Feuersee" time="18:30 Uhr" %}
@@ -340,40 +330,79 @@ eintreffen.  Da es in der Regel erst ein paar Minuten später losgeht,
 bleibt auch noch die Gelegenheit sich zu unterhalten.
 {% include meeting-point-close.html %}
 
+    </div>
+  </div>
+
+  <div class="col-md-6">
+  <h3>Aus Wangen/Stuttgart-Ost</h3>
+    <div class="panel-group" id="accordionFour" role="tablist" aria-multiselectable="true">
+
+{% include meeting-point-open.html group="Four" id="Wangen" place="Wangen" point="Bezirksrathaus <small>(Wasserspender)</small>" time="17:30 Uhr" expanded="true" %}
+Der Treffpunkt liegt beim Wasserspender vor dem Bezirksrathaus.
+{% include meeting-point-close.html %}
+
+{% include meeting-point-open.html group="Four" id="Naehterstrasse" place="Wangen" point="Nähterstraße <small>(Ecke Kirschenweg)</small>" time="17:40 Uhr" %}
+Der Treffpunkt liegt in der Nähterstraße Ecke Kirschenweg.
+{% include meeting-point-close.html %}
+
+{% include meeting-point-open.html group="Four" id="Lukasplatz" place="Stuttgart-Ost" point="Lukasplatz <small>(Wasserspender)</small>" time="18:00 Uhr" %}
+Der Treffpunkt liegt auf dem Lukasplatz, bei dem dortigen
+Wasserspender.
+{% include meeting-point-close.html %}
+
+{% include meeting-point-open.html group="Four" id="Urbansplatz" place="Stuttgart-Mitte" point="Urbansplatz <small>(Lüftungsanlage)</small>" time="18:10 Uhr" %}
+Der Treffpunkt liegt am Urbansplatz, bei der Lüftungsanlage (oder was
+immer das ist) der Staatsgalerie.
+{% include meeting-point-close.html %}
+
+{% include meeting-point-open.html group="Four" id="RathausFour" place="Stuttgart-Mitte" point="Rathaus <small>(Ecke Münzstraße)</small>" time="18:20 Uhr" %}
+Der letzte Zustiegspunkt liegt beim Rathaus, genauer auf dem
+Marktplatz an der Münzstraße.
+
+Hier erfolgt der Zusammenschluss mit der Gruppe aus Richtung
+Waiblingen/Esslingen.
+{% include meeting-point-close.html %}
+
+{% include meeting-point-open.html group="Four" id="FeuerseeFour" place="Stuttgart" point="Feuersee" time="18:30 Uhr" %}
+Hier liegt das Ziel der MitRadGelegenheiten.  Gegen halb sieben, und
+somit rechtzeitig zum Start, werden die MitRadGelegenheiten
+eintreffen.  Da es in der Regel erst ein paar Minuten später losgeht,
+bleibt auch noch die Gelegenheit sich zu unterhalten.
+{% include meeting-point-close.html %}
 
     </div>
   </div>
 
   <div class="col-md-6">
   <h3>Aus Ludwigsburg/Zuffenhausen</h3>
-    <div class="panel-group" id="accordionFour" role="tablist" aria-multiselectable="true">
+    <div class="panel-group" id="accordionFive" role="tablist" aria-multiselectable="true">
 
-{% include meeting-point-open.html group="Four" id="Ludwigsburg" place="Ludwigsburg" point="Imbiss am Forum" time="17:00 Uhr" expanded="true" %}
+{% include meeting-point-open.html group="Five" id="Ludwigsburg" place="Ludwigsburg" point="Imbiss am Forum" time="17:00 Uhr" expanded="true" %}
 Der Treffpunkt liegt beim Imbiss am Forum und entspricht somit dem
 Treffpunkt der Critical Mass Ludwigsburg.
 {% include meeting-point-close.html %}
 
-{% include meeting-point-open.html group="Four" id="Kornwestheim" place="Kornwestheim" point="Rathaus <small>(Infobox Naturfreunde)</small>" time="17:30 Uhr" %}
+{% include meeting-point-open.html group="Five" id="Kornwestheim" place="Kornwestheim" point="Rathaus <small>(Infobox Naturfreunde)</small>" time="17:30 Uhr" %}
 Der Treffpunkt liegt bei der Infobox der Naturfreunde vor dem Rathaus.
 Die Infobox steht an der Stuttgarter Straße Ecke Jakob-Sigle-Platz.
 {% include meeting-point-close.html %}
 
-{% include meeting-point-open.html group="Four" id="Zuffenhausen" place="Zuffenhausen" point="Bezirksrathaus <small>(Brunnen)</small>" time="17:45 Uhr" %}
-Der Treffpunkt liegt bei dem Brunnen auf dem Platz vor dem
-Bezirksrathaus.
+{% include meeting-point-open.html group="Five" id="Zuffenhausen" place="Zuffenhausen" point="Bezirksrathaus <small>(Brunnen)</small>" time="17:45 Uhr" %}
+Der Treffpunkt liegt bei dem Brunnen auf dem Emil-Schuler-Platz vor
+dem Bezirksrathaus.
 {% include meeting-point-close.html %}
 
-{% include meeting-point-open.html group="Four" id="Feuerbach" place="Feuerbach" point="Heilbronner Ecke Sieglestraße" time="18:00 Uhr" %}
+{% include meeting-point-open.html group="Five" id="Feuerbach" place="Feuerbach" point="Heilbronner Ecke Sieglestraße" time="18:00 Uhr" %}
 Der Treffpunkt liegt neben der Heilbronner Straße bei der Kreuzung mit
 der Sieglestraße.
 {% include meeting-point-close.html %}
 
-{% include meeting-point-open.html group="Four" id="Pragsattel" place="Stuttgart-Nord" point="Pragsattel <small>(Samarastege)</small>" time="18:07 Uhr" %}
+{% include meeting-point-open.html group="Five" id="Pragsattel" place="Stuttgart-Nord" point="Pragsattel <small>(Samarastege)</small>" time="18:05 Uhr" %}
 Der Treffpunkt liegt zwischen den Samarastegen im Leibfriedschen
 Garten.
 {% include meeting-point-close.html %}
 
-{% include meeting-point-open.html group="Four" id="FeuerseeFour" place="Stuttgart" point="Feuersee" time="18:30 Uhr" %}
+{% include meeting-point-open.html group="Five" id="FeuerseeFive" place="Stuttgart" point="Feuersee" time="18:30 Uhr" %}
 Hier liegt das Ziel der MitRadGelegenheiten.  Gegen halb sieben, und
 somit rechtzeitig zum Start, werden die MitRadGelegenheiten
 eintreffen.  Da es in der Regel erst ein paar Minuten später losgeht,
