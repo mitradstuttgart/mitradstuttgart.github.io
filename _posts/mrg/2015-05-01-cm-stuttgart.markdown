@@ -34,13 +34,35 @@ Es gibt ausreichend Ideen für weitere Zubringer.  **Wer Interesse hat mitzuhelf
 
 Die Details zu den Zubringern sind im Folgenden aufgeführt.  In Kürze folgen noch einige Photos.
 
+<div class="row">
+<div class="col-md-6" markdown="block">
 
 ## Zustiegsmöglichkeiten
 
-<div class="container-fluid">
-<div class="row">
-  <div class="col-md-6">
-    <h3>Aus Markdorf/Herrenberg/S-Vaihingen</h3>
+<div role="tabpanel">
+
+  <!-- Nav tabs -->
+  <ul class="nav nav-tabs" role="tablist">
+    <li role="presentation" class="active">
+      <a href="#herrenberg" aria-controls="herrenberg" role="tab" data-toggle="tab" class="btn btn-primary">Markdorf/Herrenberg/Vaihingen</a>
+    </li>
+    <li role="presentation">
+      <a href="#fellbach" aria-controls="fellbach" role="tab" data-toggle="tab" class="btn btn-primary">Waiblingen/Fellbach</a>
+    </li>
+    <li role="presentation">
+      <a href="#esslingen" aria-controls="esslingen" role="tab" data-toggle="tab" class="btn btn-primary">Esslingen</a>
+    </li>
+    <li role="presentation">
+      <a href="#wangen" aria-controls="wangen" role="tab" data-toggle="tab" class="btn btn-primary">Wangen</a>
+    </li>
+    <li role="presentation">
+      <a href="#ludwigsburg" aria-controls="ludwigsburg" role="tab" data-toggle="tab" class="btn btn-primary">Ludwigsburg</a>
+    </li>
+  </ul>
+
+<!-- Tab panes -->
+<div class="tab-content">
+  <div role="tabpanel" class="tab-pane active" id="herrenberg">
     <div class="panel-group" id="accordionOne" role="tablist" aria-multiselectable="true">
 
 {% include meeting-point-open.html group="One" id="Markdorf" place="Markdorf" point="Hepbach" time="05:30 Uhr" expanded="true" %}
@@ -186,8 +208,8 @@ bleibt auch noch die Gelegenheit sich zu unterhalten.
     </div>
   </div>
 
-  <div class="col-md-6">
-  <h3>Aus Waiblingen/Fellbach/Bad Cannstatt</h3>
+
+  <div role="tabpanel" class="tab-pane" id="fellbach">
     <div class="panel-group" id="accordionTwo" role="tablist" aria-multiselectable="true">
 
 {% include meeting-point-open.html group="Two" id="Waiblingen" place="Waiblingen" point="Bürgerzentrum" time="16:55 Uhr" expanded="true" %}
@@ -290,8 +312,8 @@ bleibt auch noch die Gelegenheit sich zu unterhalten.
     </div>
   </div>
 
-  <div class="col-md-6">
-  <h3>Aus Esslingen</h3>
+
+  <div role="tabpanel" class="tab-pane" id="esslingen">
     <div class="panel-group" id="accordionThree" role="tablist" aria-multiselectable="true">
 
 {% include meeting-point-open.html group="Three" id="Esslingen" place="Esslingen am Neckar" point="Bahnhofsvorplatz" time="17:05 Uhr" expanded="true" %}
@@ -351,8 +373,8 @@ bleibt auch noch die Gelegenheit sich zu unterhalten.
     </div>
   </div>
 
-  <div class="col-md-6">
-  <h3>Aus Wangen/Stuttgart-Ost</h3>
+
+  <div role="tabpanel" class="tab-pane" id="wangen">
     <div class="panel-group" id="accordionFour" role="tablist" aria-multiselectable="true">
 
 {% include meeting-point-open.html group="Four" id="Wangen" place="Wangen" point="Bezirksrathaus <small>(Wasserspender)</small>" time="17:30 Uhr" expanded="true" %}
@@ -401,8 +423,8 @@ bleibt auch noch die Gelegenheit sich zu unterhalten.
     </div>
   </div>
 
-  <div class="col-md-6">
-  <h3>Aus Ludwigsburg/Zuffenhausen</h3>
+
+  <div role="tabpanel" class="tab-pane" id="ludwigsburg">
     <div class="panel-group" id="accordionFive" role="tablist" aria-multiselectable="true">
 
 {% include meeting-point-open.html group="Five" id="Ludwigsburg" place="Ludwigsburg" point="Imbiss am Forum" time="17:00 Uhr" expanded="true" %}
@@ -455,7 +477,8 @@ bleibt auch noch die Gelegenheit sich zu unterhalten.
 </div>
 </div>
 
-
+</div>
+<div class="col-md-6" markdown="block">
 ## Karte
 
 {% include map.html %}
@@ -471,6 +494,8 @@ bleibt auch noch die Gelegenheit sich zu unterhalten.
     );
   });
 </script>
+</div>
+</div>
 
 
 
