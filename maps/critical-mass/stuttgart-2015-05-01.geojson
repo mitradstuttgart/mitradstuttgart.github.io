@@ -5,8 +5,8 @@
       "type": "Feature",
       "properties": {
         "marker-color": "#009900",
-        "marker-symbol": "town",
         "marker-size": "medium",
+        "marker-symbol": "town",
         "Ort": "Herrenberg",
         "Treffpunkt": "Marktplatz",
         "Zeit": "15:30 Uhr"
@@ -107,8 +107,8 @@
       "type": "Feature",
       "properties": {
         "marker-color": "#009900",
-        "marker-symbol": "village",
         "marker-size": "medium",
+        "marker-symbol": "village",
         "Ort": "Nufringen",
         "Treffpunkt": "Rathaus",
         "Zeit": "15:50 Uhr"
@@ -202,8 +202,8 @@
       "type": "Feature",
       "properties": {
         "marker-color": "#009900",
-        "marker-symbol": "rail",
         "marker-size": "medium",
+        "marker-symbol": "rail",
         "Ort": "Gärtringen",
         "Treffpunkt": "Bahnhof",
         "Zeit": "16:05 Uhr"
@@ -294,8 +294,8 @@
       "type": "Feature",
       "properties": {
         "marker-color": "#009900",
-        "marker-symbol": "village",
         "marker-size": "medium",
+        "marker-symbol": "village",
         "Ort": "Ehningen",
         "Treffpunkt": "Königstraße",
         "Zeit": "16:20 Uhr"
@@ -428,12 +428,12 @@
     {
       "type": "Feature",
       "properties": {
+        "marker-color": "#009900",
         "marker-size": "medium",
+        "marker-symbol": "land-use",
         "Ort": "Böblingen",
         "Treffpunkt": "Elbenplatz",
-        "Zeit": "16:45 Uhr",
-        "marker-symbol": "land-use",
-        "marker-color": "#009900"
+        "Zeit": "16:45 Uhr"
       },
       "geometry": {
         "type": "Point",
@@ -443,11 +443,11 @@
     {
       "type": "Feature",
       "properties": {
-        "Strecke": "Böblingen → S-Vaihingen",
-        "Distanz": "10,8 km",
         "stroke": "#0000ff",
         "stroke-width": 5,
-        "stroke-opacity": 0.5
+        "stroke-opacity": 0.5,
+        "Strecke": "Böblingen → S-Vaihingen",
+        "Distanz": "10,8 km"
       },
       "geometry": {
         "type": "LineString",
@@ -642,12 +642,12 @@
     {
       "type": "Feature",
       "properties": {
+        "marker-color": "#009900",
         "marker-size": "medium",
+        "marker-symbol": "rail",
         "Ort": "Stuttgart-Vaihingen",
         "Treffpunkt": "Reisezentrum Bahnhof",
         "Zeit": "17:30 Uhr",
-        "marker-symbol": "rail",
-        "marker-color": "#009900",
         "image": {
           "src": "/images/vaihingen-bahnhof-small.jpg",
           "alt": "Treffpunkt Reisezentrum Bahnhof in Stuttgart-Vaihingen"
@@ -661,11 +661,11 @@
     {
       "type": "Feature",
       "properties": {
-        "Strecke": "Vaihingen → Möhringen",
-        "Distanz": "2,9 km",
         "stroke": "#0099ff",
         "stroke-width": 5,
-        "stroke-opacity": 0.5
+        "stroke-opacity": 0.5,
+        "Strecke": "Vaihingen → Möhringen",
+        "Distanz": "2,9 km"
       },
       "geometry": {
         "type": "LineString",
@@ -732,12 +732,12 @@
     {
       "type": "Feature",
       "properties": {
+        "marker-color": "#009900",
         "marker-size": "medium",
+        "marker-symbol": "rail",
         "Ort": "Stuttgart-Möhringen",
         "Treffpunkt": "Nordseite Bahnhof",
         "Zeit": "17:45 Uhr",
-        "marker-symbol": "rail",
-        "marker-color": "#009900",
         "image": {
           "src": "/images/moehringen-bahnhof-small.jpg",
           "alt": "Treffpunkt Nordseite Bahnhof in Stuttgart-MÃ¶hringen"
@@ -751,11 +751,11 @@
     {
       "type": "Feature",
       "properties": {
-        "Strecke": "Möhringen → Degerloch",
-        "Distanz": "3,1 km",
         "stroke": "#0000ff",
         "stroke-width": 5,
-        "stroke-opacity": 0.5
+        "stroke-opacity": 0.5,
+        "Strecke": "Möhringen → Degerloch",
+        "Distanz": "3,1 km"
       },
       "geometry": {
         "type": "LineString",
@@ -830,12 +830,12 @@
     {
       "type": "Feature",
       "properties": {
+        "marker-color": "#009900",
         "marker-size": "medium",
+        "marker-symbol": "rail",
         "Ort": "Stuttgart-Degerloch",
         "Treffpunkt": "Bahnhof Zacke",
         "Zeit": "18:00 Uhr",
-        "marker-symbol": "rail",
-        "marker-color": "#009900",
         "image": {
           "src": "/images/degerloch-bahnhof-small.jpg",
           "alt": "Bahnhof Zacke in Stuttgart-Degerloch"
@@ -849,11 +849,11 @@
     {
       "type": "Feature",
       "properties": {
-        "Strecke": "Degerloch → Marienplatz",
-        "Distanz": "5,0 km",
         "stroke": "#0099ff",
         "stroke-width": 5,
-        "stroke-opacity": 0.5
+        "stroke-opacity": 0.5,
+        "Strecke": "Degerloch → Marienplatz",
+        "Distanz": "5,0 km"
       },
       "geometry": {
         "type": "LineString",
@@ -1010,12 +1010,12 @@
     {
       "type": "Feature",
       "properties": {
+        "marker-color": "#009900",
         "marker-size": "medium",
+        "marker-symbol": "land-use",
         "Ort": "Stuttgart-Süd",
         "Treffpunkt": "Marienplatz",
         "Zeit": "18:15 Uhr",
-        "marker-symbol": "land-use",
-        "marker-color": "#009900",
         "image": {
           "src": "/images/marienplatz-small.jpg",
           "alt": "Treffpunkt Marienplatz in Stuttgart-Süd"
@@ -1029,11 +1029,11 @@
     {
       "type": "Feature",
       "properties": {
-        "Strecke": "Marienplatz → Feuersee",
-        "Distanz": "1,6 km",
         "stroke": "#0000ff",
         "stroke-width": 5,
-        "stroke-opacity": 0.5
+        "stroke-opacity": 0.5,
+        "Strecke": "Marienplatz → Feuersee",
+        "Distanz": "1,6 km"
       },
       "geometry": {
         "type": "LineString",
@@ -3029,8 +3029,8 @@
       "type": "Feature",
       "properties": {
         "marker-color": "#009900",
-        "marker-symbol": "bicycle",
         "marker-size": "large",
+        "marker-symbol": "bicycle",
         "Ort": "Stuttgart",
         "Treffpunkt": "Feuersee",
         "Zeit": "18:30 Uhr"
