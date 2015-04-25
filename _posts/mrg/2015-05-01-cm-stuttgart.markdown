@@ -117,6 +117,8 @@ K&nbsp;1055 oder die Panzerstraße gefahren.
     </tr>
   </tbody>
 </table>
+
+{% include meeting-point-image.html url="/images/mrg/boeblingen-elbenplatz-1-400.jpg" alt="Treffpunkt Elbenplatz, Böblingen" %}
 {% include meeting-point-close.html %}
 
 {% include meeting-point-open.html group="One" id="Vaihingen" place="S-Vaihingen" point="Reisezentrum Bahnhof" time="17:30 Uhr" %}
@@ -146,12 +148,14 @@ wird pünktlich losgefahren.
     </tr>
   </tbody>
 </table>
-{% include meeting-point-image.html url="/images/vaihingen-bahnhof-small.jpg" alt="Treffpunkt Reisezentrum Bahnhof in Stuttgart-Vaihingen" %}
+
+{% include meeting-point-image.html url="/images/mrg/vaihingen-bahnhof-1-400.jpg" alt="Treffpunkt Reisezentrum Bahnhof in Stuttgart-Vaihingen" %}
 {% include meeting-point-close.html %}
 
 {% include meeting-point-open.html group="One" id="Moehringen" place="S-Möhringen" point="Nordseite Bahnhof" time="17:45 Uhr" %}
 Der Treffpunkt liegt in der Probststraße im Bereich der Unterführung.
-{% include meeting-point-image.html url="/images/moehringen-bahnhof-small.jpg" alt="Treffpunkt Möhringen Bahnhof" %}
+
+{% include meeting-point-image.html url="/images/mrg/moehringen-bahnhof-1-400.jpg" alt="Treffpunkt Möhringen Bahnhof" %}
 {% include meeting-point-close.html %}
 
 {% include meeting-point-open.html group="One" id="Degerloch" place="S-Degerloch" point="Bahnhof/Epplestraße" time="18:00 Uhr" %}
@@ -161,13 +165,15 @@ Höhe des Bahnhofs.
 Je nach Entscheidung der Gruppe geht es über die
 Heine-/Karl-Kloß-Straße oder durch den Wald (Lerchenrainweg,
 Eierstraße) zum Marienplatz.
-{% include meeting-point-image.html url="/images/degerloch-bahnhof-small.jpg" alt="Treffpunkt Bahnhof der Zacke in Degerloch" %}
+
+{% include meeting-point-image.html url="/images/mrg/degerloch-bahnhof-2-400.jpg" alt="Treffpunkt Bahnhof Degerloch Ecke Epplestraße" %}
 {% include meeting-point-close.html %}
 
 {% include meeting-point-open.html group="One" id="Marienplatz" place="Stuttgart-Süd" point="Marienplatz" time="18:15 Uhr" %}
 Am Marienplatz, im Bereich des Beginns der Tübinger Straße, befindet
 sich der letzte Halt der MitRadGelegenheit vor der Critical Mass.
-{% include meeting-point-image.html url="/images/marienplatz-small.jpg" alt="Treffpunkt Marienplatz" %}
+
+{% include meeting-point-image.html url="/images/mrg/marienplatz-2-400.jpg" alt="Treffpunkt Marienplatz" %}
 {% include meeting-point-close.html %}
 
 {% include meeting-point-open.html group="One" id="Feuersee" place="Stuttgart" point="Feuersee" time="18:30 Uhr" %}
@@ -270,6 +276,8 @@ Marktplatz an der Münzstraße.
 
 Hier erfolgt der Zusammenschluss mit der Gruppe aus Richtung
 Wangen.
+
+{% include meeting-point-image.html url="/images/mrg/stuttgart-rathaus-1-400.jpg" alt="Treffpunkt Rathaus, Stuttgart" %}
 {% include meeting-point-close.html %}
 
 {% include meeting-point-open.html group="Two" id="FeuerseeTwo" place="Stuttgart" point="Feuersee" time="18:30 Uhr" %}
@@ -290,21 +298,29 @@ bleibt auch noch die Gelegenheit sich zu unterhalten.
 Der Treffpunkt liegt auf dem Bahnhofsvorplatz bei dem
 [Sammelplatz für Evakuierungen][Sammelplatz]{:target="_blank"}
 (siehe Photo).
+
+{% include meeting-point-image.html url="/images/mrg/esslingen-bahnhofsvorplatz-1-400.jpg" alt="Treffpunkt Bahnhofsvorplatz Esslingen am Neckar" %}
 {% include meeting-point-close.html %}
 
 {% include meeting-point-open.html group="Three" id="Mettingen" place="Esslingen-Mettingen" point="Liebfrauenkirche" time="17:20 Uhr" %}
 Der Treffpunkt liegt in der Schenkenbergstraße auf Höhe der
 Liebfrauenkirche.
+
+{% include meeting-point-image.html url="/images/mrg/mettingen-liebfrauenkirche-1-400.jpg" alt="Treffpunkt Liebfrauenkirche Esslingen-Mettingen" %}
 {% include meeting-point-close.html %}
 
 {% include meeting-point-open.html group="Three" id="Obertuerkheim" place="Obertürkheim" point="Bezirksrathaus" time="17:30 Uhr" %}
 Der Treffpunkt liegt in der Augsburger Straße auf Höhe des
 Bezirksrathauses.
+
+{% include meeting-point-image.html url="/images/mrg/obertuerkheim-bezirksrathaus-1-400.jpg" alt="Treffpunkt Bezirksrathaus Obertürkheim" %}
 {% include meeting-point-close.html %}
 
 {% include meeting-point-open.html group="Three" id="Untertuerkheim" place="Untertürkheim" point="Bahnhof <small>(Skateanlage)</small>" time="17:40 Uhr" %}
 Der Treffpunkt liegt bei der Skateanlage auf dem Platz vor dem
 Bahnhof.
+
+{% include meeting-point-image.html url="/images/mrg/untertuerkheim-bahnhof-skateanlage-1-400.jpg" alt="Treffpunkt Skateanlage am Bahnhof Untertürkheim" %}
 {% include meeting-point-close.html %}
 
 
@@ -321,6 +337,8 @@ Marktplatz an der Münzstraße.
 
 Hier erfolgt der Zusammenschluss mit der Gruppe aus Richtung
 Wangen.
+
+{% include meeting-point-image.html url="/images/mrg/stuttgart-rathaus-1-400.jpg" alt="Treffpunkt Rathaus, Stuttgart" %}
 {% include meeting-point-close.html %}
 
 {% include meeting-point-open.html group="Three" id="FeuerseeThree" place="Stuttgart" point="Feuersee" time="18:30 Uhr" %}
@@ -339,20 +357,28 @@ bleibt auch noch die Gelegenheit sich zu unterhalten.
 
 {% include meeting-point-open.html group="Four" id="Wangen" place="Wangen" point="Bezirksrathaus <small>(Wasserspender)</small>" time="17:30 Uhr" expanded="true" %}
 Der Treffpunkt liegt beim Wasserspender vor dem Bezirksrathaus.
+
+{% include meeting-point-image.html url="/images/mrg/wangen-bezirksrathaus-1-400.jpg" alt="Treffpunkt Bezirksrathaus Wangen" %}
 {% include meeting-point-close.html %}
 
 {% include meeting-point-open.html group="Four" id="Naehterstrasse" place="Wangen" point="Nähterstraße <small>(Ecke Kirschenweg)</small>" time="17:40 Uhr" %}
 Der Treffpunkt liegt in der Nähterstraße Ecke Kirschenweg.
+
+{% include meeting-point-image.html url="/images/mrg/wangen-naehter-kirschen-1-400.jpg" alt="Treffpunkt Nähterstraße Ecke Kirschenweg" %}
 {% include meeting-point-close.html %}
 
 {% include meeting-point-open.html group="Four" id="Lukasplatz" place="Stuttgart-Ost" point="Lukasplatz <small>(Wasserspender)</small>" time="18:00 Uhr" %}
 Der Treffpunkt liegt auf dem Lukasplatz, bei dem dortigen
 Wasserspender.
+
+{% include meeting-point-image.html url="/images/mrg/stuttgart-ost-lukasplatz-1-400.jpg" alt="Treffpunkt Lukasplatz, Stuttgart-Ost" %}
 {% include meeting-point-close.html %}
 
 {% include meeting-point-open.html group="Four" id="Urbansplatz" place="Stuttgart-Mitte" point="Urbansplatz <small>(Lüftungsanlage)</small>" time="18:10 Uhr" %}
 Der Treffpunkt liegt am Urbansplatz, bei der Lüftungsanlage (oder was
 immer das ist) der Staatsgalerie.
+
+{% include meeting-point-image.html url="/images/mrg/stuttgart-urbansplatz-1-400.jpg" alt="Treffpunkt Urbansplatz, Stuttgart-Mitte" %}
 {% include meeting-point-close.html %}
 
 {% include meeting-point-open.html group="Four" id="RathausFour" place="Stuttgart-Mitte" point="Rathaus <small>(Ecke Münzstraße)</small>" time="18:20 Uhr" %}
@@ -361,6 +387,8 @@ Marktplatz an der Münzstraße.
 
 Hier erfolgt der Zusammenschluss mit der Gruppe aus Richtung
 Waiblingen/Esslingen.
+
+{% include meeting-point-image.html url="/images/mrg/stuttgart-rathaus-1-400.jpg" alt="Treffpunkt Rathaus, Stuttgart" %}
 {% include meeting-point-close.html %}
 
 {% include meeting-point-open.html group="Four" id="FeuerseeFour" place="Stuttgart" point="Feuersee" time="18:30 Uhr" %}
@@ -380,26 +408,39 @@ bleibt auch noch die Gelegenheit sich zu unterhalten.
 {% include meeting-point-open.html group="Five" id="Ludwigsburg" place="Ludwigsburg" point="Imbiss am Forum" time="17:00 Uhr" expanded="true" %}
 Der Treffpunkt liegt beim Imbiss am Forum und entspricht somit dem
 Treffpunkt der Critical Mass Ludwigsburg.
+
+{% include meeting-point-image.html url="/images/mrg/ludwigsburg-imbiss-1-400.jpg" alt="Treffpunkt Imbiss am Forum, Ludwigsburg" %}
 {% include meeting-point-close.html %}
 
 {% include meeting-point-open.html group="Five" id="Kornwestheim" place="Kornwestheim" point="Rathaus <small>(Infobox Naturfreunde)</small>" time="17:30 Uhr" %}
 Der Treffpunkt liegt bei der Infobox der Naturfreunde vor dem Rathaus.
 Die Infobox steht an der Stuttgarter Straße Ecke Jakob-Sigle-Platz.
+
+{% include meeting-point-image.html url="/images/mrg/kornwestheim-rathaus-1-400.jpg" alt="Treffpunkt Rathaus Kornwestheim" %}
 {% include meeting-point-close.html %}
 
 {% include meeting-point-open.html group="Five" id="Zuffenhausen" place="Zuffenhausen" point="Bezirksrathaus <small>(Brunnen)</small>" time="17:45 Uhr" %}
 Der Treffpunkt liegt bei dem Brunnen auf dem Emil-Schuler-Platz vor
 dem Bezirksrathaus.
+
+{% include meeting-point-image.html url="/images/mrg/zuffenhausen-bezirksrathaus-1-400.jpg" alt="Treffpunkt Bezirksrathaus Zuffenhausen" %}
 {% include meeting-point-close.html %}
 
 {% include meeting-point-open.html group="Five" id="Feuerbach" place="Feuerbach" point="Heilbronner Ecke Sieglestraße" time="18:00 Uhr" %}
 Der Treffpunkt liegt neben der Heilbronner Straße bei der Kreuzung mit
 der Sieglestraße.
+
+{% include meeting-point-image.html url="/images/mrg/feuerbach-heilbronner-siegle-1-400.jpg" alt="Treffpunkt Heilbronner Ecke Sieglestraße, Feuerbach" %}
 {% include meeting-point-close.html %}
 
 {% include meeting-point-open.html group="Five" id="Pragsattel" place="Stuttgart-Nord" point="Pragsattel <small>(Samarastege)</small>" time="18:05 Uhr" %}
 Der Treffpunkt liegt zwischen den Samarastegen im Leibfriedschen
 Garten.
+
+Aufgrund der vorherigen Steigung, kann es passieren, dass die Gruppe
+aus Ludwigsburg ein paar Minuten später eintrifft.
+
+{% include meeting-point-image.html url="/images/mrg/pragsattel-samarastege-1-400.jpg" alt="Treffpunkt Samarastege, Pragsattel" %}
 {% include meeting-point-close.html %}
 
 {% include meeting-point-open.html group="Five" id="FeuerseeFive" place="Stuttgart" point="Feuersee" time="18:30 Uhr" %}

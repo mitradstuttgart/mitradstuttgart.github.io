@@ -433,7 +433,11 @@
         "marker-symbol": "land-use",
         "Ort": "Böblingen",
         "Treffpunkt": "Elbenplatz",
-        "Zeit": "16:45 Uhr"
+        "Zeit": "16:45 Uhr",
+        "image": {
+          "src": "/images/mrg/boeblingen-elbenplatz-1-400.jpg",
+          "alt": "Elbenplatz, Böblingen"
+        }
       },
       "geometry": {
         "type": "Point",
@@ -649,8 +653,8 @@
         "Treffpunkt": "Reisezentrum Bahnhof",
         "Zeit": "17:30 Uhr",
         "image": {
-          "src": "/images/vaihingen-bahnhof-small.jpg",
-          "alt": "Treffpunkt Reisezentrum Bahnhof in Stuttgart-Vaihingen"
+          "src": "/images/mrg/vaihingen-bahnhof-1-400.jpg",
+          "alt": "Reisezentrum Bahnhof in Stuttgart-Vaihingen"
         }
       },
       "geometry": {
@@ -739,8 +743,8 @@
         "Treffpunkt": "Nordseite Bahnhof",
         "Zeit": "17:45 Uhr",
         "image": {
-          "src": "/images/moehringen-bahnhof-small.jpg",
-          "alt": "Treffpunkt Nordseite Bahnhof in Stuttgart-MÃ¶hringen"
+          "src": "/images/mrg/moehringen-bahnhof-1-400.jpg",
+          "alt": "Nordseite Bahnhof in Stuttgart-Möhringen"
         }
       },
       "geometry": {
@@ -837,8 +841,8 @@
         "Treffpunkt": "Bahnhof Zacke",
         "Zeit": "18:00 Uhr",
         "image": {
-          "src": "/images/degerloch-bahnhof-small.jpg",
-          "alt": "Bahnhof Zacke in Stuttgart-Degerloch"
+          "src": "/images/mrg/degerloch-bahnhof-2-400.jpg",
+          "alt": "Bahnhof Degerloch Ecke Epplestraße"
         }
       },
       "geometry": {
@@ -1017,8 +1021,8 @@
         "Treffpunkt": "Marienplatz",
         "Zeit": "18:15 Uhr",
         "image": {
-          "src": "/images/marienplatz-small.jpg",
-          "alt": "Treffpunkt Marienplatz in Stuttgart-Süd"
+          "src": "/images/mrg/marienplatz-2-400.jpg",
+          "alt": "Marienplatz, Stuttgart-Süd"
         }
       },
       "geometry": {
@@ -1669,7 +1673,11 @@
         "marker-symbol": "town-hall",
         "Ort": "Stuttgart-Mitte",
         "Treffpunkt": "Rathaus (Ecke Münzstraße)",
-        "Zeit": "18:20 Uhr"
+        "Zeit": "18:20 Uhr",
+        "image": {
+          "src": "/images/mrg/stuttgart-rathaus-1-400.jpg",
+          "alt": "Rathaus Ecke Münzstraße, Stuttgart"
+        }
       },
       "geometry": {
         "type": "Point",
@@ -1752,7 +1760,11 @@
         "marker-symbol": "rail",
         "Ort": "Esslingen am Neckar",
         "Treffpunkt": "Bahnhofsvorplatz",
-        "Zeit": "17:05 Uhr"
+        "Zeit": "17:05 Uhr",
+        "image": {
+          "src": "/images/mrg/esslingen-bahnhofsvorplatz-1-400.jpg",
+          "alt": "Bahnhofsvorplatz, Esslingen am Neckar"
+        }
       },
       "geometry": {
         "type": "Point",
@@ -1821,7 +1833,11 @@
         "marker-symbol": "religious-christian",
         "Ort": "Esslingen-Mettingen",
         "Treffpunkt": "Liebfrauenkirche",
-        "Zeit": "17:20 Uhr"
+        "Zeit": "17:20 Uhr",
+        "image": {
+          "src": "/images/mrg/mettingen-liebfrauenkirche-1-400.jpg",
+          "alt": "Liebfrauenkirche, Esslingen-Mettingen"
+        }
       },
       "geometry": {
         "type": "Point",
@@ -1891,7 +1907,11 @@
         "marker-symbol": "town-hall",
         "Ort": "Obertürkheim",
         "Treffpunkt": "Bezirksrathaus",
-        "Zeit": "17:30 Uhr"
+        "Zeit": "17:30 Uhr",
+        "image": {
+          "src": "/images/mrg/obertuerkheim-bezirksrathaus-1-400.jpg",
+          "alt": "Bezirksrathaus, Obertürkheim"
+        }
       },
       "geometry": {
         "type": "Point",
@@ -1996,7 +2016,11 @@
         "marker-symbol": "rail",
         "Ort": "Untertürkheim",
         "Treffpunkt": "Bahnhof (Skateanlage)",
-        "Zeit": "17:40 Uhr"
+        "Zeit": "17:40 Uhr",
+        "image": {
+          "src": "/images/mrg/untertuerkheim-bahnhof-skateanlage-1-400.jpg",
+          "alt": "Skateanlage am Bahnhof Untertürkheim"
+        }
       },
       "geometry": {
         "type": "Point",
@@ -2102,7 +2126,11 @@
         "marker-symbol": "town-hall",
         "Ort": "Stuttgart-Wangen",
         "Treffpunkt": "Bezirksrathaus",
-        "Zeit": "17:30 Uhr"
+        "Zeit": "17:30 Uhr",
+        "image": {
+          "src": "/images/mrg/wangen-bezirksrathaus-1-400.jpg",
+          "alt": "Bezirksrathaus, Wangen"
+        }
       },
       "geometry": {
         "type": "Point",
@@ -2159,7 +2187,11 @@
         "marker-symbol": "building",
         "Ort": "Wangen",
         "Treffpunkt": "Nähterstraße Ecke Kirschenweg",
-        "Zeit": "17:40 Uhr"
+        "Zeit": "17:40 Uhr",
+        "image": {
+          "src": "/images/mrg/wangen-naehter-kirschen-1-400.jpg",
+          "alt": "Nähterstraße Ecke Kirschenweg, Wangen"
+        }
       },
       "geometry": {
         "type": "Point",
@@ -2270,7 +2302,11 @@
         "marker-symbol": "religious-christian",
         "Ort": "Stuttgart-Ost",
         "Treffpunkt": "Lukasplatz/-kirche",
-        "Zeit": "18:00 Uhr"
+        "Zeit": "18:00 Uhr",
+        "image": {
+          "src": "/images/mrg/stuttgart-ost-lukasplatz-1-400.jpg",
+          "alt": "Lukasplatz, Stuttgart-Ost"
+        }
       },
       "geometry": {
         "type": "Point",
@@ -2342,7 +2378,11 @@
         "marker-symbol": "land-use",
         "Ort": "Stuttgart-Mitte",
         "Treffpunkt": "Urbansplatz",
-        "Zeit": "18:10 Uhr"
+        "Zeit": "18:10 Uhr",
+        "image": {
+          "src": "/images/mrg/stuttgart-urbansplatz-1-400.jpg",
+          "alt": "Urbansplatz, Stuttgart"
+        }
       },
       "geometry": {
         "type": "Point",
@@ -2406,7 +2446,11 @@
         "marker-symbol": "restaurant",
         "Ort": "Ludwigsburg",
         "Treffpunkt": "Imbiss am Forum",
-        "Zeit": "17:00 Uhr"
+        "Zeit": "17:00 Uhr",
+        "image": {
+          "src": "/images/mrg/ludwigsburg-imbiss-1-400.jpg",
+          "alt": "Imbiss am Forum, Stuttgart"
+        }
       },
       "geometry": {
         "type": "Point",
@@ -2511,7 +2555,11 @@
         "marker-symbol": "town-hall",
         "Ort": "Kornwestheim",
         "Treffpunkt": "Rathaus (Infobox Naturfreunde)",
-        "Zeit": "17:30 Uhr"
+        "Zeit": "17:30 Uhr",
+        "image": {
+          "src": "/images/mrg/kornwestheim-rathaus-1-400.jpg",
+          "alt": "Rathaus, Kornwestheim"
+        }
       },
       "geometry": {
         "type": "Point",
@@ -2653,7 +2701,11 @@
         "marker-symbol": "town-hall",
         "Ort": "Zuffenhausen",
         "Treffpunkt": "Bezirksrathaus",
-        "Zeit": "17:45 Uhr"
+        "Zeit": "17:45 Uhr",
+        "image": {
+          "src": "/images/mrg/zuffenhausen-bezirksrathaus-1-400.jpg",
+          "alt": "Bezirksrathaus, Zuffenhausen"
+        }
       },
       "geometry": {
         "type": "Point",
@@ -2776,7 +2828,11 @@
         "marker-symbol": "land-use",
         "Ort": "Feuerbach",
         "Treffpunkt": "Heilbronner Ecke Sieglestraße",
-        "Zeit": "18:00 Uhr"
+        "Zeit": "18:00 Uhr",
+        "image": {
+          "src": "/images/mrg/feuerbach-heilbronner-siegle-1-400.jpg",
+          "alt": "Heilbronner Ecke Sieglestraße, Feuerbach"
+        }
       },
       "geometry": {
         "type": "Point",
@@ -2848,7 +2904,11 @@
         "marker-symbol": "land-use",
         "Ort": "S-Nord",
         "Treffpunkt": "Pragsattel (Samarastege)",
-        "Zeit": "18:05 Uhr"
+        "Zeit": "18:05 Uhr",
+        "image": {
+          "src": "/images/mrg/pragsattel-samarastege-1-400.jpg",
+          "alt": "Samarastege, Pragsattel"
+        }
       },
       "geometry": {
         "type": "Point",
