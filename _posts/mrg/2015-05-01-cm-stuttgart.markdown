@@ -46,10 +46,10 @@ Die Details zu den Zubringern sind im Folgenden aufgeführt.  In Kürze folgen n
     <div class="panel-group" id="accordionOne" role="tablist" aria-multiselectable="true">
 
 {% include meeting-point-open.html group="One" id="Markdorf" place="Markdorf" point="Hepbach" time="05:30 Uhr" expanded="true" %}
-[Jascha][Markdorf]{:target="_blank"} fährt aus Hepbach bei Markdorf
-(Nähe Bodensee) zur Critical Mass Stuttgart.  Es bestehen
-Zustiegsmöglichkeiten in „Ostrach, Mengen, Mössingen,
-Tübingen-Derendingen oder anderen Orten nach Absprache“.
+[Jascha][Markdorf]{:target="_blank"} fährt mit mindestens einem Freund
+aus Hepbach bei Markdorf (Nähe Bodensee) zur Critical Mass Stuttgart.
+Es bestehen Zustiegsmöglichkeiten in „Ostrach, Mengen, Mössingen oder
+anderen Orten nach Absprache“.
 
 Die Strecke kann man sich auf einer separaten
 [Karte][Jaschas-Strecke]{:target="_blank"} ansehen.
@@ -60,10 +60,11 @@ bei Jascha oder hinterlasse einen Kommentar auf dieser Seite.
 Ab Herrenberg geht es dann über den etablierten Zubringer.
 {% include meeting-point-close.html %}
 
-{% include meeting-point-open.html group="One" id="Tuebingen" place="Tuebingen" point="<small>(folgt)</small>" time="bei Bedarf" %}
-Derzeit laufen noch Gespräche ob in Tübingen ein fester Treffpunkt
-angeboten wird.  Neben Jascha wird mindestens ein weiterer Radfahrer
-aus Tübingen zur CM nach Stuttgart kommen.
+{% include meeting-point-open.html group="One" id="Tuebingen" place="Tuebingen" point="Kelternplatz" time="13:30 Uhr" %}
+Es fahren mindestens drei Radfahrer von Tübingen Richtung Herrenberg.
+Eine gute Gelegenheit also sich anzuschließen.
+
+Ein Update der Karte folgt.
 {% include meeting-point-close.html %}
 
 {% include meeting-point-open.html group="One" id="Herrenberg" place="Herrenberg" point="Marktplatz" time="15:30 Uhr" %}
@@ -481,6 +482,6 @@ bleibt auch noch die Gelegenheit sich zu unterhalten.
 [Critical-Maps]:   http://criticalmaps.net/
 [CMaps-Youtube]:   https://www.youtube.com/watch?v=TD25TLuJQ3I
 [Markdorf]:        https://www.facebook.com/mitradstuttgart/posts/874500155922080
-[Jaschas-Strecke]: http://www.gpsies.com/map.do?fileId=cdkismebkrjjfyjl
+[Jaschas-Strecke]: http://www.gpsies.com/map.do?fileId=vcnaqojygbtsfwla
 [CM-Herrenberg]:   https://criticalmassherrenberg.wordpress.com/
 [Sammelplatz]:     https://de.wikipedia.org/wiki/Sammelplatz_%28Brandschutz%29
