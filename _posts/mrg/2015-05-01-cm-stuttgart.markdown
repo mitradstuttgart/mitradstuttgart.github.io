@@ -8,6 +8,8 @@ facebook-event:
 
 Am 01.&nbsp;Mai gibt es wieder mehrere MitRadGelegenheiten zur [Critical Mass Stuttgart][CM-Stuttgart]{:target="_blank"}.  Es gibt diesmal zwei neue Zubringer, außerdem haben sich kleinere Details geändert.
 
+Wer Lust hat, kann die eigene MitRadGelegenheit auch bei [Critical Maps][Critical-Maps]{:target="_blank"} erscheinen lassen, dann sieht man live wo die Zubringer gerade sind.  Somit können Leute auch unterwegs einsteigen und nach der CM kann man sich anschauen wie die Leute zum Feuersee und anschließend durch die Stadt geströmt sind.  Von der CM Berlin im April gibt es beispielsweise ein [Video bei Youtube][CMaps-Youtube]{:target="_blank"}, welches die Verteilung über die Stadt gut zeigt.
+
 <div class="panel panel-info">
   <div class="panel-heading">
     <h3 class="panel-title">Änderungen seit April</h3>
@@ -476,6 +478,8 @@ bleibt auch noch die Gelegenheit sich zu unterhalten.
 
 
 [CM-Stuttgart]:    https://criticalmassstuttgart.wordpress.com/
+[Critical-Maps]:   http://criticalmaps.net/
+[CMaps-Youtube]:   https://www.youtube.com/watch?v=TD25TLuJQ3I
 [Markdorf]:        https://www.facebook.com/mitradstuttgart/posts/874500155922080
 [Jaschas-Strecke]: http://www.gpsies.com/map.do?fileId=cdkismebkrjjfyjl
 [CM-Herrenberg]:   https://criticalmassherrenberg.wordpress.com/
