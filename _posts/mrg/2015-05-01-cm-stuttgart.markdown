@@ -34,7 +34,6 @@ Es gibt ausreichend Ideen für weitere Zubringer.  **Wer Interesse hat mitzuhelf
 </div>
 
 
-Die Details zu den Zubringern sind im Folgenden aufgeführt.  In Kürze folgen noch einige Photos.
 
 
 ## Zustiegsmöglichkeiten
