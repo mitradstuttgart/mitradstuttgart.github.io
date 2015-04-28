@@ -15,12 +15,17 @@ Wer Lust hat, kann die eigene MitRadGelegenheit auch bei [Critical Maps][Critica
     <h3 class="panel-title">Änderungen seit April</h3>
   </div>
   <div class="panel-body" markdown="block">
-- Treffpunkt Degerloch näher an die Epplestraße verlegt.
-- Strecke von Degerloch zum Marienplatz führt über Heine-/Karl-Kloß-Straße.
-- Bedarfshalt Erwin-Schoettle-Platz entfällt.
-- Beim Zubringer aus Fellbach haben sich die Zeiten geändert.
-- Änderung der Vorschlagsstrecke vom Rathaus zum Feuersee.
-- Vorbeifahrt Feuersee auf der Rotebühlstraße entfällt.
+Aus Herrenberg/S-Vaihingen:
+
+- Der Treffpunkt in Degerloch wurde näher an die Epplestraße verlegt.
+- Die Vorschlagsstrecke von Degerloch zum Marienplatz führt nun über Heine-/Karl-Kloß-Straße.
+- Der Bedarfshalt Erwin-Schoettle-Platz entfällt.
+- Die Vorbeifahrt Feuersee auf der Rotebühlstraße entfällt.
+
+Aus Fellbach:
+
+- Die Zeiten haben sich geändert.
+- Die Vorschlagsstrecke vom Rathaus zum Feuersee wurde überarbeitet.
 </div>
 </div>
 
