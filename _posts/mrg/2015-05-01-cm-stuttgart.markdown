@@ -141,6 +141,8 @@ hier anzuschließen.
 {% include meeting-point-close.html %}
 
 {% include meeting-point-open.html group="One" id="Boeblingen" place="Böblingen" point="Elbenplatz" time="16:45 Uhr" %}
+<div class="row">
+<div class="col-md-6" markdown="block">
 Wer möchte, ist herzlich dazu eingeladen, sich der MitRadGelegenheit
 hier anzuschließen.
 
@@ -169,11 +171,16 @@ K&nbsp;1055 oder die Panzerstraße gefahren.
     </tr>
   </tbody>
 </table>
-
+</div>
+<div class="col-md-6">
 {% include meeting-point-image.html url="/images/mrg/boeblingen-elbenplatz-1-400.jpg" alt="Treffpunkt Elbenplatz, Böblingen" %}
+</div>
+</div>
 {% include meeting-point-close.html %}
 
 {% include meeting-point-open.html group="One" id="Vaihingen" place="S-Vaihingen" point="Reisezentrum Bahnhof" time="17:30 Uhr" %}
+<div class="row">
+<div class="col-md-6" markdown="block">
 Erfahrungsgemäß wächst hier die Gruppe auf über 10 Radfahrende an.
 Sofern der Zubringer aus Herrenberg/Böblingen rechtzeitig eintrifft
 wird pünktlich losgefahren.
@@ -200,8 +207,11 @@ wird pünktlich losgefahren.
     </tr>
   </tbody>
 </table>
-
+</div>
+<div class="col-md-6">
 {% include meeting-point-image.html url="/images/mrg/vaihingen-bahnhof-1-400.jpg" alt="Treffpunkt Reisezentrum Bahnhof in Stuttgart-Vaihingen" %}
+</div>
+</div>
 {% include meeting-point-close.html %}
 
 {% include meeting-point-open.html group="One" id="Moehringen" place="S-Möhringen" point="Nordseite Bahnhof" time="17:45 Uhr" %}
