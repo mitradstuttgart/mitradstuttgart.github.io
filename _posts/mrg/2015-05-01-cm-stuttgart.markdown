@@ -57,14 +57,43 @@ Die Strecke kann man sich auf einer separaten
 Wer Interesse hat sich anzuschließen, melde sich via Facebook direkt
 bei Jascha oder hinterlasse einen Kommentar auf dieser Seite.
 
-Ab Herrenberg geht es dann über den etablierten Zubringer.
+Ab Tübingen gibt es feste Treffpunkte und ab Herrenberg geht es dann
+über den etablierten Zubringer.
 {% include meeting-point-close.html %}
 
-{% include meeting-point-open.html group="One" id="Tuebingen" place="Tuebingen" point="Kelternplatz" time="13:30 Uhr" %}
+{% include meeting-point-open.html group="One" id="Tuebingen" place="Tübingen" point="Kelternplatz" time="13:30 Uhr" %}
 Es fahren mindestens drei Radfahrer von Tübingen Richtung Herrenberg.
 Eine gute Gelegenheit also sich anzuschließen.
+{% include meeting-point-close.html %}
 
-Ein Update der Karte folgt.
+{% include meeting-point-open.html group="One" id="Unterjesingen" place="Unterjesingen" point="Bahnhof Mitte" time="14:00 Uhr" %}
+Wer möchte, ist herzlich dazu eingeladen, sich der MitRadGelegenheit
+hier anzuschließen.
+{% include meeting-point-close.html %}
+
+{% include meeting-point-open.html group="One" id="Pfaeffingen" place="Pfäffingen" point="Rathaus" time="14:05 Uhr" %}
+Wer möchte, ist herzlich dazu eingeladen, sich der MitRadGelegenheit
+hier anzuschließen.
+{% include meeting-point-close.html %}
+
+{% include meeting-point-open.html group="One" id="Poltringen" place="Poltringen" point="Kirche Sankt Clemens" time="14:15 Uhr" %}
+Wer möchte, ist herzlich dazu eingeladen, sich der MitRadGelegenheit
+hier anzuschließen.
+{% include meeting-point-close.html %}
+
+{% include meeting-point-open.html group="One" id="Reusten" place="Reusten" point="Bürgerbüro" time="14:25 Uhr" %}
+Wer möchte, ist herzlich dazu eingeladen, sich der MitRadGelegenheit
+hier anzuschließen.
+{% include meeting-point-close.html %}
+
+{% include meeting-point-open.html group="One" id="Altingen" place="Altingen" point="Bürgerbüro" time="14:40 Uhr" %}
+Wer möchte, ist herzlich dazu eingeladen, sich der MitRadGelegenheit
+hier anzuschließen.
+{% include meeting-point-close.html %}
+
+{% include meeting-point-open.html group="One" id="Gueltstein" place="Gültstein" point="Bahnhof" time="15:00 Uhr" %}
+Wer möchte, ist herzlich dazu eingeladen, sich der MitRadGelegenheit
+hier anzuschließen.
 {% include meeting-point-close.html %}
 
 {% include meeting-point-open.html group="One" id="Herrenberg" place="Herrenberg" point="Marktplatz" time="15:30 Uhr" %}
@@ -470,7 +499,7 @@ bleibt auch noch die Gelegenheit sich zu unterhalten.
     makeMap(
       "/maps/critical-mass/stuttgart-2015-05-01.geojson",
       "mitradmap",
-      ["Herrenberg/Esslingen/Waiblingen/Ludwigsburg", "Critical Mass Stuttgart"]
+      ["Tübingen/Wangen/Esslingen/Waiblingen/Ludwigsburg", "Critical Mass Stuttgart"]
     );
   });
 </script>
