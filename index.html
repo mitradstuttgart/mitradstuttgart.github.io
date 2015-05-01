@@ -13,23 +13,9 @@ layout: default
 </div>
 
 <div class="row">
-  <!-- Description -->
-  <div class="col-xs-12">
-    <h3>
-      <span class="fa fa-question-circle"></span>
-      Mit Rad Was?
-    </h3>
-    <p>Viele Menschen fahren mit dem Fahrrad zur Arbeit, Universität,
-    Schule, Ausbildungsstätte, zum Einkaufen, zu Veranstaltungen,
-    Konzerten, Vorträgen, Konferenzen, ….  Bei MitRadGelegenheiten
-    geht es darum, sich bei solchen Fahrten zusammenzuschließen und
-    sie <strong>gemeinsam und sicher</strong> zu bewältigen.
-    Gemeinsam fährt es sich sicherer und je mehr Menschen radfahren,
-    desto sicherer wird es (Safety in Numbers).</p>
-  </div>
 
   <!-- MitRadGelegenheiten -->
-  <div class="col-xs-12 col-md-6">
+  <div class="col-xs-12 col-md-5">
     <h3>
       <span class="fa fa-calendar"></span>
       MitRadGelegenheiten<br>
@@ -44,22 +30,29 @@ layout: default
               <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
               <small>{{ post.date | date: "%d.%m.%Y" }}</small>
             </h4>
+            {% if post.excerpt %}
+              <p>{{ post.excerpt }}</p>
+            {% endif %}
           </li>
         {% endif %}
       {% endfor %}
     </ul>
     <p>
-      Ältere Fahrten kann man im
-      <a href="{{ "/mitradgelegenheit/archive/2015/" | prepend: site.baseurl }}">
+      <a href="{{ "/mitradgelegenheit/neu/" | prepend: site.baseurl }}"
+         class="btn btn-primary" rote="button">
+        <span class="fa fa-plus"></span>
+        Neu
+      </a>
+      <a href="{{ "/mitradgelegenheit/archive/2015/" | prepend: site.baseurl }}"
+         class="btn btn-primary" rote="button">
         <span class="fa fa-archive"></span>
 	Archiv
       </a>
-      nachlesen.
     </p>
   </div>
 
   <!-- MitRadPendeln -->
-  <div class="col-xs-12 col-md-6">
+  <div class="col-xs-12 col-md-4">
     <h3>
       <span class="fa fa-exchange"></span>
       MitRadPendeln<br>
@@ -70,30 +63,51 @@ layout: default
         <li>
           <h4>
             <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-	    {% if post.date >= site.time %}
+            <br>
+            {% if post.date >= site.time %}
               <small>ab {{ post.date | date: "%d.%m.%Y" }}</small>
             {% else %}
               <small>seit {{ post.date | date: "%d.%m.%Y" }}</small>
             {% endif %}
           </h4>
+          {% if post.excerpt %}
+            <p>{{ post.excerpt }}</p>
+          {% endif %}
         </li>
       {% endfor %}
     </ul>
+    <p>
+      <a href="{{ "/mitradpendeln/neu/" | prepend: site.baseurl }}"
+         class="btn btn-primary" rote="button">
+        <span class="fa fa-plus"></span>
+        Neu
+      </a>
+    </p>
   </div>
 
-  <!-- Blog -->
-  <div class="col-xs-12">
-    <h3>
+  <!-- Description -->
+  <div class="col-xs-12 col-md-3">
+    <h4>
+      <span class="fa fa-question-circle"></span>
+      Mit Rad Was?
+    </h4>
+    <p>MitRadGelegenheiten bedeuten, sich bei Fahrten im Alltag
+    zusammenzuschließen um sie <strong>gemeinsam und sicher</strong>
+    zu bewältigen.  Gemeinsam fährt es sich sicherer und je mehr
+    Menschen radfahren, desto sicherer wird es für alle (Safety in
+    Numbers).</p>
+
+    <!-- News -->
+    <h4>
       <span class="fa fa-newspaper-o"></span>
       Neuigkeiten
-    </h3>
-
-    <p>… rund um die Entwicklung von MitRadGelegenheitem im Raum
-    Stuttgart und von MitRadStuttgart veröffentlichen wir in unserem
-    <strong><a href="{{ "/blog/" | prepend: site.baseurl }}">Blog</a></strong>.
-    Während den MitRadGelegenheiten teilen wir oft bei
+    </h4>
+    <p>… gibt es in unserem
+    <strong><a href="{{ "/blog/" | prepend: site.baseurl }}">Blog</a></strong>
+    sowie bei
     <a href="https://twitter.com/{{ site.twitter_username }}" target="_blank">Twitter</a>
-    aktuelle Informationen zum Ablauf mit,
-    beispielsweise ob es Verspätungen gibt.</p>
-    </div>
+    und
+    <a href="https://www.facebook.com/{{ site.facebook_username }}" target="_blank">Facebook</a>.
+    </p>
+  </div>
 </div>
