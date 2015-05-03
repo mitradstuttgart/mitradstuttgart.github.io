@@ -4,7 +4,7 @@ title:  "Critical Mass Stuttgart"
 date:   2015-05-01 14:00:00
 categories: mitradgelegenheit
 facebook-event: https://www.facebook.com/events/949045571793783/
-excerpt: Mit fünf Zubringern radeln wir aus den Nachbarlandkreisen und den Stuttgarter Bezirken zur CM Stuttgart.
+teaser: Mit fünf Zubringern radeln wir aus den Nachbarlandkreisen und den Stuttgarter Bezirken zur CM Stuttgart.
 ---
 
 Am 01.&nbsp;Mai gibt es wieder mehrere MitRadGelegenheiten zur [Critical Mass Stuttgart][CM-Stuttgart]{:target="_blank"}.  Es gibt diesmal zwei neue Zubringer, außerdem haben sich kleinere Details geändert.

@@ -3,7 +3,7 @@ layout: mitradpendeln
 title:  "S-Vaihingen → Innenstadt"
 date:   2015-04-09 08:00:00 +02:00
 categories: mitradpendeln
-excerpt: Tina fährt von Montag bis Freitag jeden Morgen von Stuttgart-Vaihingen über den Tallängsweg in die Innenstadt.  Damit die Fahrt etwas geselliger und sicherer wird, sucht sie Mitradelnde.
+teaser: Tina fährt von Montag bis Freitag jeden Morgen von Stuttgart-Vaihingen über den Tallängsweg in die Innenstadt.  Damit die Fahrt etwas geselliger und sicherer wird, sucht sie Mitradelnde.
 ---
 
 **Tina** fährt von Montag bis Freitag jeden Morgen von Stuttgart-Vaihingen über den Tallängsweg in die Innenstadt.  Damit die Fahrt etwas geselliger und vor allem sicherer wird, sucht sie Mitfahrende.  Wer Lust hat, ist herzlich dazu eingeladen, sich ihr anzuschließen.

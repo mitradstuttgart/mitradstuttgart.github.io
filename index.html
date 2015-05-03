@@ -30,8 +30,8 @@ layout: default
               <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
               <small>{{ post.date | date: "%d.%m.%Y" }}</small>
             </h4>
-            {% if post.excerpt %}
-              <p>{{ post.excerpt }}</p>
+            {% if post.teaser %}
+              {{ post.teaser }}
             {% endif %}
           </li>
         {% endif %}
@@ -46,7 +46,7 @@ layout: default
       <a href="{{ "/mitradgelegenheit/archive/2015/" | prepend: site.baseurl }}"
          class="btn btn-primary" rote="button">
         <span class="fa fa-archive"></span>
-	Archiv
+        Archiv
       </a>
     </p>
   </div>
@@ -70,8 +70,8 @@ layout: default
               <small>seit {{ post.date | date: "%d.%m.%Y" }}</small>
             {% endif %}
           </h4>
-          {% if post.excerpt %}
-            <p>{{ post.excerpt }}</p>
+          {% if post.teaser %}
+            {{ post.teaser }}
           {% endif %}
         </li>
       {% endfor %}
