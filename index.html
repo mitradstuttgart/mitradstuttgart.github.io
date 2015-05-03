@@ -21,22 +21,24 @@ layout: default
       MitRadGelegenheiten<br>
       <small>Einmalige, jährliche und monatliche Fahrten.</small>
     </h3>
-    <ul>
+    <dl>
       {% assign posts = site.categories.mitradgelegenheit | sort: 'date'  %}
       {% for post in posts %}
         {% if post.date >= site.time %}
-          <li>
+          <dt>
             <h4>
               <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
               <small>{{ post.date | date: "%d.%m.%Y" }}</small>
             </h4>
+          </dt>
+          <dd>
             {% if post.teaser %}
               {{ post.teaser }}
             {% endif %}
-          </li>
+          </dd>
         {% endif %}
       {% endfor %}
-    </ul>
+    </dl>
     <p>
       <a href="{{ "/mitradgelegenheit/neu/" | prepend: site.baseurl }}"
          class="btn btn-primary" rote="button">
@@ -58,9 +60,9 @@ layout: default
       MitRadPendeln<br>
       <small>Tägliche und wöchentliche Fahrten.</small>
     </h3>
-    <ul>
+    <dl>
       {% for post in site.categories.mitradpendeln | sort: 'date' | reverse %}
-        <li>
+        <dt>
           <h4>
             <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
             <br>
@@ -70,12 +72,14 @@ layout: default
               <small>seit {{ post.date | date: "%d.%m.%Y" }}</small>
             {% endif %}
           </h4>
+        </dt>
+        <dd>
           {% if post.teaser %}
             {{ post.teaser }}
           {% endif %}
-        </li>
+        </dd>
       {% endfor %}
-    </ul>
+    </dl>
     <p>
       <a href="{{ "/mitradpendeln/neu/" | prepend: site.baseurl }}"
          class="btn btn-primary" rote="button">
