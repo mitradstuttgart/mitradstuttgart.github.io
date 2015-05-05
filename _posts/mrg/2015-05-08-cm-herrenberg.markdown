@@ -1,13 +1,13 @@
 ---
 layout: mitradgelegenheit
-title:  "Critical Mass Herrenberg"
+title:  "1 Jahr Critical Mass Herrenberg"
 date:   2015-05-08 15:00:00
 categories: mitradgelegenheit
 facebook-event:
-teaser: Drei Bundesstraßen und die nahe Autobahn machen dem Radverkehr das Leben schwer.  Wir kommen aus Stuttgart und Tübingen zur CM Herrenberg um dabei mitzuhelfen den Radverkehr zu stärken.
+teaser: Die CM Herrenberg feiert einjähriges Bestehen.  Wir radeln aus Stuttgart und Tübingen nach Herrenberg und feiern gemeinsam.
 ---
 
-Am 13.&nbsp;März geht es per MitRadGelegenheiten aus Stuttgart und möglicherweise auch aus Tübingen zur [Critical Mass Herrenberg][CM-Herrenberg]{:target="_blank"}.
+Am 08.&nbsp;Mai geht es per MitRadGelegenheiten aus Stuttgart und möglicherweise auch aus Tübingen zum **einjährigen Jubiläum der [Critical Mass Herrenberg][CM-Herrenberg]{:target="_blank"}**.
 
 
 ### Zustiegsmöglichkeiten
