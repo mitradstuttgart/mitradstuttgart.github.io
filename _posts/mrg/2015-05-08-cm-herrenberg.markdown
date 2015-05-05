@@ -3,7 +3,7 @@ layout: mitradgelegenheit
 title:  "1 Jahr Critical Mass Herrenberg"
 date:   2015-05-08 15:00:00
 categories: mitradgelegenheit
-facebook-event:
+facebook-event: https://www.facebook.com/events/661160510684997/
 teaser: Die CM Herrenberg feiert einjähriges Bestehen.  Wir radeln aus Stuttgart und Tübingen nach Herrenberg und feiern gemeinsam.
 ---
 
