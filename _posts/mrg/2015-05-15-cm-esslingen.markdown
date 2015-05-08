@@ -9,7 +9,7 @@ teaser: Noch ganz neu, braucht die CM Esslingen dringend Unterstützung.
 
 Am 15.&nbsp;März geht es per MitRadGelegenheiten aus Stuttgart zur [Critical Mass Esslingen][CM-Esslingen]{:target="_blank"}.
 
-Nähere Infos folgen bis zum 08. Mai.
+Nähere Infos folgen <strike>bis zum 08.</strike> am 10. Mai.
 
 Diese Fahrt ist Teil unserer Initiative *#supportyourneighbour*.
 
