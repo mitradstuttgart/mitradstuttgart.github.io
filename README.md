@@ -1,4 +1,4 @@
-# [MitRadStuttgart](http://mitradstuttgart.de/) [![Build Status](https://travis-ci.org/mitradstuttgart/mitradstuttgart.github.io.svg)](https://travis-ci.org/mitradstuttgart/mitradstuttgart.github.io)
+# [MitRadStuttgart](http://mitradstuttgart.de/) [![Build Status](https://travis-ci.org/mitradstuttgart/mitradstuttgart.github.io.svg)](https://travis-ci.org/mitradstuttgart/mitradstuttgart.github.io) [![devDependency Status](https://david-dm.org/mitradstuttgart/mitradstuttgart.github.io/dev-status.svg)](https://david-dm.org/mitradstuttgart/mitradstuttgart.github.io#info=devDependencies)
 
 [MitRadGelegenheiten](http://mitradgelegenheit.org/) in der
 (Metropol-)Region Stuttgart.
