@@ -35,14 +35,59 @@ layout: default
   </div>
 </header>
 
-<article>
+<article markdown="block">
   {{ content }}
+  {% if page.routes %}
+    <h3 id="zustiegsmoeglichkeiten">Zustiegsmöglichkeiten</h3>
+    <div class="row">
+      {% for route in page.routes %}
+        {% capture group %}{% cycle 'One', 'Two', 'Three', 'Four', 'Five', 'Six', 'Seven', 'Eight' %}{% endcapture %}
+        <div class="col-xs-12 col-md-6">
+          <h4>{{ route.heading }}</h4>
+          <div class="panel-group" id="accordion{{ group }}" role="tablist" aria-multiselectable="true">
+            {% if route.stops %}{% for stop in route.stops %}
+              {% include meeting-point-open.html group=group id=stop.id place=stop.place point=stop.point time=stop.time expanded=forloop.first %}
+                {% if stop.description %}{% for description in stop.description %}
+                  <p>{{ description }}</p>
+                {% endfor %}{% endif %}
+                {% if stop.image.url %}
+                  {% include meeting-point-image.html url=stop.image.url alt=stop.image.alt %}
+                {% endif %}
+              {% include meeting-point-close.html %}
+            {% endfor %}{% endif %}
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+  {% endif %}
+
+  {% if page.map.source %}
+    <h3 id="karte">Karte</h3>
+
+    {% include map.html %}
+
+    <div id="mitradmap" style="width:100%; height: 100px;"></div>
+
+    <script>
+      $(document).ready(function(){
+        makeMap(
+          "{{ page.map.source }}",
+          "mitradmap",
+          [
+            {% if page.map.stops %}{% for stop in page.map.stops %}
+              "{{ stop }}"{% if forloop.last == false %},{% endif %}
+            {% endfor %}{% endif %}
+          ]
+        );
+      });
+    </script>
+  {% endif %}
 </article>
 
+<!-- Comments -->
 <div class="row">
   <div class="hidden-xs hidden-sm col-md-1 col-lg-2">&nbsp;</div>
   <div class="col-xs-12 col-md-10 col-lg-8">
-
     <script>
       var idcomments_acct = '5a030a45cae91d02887055eb9c4d7f39';
       var idcomments_post_id;
