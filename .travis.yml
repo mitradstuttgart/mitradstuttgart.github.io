@@ -1,0 +1,11 @@
+---
+language: ruby
+rvm:
+  - 2.1.1
+  - 2.1.6
+  - 2.2.2
+script:
+- bundle exec jekyll build
+branches:
+  only:
+  - master

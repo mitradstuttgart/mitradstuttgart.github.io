@@ -3,6 +3,7 @@
 \#*\#
 .*
 !.gitignore
+!.travis.yml
 _site
 .sass-cache
 /node_modules/
