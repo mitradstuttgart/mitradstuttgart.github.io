@@ -75,3 +75,7 @@ License](https://creativecommons.org/licenses/by-sa/4.0/).
 - [Shariff](https://github.com/heiseonline/shariff) is licensed under
   the MIT License, Copyright (c) 2014 Heise Zeitschriften Verlag GmbH
   & Co. KG and other contributors.
+
+- [D3.js](http://d3js.org) is licensed under the [New BSD (3-clause
+  BSD)](https://github.com/mbostock/d3/blob/master/LICENSE) License,
+  Copyright (c) Michael Bostock.
