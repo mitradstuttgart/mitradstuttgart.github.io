@@ -3,7 +3,7 @@ layout: mitradgelegenheit
 title:  "Critical Mass Esslingen <em>#supportyourneighbour</em>"
 date:   2015-05-15 15:00:00
 categories: mitradgelegenheit
-facebook-event:
+facebook-event: https://www.facebook.com/events/1665485947014767/
 teaser: Noch ganz neu, braucht die CM Esslingen dringend Unterstützung.
 
 routes:
