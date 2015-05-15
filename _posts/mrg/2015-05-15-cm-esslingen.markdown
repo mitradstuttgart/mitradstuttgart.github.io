@@ -33,7 +33,7 @@ routes:
   - id: Obertuerkheim
     place: Obertürkheim
     point: Bezirksrathaus
-    time: 17:15 Uhr
+    time: 17:30 Uhr
     description: Der Treffpunkt liegt in der Augsburger Straße auf Höhe des Bezirksrathauses.
     image:
       url: /images/mrg/obertuerkheim-bezirksrathaus-1-400.jpg
