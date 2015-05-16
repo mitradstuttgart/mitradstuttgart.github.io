@@ -126,6 +126,6 @@ Die Aufgabe ist nicht schwer.  Es geht lediglich darum pünktlich am Treffpunkt 
 [CM-Stuttgart]:       https://criticalmassstuttgart.wordpress.com/
 [Werbung-BB]:         http://www.radeln-in-bb.de/critical-mass-boeblingen-27-maerz-und-touren-zur-critical-mass-stuttgart/
 [CMS-Strecke-201503]: https://criticalmassstuttgart.wordpress.com/2015/03/04/strecke-am-6-marz-2015/
-[AlbanManz]:          http://gniluek.de/criticalmass/2015/01/02/html/2015-01-02_054.html
+[AlbanManz]:          http://gniluek.de/archiv/criticalmass/2015/01/02/html/2015-01-02_054.html
 [CMS-Bericht]:        https://criticalmassstuttgart.wordpress.com/2015/03/08/fruhjahrsklassiker/
-[Gniluek-Photos]:     http://gniluek.de/criticalmass/2015/03/06/index.html
+[Gniluek-Photos]:     http://gniluek.de/archiv/criticalmass/2015/03/06/index.html
