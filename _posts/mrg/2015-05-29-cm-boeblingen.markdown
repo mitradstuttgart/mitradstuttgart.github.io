@@ -6,7 +6,7 @@ categories: mitradgelegenheit
 facebook-event: 
 ---
 
-Am 29.&nbsp;Mai gibt es wieder eine MitRadGelegenheiten aus Stuttgart-Vaihingen und Herrenberg zur [Critical Mass Böblingen][CM-Boeblingen]{:target="_blank"}.
+Am 29.&nbsp;Mai gibt es wieder MitRadGelegenheiten aus Stuttgart-Vaihingen und Herrenberg zur [Critical Mass Böblingen][CM-Boeblingen]{:target="_blank"}.
 
 Details folgen voraussichtlich am Montag, den 25.&nbsp;Mai.
 
