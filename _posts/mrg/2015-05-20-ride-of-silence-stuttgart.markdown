@@ -7,7 +7,8 @@ facebook-event:
 teaser: Am 20. Mai finden die ersten Rides of Silence statt.  Einer davon in Stuttgart.
 
 routes:
-- heading: Vaihingen
+- id: RVaihingen
+  heading: Vaihingen
   stops:
   - id: Vaihingen
     place: S-Vaihingen
@@ -44,7 +45,8 @@ routes:
       url: /images/mrg/marienplatz-2-400.jpg
       alt: Marienplatz, Stuttgart-Süd
 
-- heading: Untertürkheim
+- id: RUntertuerkheim
+  heading: Untertürkheim
   stops:
   - id: Untertuerkheim
     place: Untertürkheim
@@ -94,7 +96,8 @@ routes:
       url: /images/mrg/marienplatz-2-400.jpg
       alt: Marienplatz, Stuttgart-Süd
 
-- heading: Fellbach
+- id: RFellbach
+  heading: Fellbach
   stops:
   - id: Fellbach
     place: Fellbach
@@ -130,7 +133,8 @@ routes:
       url: /images/mrg/marienplatz-2-400.jpg
       alt: Marienplatz, Stuttgart-Süd
 
-- heading: Ludwigsburg
+- id: RLudwigsburg
+  heading: Ludwigsburg
   stops:
   - id: Ludwigsburg
     place: Ludwigsburg

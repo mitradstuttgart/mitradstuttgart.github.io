@@ -39,25 +39,55 @@ layout: default
   {{ content }}
   {% if page.routes %}
     <h3 id="zustiegsmoeglichkeiten">Zustiegsmöglichkeiten</h3>
-    <div class="row">
-      {% for route in page.routes %}
-        {% capture group %}{% cycle 'One', 'Two', 'Three', 'Four', 'Five', 'Six', 'Seven', 'Eight' %}{% endcapture %}
+    {% if page.routes.size > 2 %}
+      <div role="tabpanel">
+
+        <!-- Nav tabs -->
+        <ul class="nav nav-tabs" role="tablist">
+          {% for route in page.routes %}
+            <li role="presentation" {% if forloop.first %} class="active"{% endif %}>
+              <a href="#{{ route.id }}" aria-controls="{{ route.id }}" role="tab" data-toggle="tab" class="btn btn-primary">
+                {{ route.heading }}
+              </a>
+            </li>
+          {% endfor %}
+        </ul>
+        <div class="tab-content">
+    {% else %}
+      <div class="row">
+    {% endif %}
+
+    {% for route in page.routes %}
+      {% capture group %}{% cycle 'One', 'Two', 'Three', 'Four', 'Five', 'Six', 'Seven', 'Eight' %}{% endcapture %}
+
+      {% if page.routes.size > 2 %}
+        <div role="tabpanel" class="tab-pane{% if forloop.first %} active{% endif %}" id="{{ route.id }}">
+      {% elsif page.routes.size == 2 %}
         <div class="col-xs-12 col-md-6">
-          <h4>{{ route.heading }}</h4>
-          <div class="panel-group" id="accordion{{ group }}" role="tablist" aria-multiselectable="true">
-            {% if route.stops %}{% for stop in route.stops %}
-              {% include meeting-point-open.html group=group id=stop.id place=stop.place point=stop.point time=stop.time expanded=forloop.first %}
-                {% if stop.description %}{% for description in stop.description %}
-                  <p>{{ description }}</p>
-                {% endfor %}{% endif %}
-                {% if stop.image.url %}
-                  {% include meeting-point-image.html url=stop.image.url alt=stop.image.alt %}
-                {% endif %}
-              {% include meeting-point-close.html %}
-            {% endfor %}{% endif %}
-          </div>
+        <h4>{{ route.heading }}</h4>
+      {% else %}
+        <div class="col-xs-12">
+        <h4>{{ route.heading }}</h4>
+      {% endif %}
+
+        <div class="panel-group" id="accordion{{ group }}" role="tablist" aria-multiselectable="true">
+          {% if route.stops %}{% for stop in route.stops %}
+            {% include meeting-point-open.html group=group id=stop.id place=stop.place point=stop.point time=stop.time expanded=forloop.first %}
+              {% if stop.description %}{% for description in stop.description %}
+                <p>{{ description }}</p>
+              {% endfor %}{% endif %}
+              {% if stop.image.url %}
+                {% include meeting-point-image.html url=stop.image.url alt=stop.image.alt %}
+              {% endif %}
+            {% include meeting-point-close.html %}
+          {% endfor %}{% endif %}
         </div>
-      {% endfor %}
+      </div>
+    {% endfor %}
+
+    {% if page.routes.size > 2 %}
+      </div>
+    {% endif %}
     </div>
   {% endif %}
 
