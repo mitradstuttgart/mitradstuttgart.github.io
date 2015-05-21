@@ -1,0 +1,10 @@
+---
+layout: mitradgelegenheit
+title:  "Kunst und Kultur bei contain't"
+date:   2015-05-23 18:00:00
+categories: mitradgelegenheit
+facebook-event:
+teaser: Etwas Entspannung zwischen all dem Radfahren.
+---
+
+Am 23.&nbsp;Mai radeln wir abends von Stuttgart-Vaihingen über den Tallängsweg Richtung contain't.  Uhrzeit und Treffpunkte legen wir spontan fest.  Wer mitradeln will, möge sich melden.
