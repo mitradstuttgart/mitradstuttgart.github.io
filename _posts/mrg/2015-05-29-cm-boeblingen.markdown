@@ -3,7 +3,7 @@ layout: mitradgelegenheit
 title:  "Critical Mass Böblingen"
 date:   2015-05-29 16:00:00
 categories: mitradgelegenheit
-facebook-event:
+facebook-event: https://www.facebook.com/events/1586042141645720/
 teaser: Dem Bürgermeister sind PKW-Stellplätze wichtiger als Fahrradinfrastruktur.  Uns nicht.
 
 routes:
