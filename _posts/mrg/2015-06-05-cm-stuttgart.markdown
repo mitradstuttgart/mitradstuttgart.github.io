@@ -3,7 +3,7 @@ layout: mitradgelegenheit
 title:  "Critical Mass Stuttgart"
 date:   2015-06-05 14:00:00
 categories: mitradgelegenheit
-facebook-event: 
+facebook-event: https://www.facebook.com/events/711941138928422/
 teaser: Mit mehreren Zubringern radeln wir aus den Nachbarlandkreisen und den Stuttgarter Bezirken zur größten Critical Mass in Baden-Württemberg.
 
 routes:
