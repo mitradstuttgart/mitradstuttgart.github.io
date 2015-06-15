@@ -94,7 +94,7 @@ map:
   - "Critical Mass Esslingen"
 ---
 
-Am 15.&nbsp;März geht es per MitRadGelegenheiten aus Stuttgart zur [Critical Mass Esslingen][CM-Esslingen]{:target="_blank"}.
+Am 15.&nbsp;Mai geht es per MitRadGelegenheiten aus Stuttgart zur [Critical Mass Esslingen][CM-Esslingen]{:target="_blank"}.
 
 Am 06.&nbsp;März gab es in Esslingen eine [Raddemo][Raddemo]{:target="_blank"} bei der 80–90 Personen mitradelten.  In der Folge gab es zwei Critcal-Mass-Ausfahrten.  Da jedoch kaum Werbung dafür gemacht wurde, waren sie schlecht besucht.
 
