@@ -160,13 +160,15 @@ routes:
     place: Wangen
     point: Shackspace
     time: 17:40 Uhr
-    description: Der Treffpunkt liegt vor dem Shackspace (Ulmer Straße 255).
+    description:
+    - Der Treffpunkt liegt vor dem Shackspace (Ulmer Straße 255).
 
   - id: Lukasplatz
     place: Stuttgart-Ost
     point: Lukasplatz <small>(Wasserspender)</small>
     time: 18:00 Uhr
-    description: Der Treffpunkt liegt auf dem Lukasplatz, bei dem dortigen Wasserspender.
+    description:
+    - Der Treffpunkt liegt auf dem Lukasplatz, bei dem dortigen Wasserspender.
     image:
       url: /images/mrg/stuttgart-ost-lukasplatz-1-400.jpg
       alt: Treffpunkt Lukasplatz, Stuttgart-Ost
@@ -175,7 +177,8 @@ routes:
     place: Stuttgart-Mitte
     point: Urbansplatz <small>(Lüftungsanlage)</small>
     time: 18:10 Uhr
-    description: Der Treffpunkt liegt am Urbansplatz, bei der Lüftungsanlage (oder was immer das ist) der Staatsgalerie.
+    description:
+    - Der Treffpunkt liegt am Urbansplatz, bei der Lüftungsanlage (oder was immer das ist) der Staatsgalerie.
     image:
       url: /images/mrg/stuttgart-urbansplatz-1-400.jpg
       alt: Treffpunkt Urbansplatz, Stuttgart-Mitte

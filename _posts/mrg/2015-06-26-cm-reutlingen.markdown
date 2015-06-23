@@ -18,36 +18,42 @@ routes:
     image:
       url: /images/mrg/vaihingen-bahnhof-1-400.jpg
       alt: Treffpunkt Reisezentrum Bahnhof, Stuttgart-Vaihingen
+
   - id: Oberaichen
     place: Oberaichen
     point: Hans-Holbein-Straße Ecke Rohrer Straße
     time: 15:45 Uhr
     description:
     - Entlang der Hans-Holbein-Straße ist ein Parkstreifen.  Da dort meist nicht allzuviele Fahrzeuge stehen, eignet er sich gut als Treffpunkt.
+
   - id: Musberg
     place: Musberg
     point: Bushaltestelle Wanderweg
     time: 15:50 Uhr
     description:
     - Wir treffen uns auf der Wendeplatte.
+
   - id: Burkhardtsmuehle
     place: Burkhardtsmühle
     point: Parkplatz
     time: 16:10 Uhr
     description:
     - Wir treffen uns auf dem Weg zwischen Parkplatz und Gaststätte.
+
   - id: Neckartailfingen
     place: Neckartailfingen
     point: Tübinger Straße
     time: 16:40 Uhr
     description:
     - Bitte kurz Bescheid geben, falls Du ab hier mitfahren möchtest.
+
   - id: Pliezhausen
     place: Pliezhausen
     point: Neckartal, L 378
     time: 17:15 Uhr
     description:
     - Bitte kurz Bescheid geben, falls Du ab hier mitfahren möchtest.
+
   - id: Reutlingen
     place: Reutlingen
     point: Stadthalle

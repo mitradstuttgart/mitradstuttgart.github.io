@@ -19,6 +19,7 @@ routes:
     image:
       url: /images/mrg/marienplatz-2-400.jpg
       alt: Treffpunkt Marienplatz, Stuttgart
+
   - id: Vaihingen
     place: S-Vaihingen
     point: Reisezentrum Bahnhof
@@ -35,12 +36,14 @@ routes:
     image:
       url: /images/mrg/vaihingen-bahnhof-1-400.jpg
       alt: Treffpunkt Reisezentrum Bahnhof, Stuttgart-Vaihingen
+
   - id: RHoehe
     place: S-Vaihingen
     point: Rohrer Höhe
     time: bei Bedarf
     description:
     - Wer möchte, kann sich hier der MitRadGelegenheit anschließen.  Damit nicht ewig gewartet werden muss, empfiehlt es sich, vorher Kontakt aufzunehmen.
+
   - id: Boeblingen
     place: Böblingen
     point: Elbenplatz
@@ -56,24 +59,28 @@ routes:
     image:
       url: /images/mrg/boeblingen-elbenplatz-1-400.jpg
       alt: Treffpunkt Elbenplatz, Böblingen
+
   - id: Ehningen
     place: Ehningen
     point: Königstraße
     time: bei Bedarf
     description:
     - Wer möchte, kann sich hier der MitRadGelegenheit anschließen.  Damit nicht ewig gewartet werden muss, empfiehlt es sich, vorher Kontakt aufzunehmen.
+
   - id: Gaertringen
     place: Gärtringen
     point: Bahnhof
     time: bei Bedarf
     description:
     - Wer möchte, kann sich hier der MitRadGelegenheit anschließen.  Damit nicht ewig gewartet werden muss, empfiehlt es sich, vorher Kontakt aufzunehmen.
+
   - id: Nufringen
     place: Nufringen
     point: Rathaus
     time: bei Bedarf
     description:
     - Wer möchte, kann sich hier der MitRadGelegenheit anschließen.  Damit nicht ewig gewartet werden muss, empfiehlt es sich, vorher Kontakt aufzunehmen.
+
   - id: Herrenberg
     place: Herrenberg
     point: Auf dem Graben
@@ -81,6 +88,7 @@ routes:
     description:
     - Um 18:00&nbsp;Uhr startet hier die Critical Mass.
     - Weitere Informationen gibt es auf der Website der CM Herrenberg.
+
 - heading: Aus Tübingen
   stops:
   - id: Tuebingen
@@ -90,6 +98,7 @@ routes:
     description:
     - Leider ist uns keine MitRadGelegenheit aus Tübingen bekannt.  Wer möchte kann sich gerne mit uns in Verbindung setzen und wir veröffentlichen eine.  Erfahrungswerte zur benötigten Zeit liegen vor.
     - Bei Interesse stellen wir auch gerne Informationen für eine gemeinsame Anreise per Zug online.
+
   - id: Herrenberg
     place: Herrenberg
     point: Auf dem Graben

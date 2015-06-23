@@ -15,6 +15,7 @@ routes:
     description:
     - Der Treffpunkt liegt auf der Südseite der Universitätsstraße, bei der Fahrradabstellanlage.  Es wird pünktlich losgefahren.
     - Aus der Innenstadt besteht die Möglichkeit mit der S-Bahn per Kurzstreckenticket (1,20&nbsp;€) von der Schwabstraße zur Universität zu fahren.
+
   - id: Vaihingen
     place: S-Vaihingen
     point: Reisezentrum Bahnhof
@@ -25,18 +26,21 @@ routes:
     image:
       url: /images/vaihingen-bahnhof-small.jpg
       alt: Treffpunkt Reisezentrum Bahnhof in Stuttgart-Vaihingen
+
   - id: RHoehe
     place: S-Vaihingen
     point: Rohrer Höhe
     time: bei Bedarf
     description:
     - Wer möchte, kann sich hier der MitRadGelegenheit anschließen.  Wann wir dort eintreffen hängt von unseren Kräften ab.
+
   - id: Boeblingen
     place: Böblingen
     point: Elbenplatz
     time: 17:00 Uhr
     description:
     - Hier startet die CM Böblingen.
+
 - heading: Aus Herrenberg
   stops:
   - id: Herrenberg
@@ -45,24 +49,28 @@ routes:
     time: 15:30 Uhr
     description:
     - <strong>Achtung:</strong> Anders als die Critical Mass, startet die MitRadGelegenheit am Marktplatz in Herrenberg.
+
   - id: Nufringen
     place: Nufringen
     point: Rathaus
     time: 15:50 Uhr
     description:
     - Wer möchte, kann sich hier der MitRadGelegenheit anschließen.
+
   - id: Gaertringen
     place: Gärtringen
     point: Bahnhof
     time: 16:05 Uhr
     description:
     - Wer möchte, kann sich hier der MitRadGelegenheit anschließen.
+
   - id: Ehningen
     place: Ehningen
     point: Königstraße
     time: 16:20 Uhr
     description:
     - Wer möchte, kann sich hier der MitRadGelegenheit anschließen.
+
   - id: Boeblingen2
     place: Böblingen
     point: Elbenplatz
