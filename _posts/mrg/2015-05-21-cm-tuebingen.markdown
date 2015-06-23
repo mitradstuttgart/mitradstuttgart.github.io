@@ -16,7 +16,7 @@ routes:
     time: 15:45 Uhr
     description:
     - Der Treffpunkt liegt auf der Südseite der Universitätsstraße, bei der Fahrradabstellanlage.  Es wird pünktlich losgefahren.
-    - Aus der Innenstadt besteht die Möglichkeit mit der S-Bahn per Kurzstreckenticket (1,20&nbsp;€) von der Schwabstraße zur Universität zu fahren. (Achtung: Streik)
+    - Aus der Innenstadt besteht die Möglichkeit mit der S-Bahn per Kurzstreckenticket (1,20&nbsp;€) von der Schwabstraße zur Universität zu fahren. (Achtung&#58; Streik)
 
   - id: Vaihingen
     place: S-Vaihingen

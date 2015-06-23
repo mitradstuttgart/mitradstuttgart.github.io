@@ -74,7 +74,7 @@ layout: default
           {% if route.stops %}{% for stop in route.stops %}
             {% include meeting-point-open.html group=group id=stop.id place=stop.place point=stop.point time=stop.time expanded=forloop.first %}
               {% if stop.description %}{% for description in stop.description %}
-                <p>{{ description }}</p>
+                {{ description | markdownify }}
               {% endfor %}{% endif %}
               {% if stop.image.url %}
                 {% include meeting-point-image.html url=stop.image.url alt=stop.image.alt %}
