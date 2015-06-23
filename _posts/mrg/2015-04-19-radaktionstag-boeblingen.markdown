@@ -6,7 +6,7 @@ categories: mitradgelegenheit
 facebook-event: 
 ---
 
-Am 19.&nbsp;April geht es aus Stuttgart-Vaihingen per MitRadGelegenheit zum [Radaktionstag des Landkreises Böblingen][Radaktionstag-Boeblingen]{:target="_blank"}.
+Am 19.&nbsp;April geht es aus Stuttgart-Vaihingen per MitRadGelegenheit zum Radaktionstag des Landkreises Böblingen.
 
 ### Zustiegsmöglichkeiten
 
@@ -32,7 +32,7 @@ Der Treffpunkt liegt auf der Seite des Busbahnhofs.
 Es besteht die Möglichkeit aus Filderstadt oder der Stuttgarter
 Innenstadt per S-Bahn dazuzustoßen.
 
-<img src="{{ "/images/vaihingen-bahnhof.jpg" | prepend: site.baseurl }}"
+<img src="{{ "/images/vaihingen-bahnhof-small.jpg" | prepend: site.baseurl }}"
      alt="Treffpunkt Reisezentrum Bahnhof in Stuttgart-Vaihingen"
      class="img-rounded" style="width:100%;">
 </div>
@@ -97,8 +97,3 @@ Hier liegt das Ziel der MitRadGelegenheit.
     );
   });
 </script>
-
-
-
-
-[Radaktionstag-Boeblingen]: http://lrabb.de/,Lde/start/Aktuelles/Neue+Seite.html

@@ -81,7 +81,7 @@ routes:
     description:
     - Wer möchte, kann sich hier der MitRadGelegenheit anschließen.  Damit nicht ewig gewartet werden muss, empfiehlt es sich, vorher Kontakt aufzunehmen.
 
-  - id: Herrenberg
+  - id: HerrenbergS
     place: Herrenberg
     point: Auf dem Graben
     time: 18:00 Uhr
@@ -99,7 +99,7 @@ routes:
     - Leider ist uns keine MitRadGelegenheit aus Tübingen bekannt.  Wer möchte kann sich gerne mit uns in Verbindung setzen und wir veröffentlichen eine.  Erfahrungswerte zur benötigten Zeit liegen vor.
     - Bei Interesse stellen wir auch gerne Informationen für eine gemeinsame Anreise per Zug online.
 
-  - id: Herrenberg
+  - id: HerrenbergT
     place: Herrenberg
     point: Auf dem Graben
     time: 18:00 Uhr

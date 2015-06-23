@@ -226,4 +226,4 @@ Auch für die Critical Mass Initiativen war dies ein guter Monat.  Das Wetter ha
 
 
 [CM-Reutlingen-Bericht]: {{ "/blog/2015/03/05/bericht-cm-reutlingen.html" | prepend: site.baseurl }}
-[CM-Stuttgart-Bericht]:  {{ "/blog/2015/03/08/bericht-cm-stuttgart.html" | prepend: site.baseurl }}
+[CM-Stuttgart-Bericht]:  {{ "/blog/2015/03/07/bericht-cm-stuttgart.html" | prepend: site.baseurl }}

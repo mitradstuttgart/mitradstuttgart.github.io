@@ -246,5 +246,5 @@ In Stuttgart wird die Aktion von einem breiten Bündnis aus ADFC, VCD, Critical 
 
 
 
-[Blog-CM-Stgt]: https://criticalmassstuttgart.wordpress.com/2015/05/09/ride-of-silence-2015/
+[Blog-CM-Stgt]: https://criticalmassstuttgart.wordpress.com/2015/05/17/ride-of-silence-2015/
 [Rides-of-Silence]: http://www.rideofsilence.org/
