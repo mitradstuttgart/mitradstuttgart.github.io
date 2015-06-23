@@ -24,19 +24,16 @@ layout: default
     <dl>
       {% assign posts = site.categories.mitradgelegenheit | sort: 'date'  %}
       {% for post in posts %}
-        {% if post.date >= site.time %}
-          <dt>
-            <h4>
-              <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-              <small>{{ post.date | date: "%d.%m.%Y" }}</small>
-            </h4>
-          </dt>
-          <dd>
-            {% if post.teaser %}
-              {{ post.teaser }}
-            {% endif %}
-          </dd>
-        {% endif %}
+        {% if post.date < site.time %}{% continue %}{% endif %}
+        <dt>
+          <h4>
+            <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+            <small>{{ post.date | date: "%d.%m.%Y" }}</small>
+          </h4>
+        </dt>
+        <dd>{% if post.teaser %}
+            {{ post.teaser }}
+        {% endif %}</dd>
       {% endfor %}
     </dl>
     <p>
