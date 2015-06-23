@@ -16,14 +16,15 @@ kramdown:
 gems:
   - jekyll-redirect-from
 exclude:
-  - "node_modules"
-  - "package.json"
-  - "bower_components"
-  - "bower.json"
-  - "src"
-  - "README.md"
-  - "LICENSE"
+  - "CNAME"
   - "Gemfile*"
   - "Gruntfile*"
-  - "CNAME"
+  - "LICENSE"
+  - "README.md"
+  - "bower.json"
+  - "bower_components"
+  - "node_modules"
+  - "package.json"
+  - "script/"
+  - "src"
   - "vendor/bundle"
