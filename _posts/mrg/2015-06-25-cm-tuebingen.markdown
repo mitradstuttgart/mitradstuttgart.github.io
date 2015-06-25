@@ -41,7 +41,7 @@ routes:
   - id: Unterjesingen
     place: Unterjesingen
     point: Bahnhof Mitte
-    time: 17:15 Uhr
+    time: 17:55 Uhr
     description:
     - tmp
 
