@@ -1,7 +1,7 @@
 ---
 layout: mitradgelegenheit
 title:  "Critical Mass Stuttgart"
-date:   2015-08-06 15:30:00
+date:   2015-08-07 15:30:00
 categories: mitradgelegenheit
 facebook-event: 
 teaser: Auf dem Weg zur 1000.
